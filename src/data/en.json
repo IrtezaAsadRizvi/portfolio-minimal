@@ -59,11 +59,14 @@
       "secondary": { "label": "Resume", "href": "#" }
     },
     "socials": [
-      { "label": "Github", "href": "#", "icon": "north_east" },
-      { "label": "LinkedIn", "href": "#", "icon": "north_east" },
-      { "label": "Twitter / X", "href": "#", "icon": "north_east" },
-      { "label": "Contact Page", "href": "#", "icon": "mail" },
-      { "label": "Donate", "href": "#", "icon": "favorite" }
+      { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "north_east" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "north_east" },
+      { "label": "Medium", "href": "https://medium.com/@irtezaasadrizvi", "icon": "north_east" },
+      { "label": "CodePen", "href": "https://codepen.io/IrtezaAsad", "icon": "north_east" },
+      { "label": "Behance", "href": "https://www.behance.net/irtezaasad", "icon": "north_east" },
+      { "label": "Instagram", "href": "https://www.instagram.com/mr.irteza", "icon": "north_east" },
+      { "label": "Facebook", "href": "https://www.facebook.com/IrtezaAsad", "icon": "north_east" },
+      { "label": "Contact Page", "href": "/contact", "icon": "mail" }
     ]
   },
   "footer": {

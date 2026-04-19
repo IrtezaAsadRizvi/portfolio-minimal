@@ -4,6 +4,7 @@ import ContactForm from "@/components/ContactForm";
 import SystemMeta from "@/components/SystemMeta";
 import ContactSidebar from "@/components/ContactSidebar";
 import Footer from "@/components/Footer";
+import Breadcrumb from "@/components/Breadcrumb";
 import content from "@/data/contact.json";
 
 export const metadata: Metadata = {
@@ -25,6 +26,12 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <>
+      <Breadcrumb
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Contact", href: "/contact" },
+        ]}
+      />
       <Navigation />
       <main className="max-w-5xl mx-auto px-6 pt-16 pb-32">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">

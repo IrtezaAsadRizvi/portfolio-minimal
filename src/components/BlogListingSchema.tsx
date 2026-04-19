@@ -1,0 +1,56 @@
+import writing from "@/data/writing.json";
+
+const SITE_URL = "https://irtezaasadrizvi.github.io";
+const AUTHOR = "Irteza Asad Rizvi";
+
+const MONTHS: Record<string, number> = {
+  JAN: 0, FEB: 1, MAR: 2, APR: 3, MAY: 4, JUN: 5,
+  JUL: 6, AUG: 7, SEP: 8, OCT: 9, NOV: 10, DEC: 11,
+};
+
+function parsePostDate(label: string): string {
+  const [mon, year] = label.trim().toUpperCase().split(/\s+/);
+  const month = MONTHS[mon] ?? 0;
+  const y = Number.parseInt(year, 10) || new Date().getFullYear();
+  return new Date(Date.UTC(y, month, 1)).toISOString();
+}
+
+export default function BlogListingSchema() {
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Writing — Irteza Asad Rizvi",
+    itemListOrder: "https://schema.org/ItemListOrderDescending",
+    numberOfItems: writing.posts.length,
+    itemListElement: writing.posts.map((post, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: post.href,
+      item: {
+        "@type": "BlogPosting",
+        headline: post.title,
+        description: post.excerpt,
+        url: post.href,
+        datePublished: parsePostDate(post.date),
+        articleSection: post.category,
+        author: {
+          "@type": "Person",
+          name: AUTHOR,
+          url: SITE_URL,
+        },
+        publisher: {
+          "@type": "Person",
+          name: AUTHOR,
+          url: SITE_URL,
+        },
+      },
+    })),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+    />
+  );
+}

@@ -7,6 +7,7 @@ import CodeBlock from "@/components/CodeBlock";
 import AIWritings from "@/components/AIWritings";
 import Reveal from "@/components/Reveal";
 import Footer from "@/components/Footer";
+import Breadcrumb from "@/components/Breadcrumb";
 import content from "@/data/ai.json";
 
 export const metadata: Metadata = {
@@ -28,6 +29,12 @@ export const metadata: Metadata = {
 export default function AI() {
   return (
     <>
+      <Breadcrumb
+        items={[
+          { name: "Home", href: "/" },
+          { name: "AI", href: "/ai" },
+        ]}
+      />
       <Navigation />
       <main className="max-w-5xl mx-auto px-6 pt-16 pb-32">
         <AIHero />

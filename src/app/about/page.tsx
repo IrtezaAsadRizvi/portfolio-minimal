@@ -4,6 +4,7 @@ import AboutHeader from "@/components/AboutHeader";
 import ExperienceList from "@/components/ExperienceList";
 import TechnicalMeta from "@/components/TechnicalMeta";
 import Footer from "@/components/Footer";
+import Breadcrumb from "@/components/Breadcrumb";
 import content from "@/data/about.json";
 
 export const metadata: Metadata = {
@@ -25,6 +26,12 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <>
+      <Breadcrumb
+        items={[
+          { name: "Home", href: "/" },
+          { name: "About", href: "/about" },
+        ]}
+      />
       <Navigation />
       <main className="max-w-5xl mx-auto px-6 pt-16 pb-32">
         <AboutHeader />
