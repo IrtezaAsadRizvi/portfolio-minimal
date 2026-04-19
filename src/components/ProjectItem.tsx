@@ -19,7 +19,12 @@ export default function ProjectItem({
   link,
 }: ProjectItemProps) {
   return (
-    <div className="group item-reveal relative flex flex-col md:flex-row md:items-baseline md:justify-between gap-2">
+    <Link
+      href={link.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group item-reveal relative flex flex-col md:flex-row md:items-baseline md:justify-between gap-2"
+    >
       <div className="flex-1">
         <div className="flex items-center gap-3 mb-1">
           <h2 className="text-lg font-medium text-primary group-hover:text-accent transition-colors duration-300">
@@ -39,16 +44,13 @@ export default function ProjectItem({
         </div>
       </div>
       <div className="mt-4 md:mt-0">
-        <Link
-          href={link.href}
-          className="project-link flex items-center gap-1 text-sm text-on-surface-variant/50 hover:text-accent transition-colors duration-300"
-        >
+        <span className="project-link flex items-center gap-1 text-sm text-on-surface-variant/50 group-hover:text-accent transition-colors duration-300">
           {link.label}
           <span className="material-symbols-outlined arrow text-sm">
             north_east
           </span>
-        </Link>
+        </span>
       </div>
-    </div>
+    </Link>
   );
 }
