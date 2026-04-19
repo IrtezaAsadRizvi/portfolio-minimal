@@ -30,7 +30,12 @@
       "mcp__ide__getDiagnostics",
       "Bash(gh repo *)",
       "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('src/data/about.json'\\)\\)\")",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git status *)",
+      "Bash(git check-ignore *)"
     ]
   }
 }

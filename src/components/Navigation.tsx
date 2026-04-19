@@ -97,9 +97,12 @@ export default function Navigation() {
         role="dialog"
         aria-modal="true"
         aria-label="Site navigation"
-        className={`md:hidden fixed top-0 right-0 z-50 h-full w-[78%] max-w-xs bg-surface border-l border-outline-variant/20 shadow-2xl drawer-slide ${
-          open ? "translate-x-0" : "translate-x-full"
-        }`}
+        style={{
+          transform: open ? "translateX(0)" : "translateX(100%)",
+          transition: "transform 0.5s cubic-bezier(0.16, 1, 0.3, 1)",
+          willChange: "transform",
+        }}
+        className="md:hidden fixed top-0 right-0 z-50 h-full w-[78%] max-w-xs bg-surface border-l border-outline-variant/20 shadow-2xl"
       >
         <div className="flex items-center justify-between px-6 py-8">
           <span className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/60 font-mono">
@@ -123,12 +126,13 @@ export default function Navigation() {
             return (
               <li
                 key={link.href}
-                className={`drawer-item ${
-                  open
-                    ? "opacity-100 translate-x-0"
-                    : "opacity-0 translate-x-4"
-                }`}
-                style={{ transitionDelay: open ? `${120 + i * 60}ms` : "0ms" }}
+                style={{
+                  opacity: open ? 1 : 0,
+                  transform: open ? "translateX(0)" : "translateX(16px)",
+                  transition:
+                    "opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1), transform 0.5s cubic-bezier(0.16, 1, 0.3, 1)",
+                  transitionDelay: open ? `${120 + i * 60}ms` : "0ms",
+                }}
               >
                 <Link
                   href={link.href}

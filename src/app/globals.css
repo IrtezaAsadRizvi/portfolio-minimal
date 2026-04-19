@@ -198,16 +198,3 @@ h1 {
   }
 }
 
-/* ── Mobile drawer ── */
-
-.drawer-slide {
-  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-  will-change: transform;
-}
-
-.drawer-item {
-  transition:
-    opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1),
-    transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-  will-change: opacity, transform;
-}
