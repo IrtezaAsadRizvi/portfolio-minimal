@@ -9,6 +9,17 @@ import content from "@/data/contact.json";
 export const metadata: Metadata = {
   title: content.meta.title,
   description: content.meta.description,
+  alternates: { canonical: "/contact" },
+  openGraph: {
+    title: content.meta.title,
+    description: content.meta.description,
+    url: "/contact",
+    type: "website",
+  },
+  twitter: {
+    title: content.meta.title,
+    description: content.meta.description,
+  },
 };
 
 export default function Contact() {

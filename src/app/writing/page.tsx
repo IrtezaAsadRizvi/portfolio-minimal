@@ -8,6 +8,17 @@ import content from "@/data/writing.json";
 export const metadata: Metadata = {
   title: content.meta.title,
   description: content.meta.description,
+  alternates: { canonical: "/writing" },
+  openGraph: {
+    title: content.meta.title,
+    description: content.meta.description,
+    url: "/writing",
+    type: "website",
+  },
+  twitter: {
+    title: content.meta.title,
+    description: content.meta.description,
+  },
 };
 
 export default function Writing() {

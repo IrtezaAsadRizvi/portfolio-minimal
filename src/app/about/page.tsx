@@ -9,6 +9,17 @@ import content from "@/data/about.json";
 export const metadata: Metadata = {
   title: content.meta.title,
   description: content.meta.description,
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: content.meta.title,
+    description: content.meta.description,
+    url: "/about",
+    type: "profile",
+  },
+  twitter: {
+    title: content.meta.title,
+    description: content.meta.description,
+  },
 };
 
 export default function About() {

@@ -12,6 +12,17 @@ import content from "@/data/ai.json";
 export const metadata: Metadata = {
   title: content.meta.title,
   description: content.meta.description,
+  alternates: { canonical: "/ai" },
+  openGraph: {
+    title: content.meta.title,
+    description: content.meta.description,
+    url: "/ai",
+    type: "website",
+  },
+  twitter: {
+    title: content.meta.title,
+    description: content.meta.description,
+  },
 };
 
 export default function AI() {

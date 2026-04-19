@@ -8,6 +8,17 @@ import content from "@/data/projects.json";
 export const metadata: Metadata = {
   title: content.meta.title,
   description: content.meta.description,
+  alternates: { canonical: "/projects" },
+  openGraph: {
+    title: content.meta.title,
+    description: content.meta.description,
+    url: "/projects",
+    type: "website",
+  },
+  twitter: {
+    title: content.meta.title,
+    description: content.meta.description,
+  },
 };
 
 export default function Projects() {

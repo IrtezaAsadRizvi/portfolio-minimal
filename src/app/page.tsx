@@ -1,9 +1,27 @@
+import type { Metadata } from "next";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import RecentWork from "@/components/RecentWork";
 import LatestWriting from "@/components/LatestWriting";
 import Collaborate from "@/components/Collaborate";
 import Footer from "@/components/Footer";
+import content from "@/data/en.json";
+
+export const metadata: Metadata = {
+  title: { absolute: content.meta.title },
+  description: content.meta.description,
+  alternates: { canonical: "/" },
+  openGraph: {
+    title: content.meta.title,
+    description: content.meta.description,
+    url: "/",
+    type: "website",
+  },
+  twitter: {
+    title: content.meta.title,
+    description: content.meta.description,
+  },
+};
 
 export default function Home() {
   return (
