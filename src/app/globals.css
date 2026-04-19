@@ -1,26 +1,213 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-sans: var(--font-sora);
+  --font-display: var(--font-instrument-serif);
+  --font-mono: var(--font-jetbrains-mono);
+  --font-label: var(--font-jetbrains-mono);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-background: #0A0A0A;
+  --color-surface: #111111;
+  --color-surface-container-low: #181818;
+  --color-surface-container: #1C1C1C;
+  --color-surface-container-high: #262626;
+  --color-surface-bright: #333333;
+  --color-on-surface: #E0DDD8;
+  --color-on-surface-variant: #A8A49E;
+  --color-primary: #F0ECE4;
+  --color-accent: #C9A84C;
+  --color-outline: #6B6860;
+  --color-outline-variant: #3A3832;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.025;
+  pointer-events: none;
+  z-index: 50;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-background);
+}
+
+h1 {
+  font-family: var(--font-display);
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  vertical-align: middle;
+  font-size: 1.125rem;
+}
+
+/* ── Page-load animations ── */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-in {
+  animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+}
+
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.35s; }
+.stagger-4 { animation-delay: 0.5s; }
+.stagger-5 { animation-delay: 0.65s; }
+
+/* ── Page-load reveal ── */
+
+.reveal {
+  animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+}
+
+/* ── Accent rule ── */
+
+@keyframes accentBreath {
+  0%, 100% { opacity: 1; width: 2rem; }
+  50% { opacity: 0.6; width: 2.5rem; }
+}
+
+.accent-rule {
+  height: 2px;
+  background: var(--color-accent);
+  animation: accentBreath 4s ease-in-out infinite;
+}
+
+/* ── Status dot pulse ── */
+
+@keyframes dotPulse {
+  0%, 100% { box-shadow: 0 0 6px rgba(201, 168, 76, 0.3); }
+  50% { box-shadow: 0 0 14px rgba(201, 168, 76, 0.6); }
+}
+
+.status-dot {
+  animation: dotPulse 3s ease-in-out infinite;
+}
+
+/* ── Divider line draw ── */
+
+@keyframes lineExpand {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.line-draw {
+  transform-origin: left;
+  animation: lineExpand 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* ── Nav link animated underline ── */
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--color-accent);
+  transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link-active::after {
+  width: 100%;
+}
+
+/* ── Hover lift ── */
+
+.hover-lift {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hover-lift:hover {
+  transform: translateY(-1px);
+}
+
+/* ── Project / writing item hover border ── */
+
+.item-reveal {
+  border-left: 2px solid transparent;
+  padding-left: 0;
+  transition:
+    border-color 0.3s ease,
+    padding-left 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+    background 0.3s ease;
+}
+
+.item-reveal:hover {
+  border-left-color: color-mix(in srgb, var(--color-accent) 40%, transparent);
+  padding-left: 1rem;
+}
+
+/* ── Arrow hover animation ── */
+
+.project-link:hover .arrow {
+  transform: translate(2px, -2px);
+}
+
+.project-link .arrow {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ── Sidebar ── */
+
+@media (min-width: 1024px) {
+  .fixed-sidebar {
+    position: sticky;
+    top: 3rem;
+    height: fit-content;
+  }
+}
+
+/* ── Mobile drawer ── */
+
+.drawer-slide {
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+.drawer-item {
+  transition:
+    opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
 }

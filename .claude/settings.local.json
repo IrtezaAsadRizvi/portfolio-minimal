@@ -5,7 +5,32 @@
       "WebSearch",
       "Bash(npx -y @_davideast/stitch-mcp init)",
       "Bash(claude mcp:*)",
-      "WebFetch(domain:stitch.withgoogle.com)"
+      "WebFetch(domain:stitch.withgoogle.com)",
+      "mcp__stitch__get_screen",
+      "Bash(curl -sL \"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2NjZGViNDA3YWVlZTRlYzk5OWUxZWFkYzZiN2ZkYmE5EgsSBxDR29nA3QcYAZIBIwoKcHJvamVjdF9pZBIVQhM5MDU1NTY4NTM1MjczNzc3NjI3&filename=&opi=89354086\" -o /tmp/home_streamlined_header.html)",
+      "Read(//tmp/**)",
+      "Bash(npx serve:*)",
+      "mcp__stitch__list_screens",
+      "Bash(curl -sL \"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzg2ZWIwZDYwOWVkYjQ1YWI5NmJjOTI0MWIxMzk3NzM3EgsSBxDR29nA3QcYAZIBIwoKcHJvamVjdF9pZBIVQhM5MDU1NTY4NTM1MjczNzc3NjI3&filename=&opi=89354086\" -o /tmp/projects_categorized.html)",
+      "Bash(curl:*)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:github.com)",
+      "mcp__stitch__generate_screen_from_text",
+      "WebFetch(domain:contribution.usercontent.google.com)",
+      "WebFetch(domain:medium.com)",
+      "Read(//Users/irteza/.claude/mcp-servers/medium-mcp-server/**)",
+      "Bash(npx tsc:*)",
+      "Bash(npx next:*)",
+      "WebFetch(domain:irtezaasadrizvi.medium.com)",
+      "WebFetch(domain:blog.devops.dev)",
+      "WebFetch(domain:blog.cubed.run)",
+      "WebFetch(domain:ai.plainenglish.io)",
+      "Bash(lsof -i :3000 -sTCP:LISTEN)",
+      "Bash(lsof -i :3001 -sTCP:LISTEN)",
+      "mcp__ide__getDiagnostics",
+      "Bash(gh repo *)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('src/data/about.json'\\)\\)\")",
+      "Bash(git add *)"
     ]
   }
 }

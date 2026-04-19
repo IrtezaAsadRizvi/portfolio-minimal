@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "About & Experience | Irteza",
+    "description": "Full-stack developer pivoting into AI — building local-first agents, Claude Code plugins, and MCP servers. Writes on engineering, security, and applied ML."
+  },
+  "header": {
+    "title": "About",
+    "description": "Full-stack developer with 7+ years shipping web products — JavaScript, Node.js, React/Next.js, Vue, and the CI/CD glue around them. Lately I've been pivoting into AI: building local-first coding agents, Claude Code plugins and skills, and MCP servers for real development workflows. Security is a recurring side-interest — I've written about VPS compromises, adversarial ML, and password entropy alongside the backend and frontend deep-dives."
+  },
+  "experience": {
+    "sectionTitle": "Professional History",
+    "positions": [
+      {
+        "role": "Senior Software Engineer",
+        "company": "TransMedia Inc.",
+        "website": "https://www.trmedia.ca/",
+        "location": "Toronto, Canada · Remote",
+        "period": "JAN 2025 — PRESENT",
+        "bullets": [
+          "Continued ownership of freeconvert.com and the broader TransMedia platform following promotion. Primary stack: Node.js and Nuxt.js.",
+          "Set up the Jenkins + Docker CI/CD pipeline for ProPDF — a new SaaS tool in the TransMedia suite — and shipped its feature-rich in-browser PDF editor.",
+          "Developed TrueRCE, an in-house rich-text editor built as a drop-in replacement for TinyMCE across the platform.",
+          "Introduced agentic AI workflows into the team's day-to-day, and built automations that translate and auto-publish localized content end-to-end.",
+          "Contributed to the .NET build pipeline and cross-team workflow improvements."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "TransMedia Inc.",
+        "website": "https://www.trmedia.ca/",
+        "location": "Toronto, Canada · Remote",
+        "period": "JUL 2021 — JAN 2025",
+        "bullets": [
+          "Developed and maintained freeconvert.com — a top-ranked SaaS platform for online file conversion, compression, and transcoding.",
+          "Primary stack: Nuxt.js and Node.js. Partnered with the DevOps team on deployment pipelines and server optimization.",
+          "Production stack and integrations: WebSocket, Docker, Kubernetes, AWS, SSH, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp, Jira."
+        ]
+      },
+      {
+        "role": "Fullstack Developer",
+        "company": "Sheba.xyz",
+        "website": "https://www.sheba.xyz/",
+        "location": "Dhaka, Bangladesh",
+        "period": "FEB 2018 — JUN 2021",
+        "bullets": [
+          "Technical team lead for the sheba.xyz marketplace team (8 engineers).",
+          "Shipped an eCommerce PWA in Vue.js, a B2B web tool in Angular, and several SPAs in Nuxt and React.",
+          "Built backend APIs in Laravel and Node, plus admin panels in Laravel / Blade / Vue.",
+          "Integrated and operated: WebSocket, PM2, Amazon S3, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp."
+        ]
+      }
+    ]
+  },
+  "coreStack": {
+    "sectionTitle": "Core Stack",
+    "items": "TypeScript, Node.js, Next.js, React, Vue, Python, MongoDB, PostgreSQL, Docker, AWS, Linux, CI/CD, Claude SDK, Model Context Protocol, Ollama, ONNX Runtime."
+  },
+  "availability": {
+    "sectionTitle": "Availability",
+    "status": "Open to AI-focused roles, full-stack contracts, and consulting.",
+    "cta": {
+      "label": "Get in touch \u2192",
+      "href": "mailto:contact@irteza.dev"
+    }
+  }
+}
