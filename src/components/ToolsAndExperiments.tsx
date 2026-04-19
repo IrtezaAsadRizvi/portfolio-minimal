@@ -14,7 +14,12 @@ export default function ToolsAndExperiments() {
       <div className="space-y-10">
         {tools.map((tool, i) => (
           <Reveal key={tool.name} delay={i * 0.1}>
-            <div className="group">
+            <a
+              href={tool.github_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block"
+            >
               <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-1">
                 <h3 className="text-xl font-bold text-primary group-hover:text-accent transition-colors duration-300">
                   {tool.name}
@@ -26,7 +31,7 @@ export default function ToolsAndExperiments() {
               <p className="text-on-surface-variant max-w-2xl leading-relaxed">
                 {tool.description}
               </p>
-            </div>
+            </a>
           </Reveal>
         ))}
       </div>
