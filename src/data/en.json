@@ -15,7 +15,7 @@
     ]
   },
   "hero": {
-    "heading": "Hey, I'm Irteza \ud83d\udc4b",
+    "heading": "Hey, I'm Irteza",
     "description": "Senior Software Engineer focusing on scalable web systems and AI integration. I build with the MERN stack, Next.js, and a focus on clean architecture.",
     "socials": [
       { "label": "GitHub", "href": "#", "icon": "code" },
