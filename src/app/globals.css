@@ -6,18 +6,54 @@
   --font-mono: var(--font-jetbrains-mono);
   --font-label: var(--font-jetbrains-mono);
 
-  --color-background: #0A0A0A;
-  --color-surface: #111111;
-  --color-surface-container-low: #181818;
-  --color-surface-container: #1C1C1C;
-  --color-surface-container-high: #262626;
-  --color-surface-bright: #333333;
-  --color-on-surface: #E0DDD8;
-  --color-on-surface-variant: #A8A49E;
-  --color-primary: #F0ECE4;
-  --color-accent: #C9A84C;
-  --color-outline: #6B6860;
-  --color-outline-variant: #3A3832;
+  --color-background: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container: var(--surface-container);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-bright: var(--surface-bright);
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-outline: var(--outline);
+  --color-outline-variant: var(--outline-variant);
+}
+
+/* Dark theme (default) */
+:root {
+  color-scheme: dark;
+  --bg: #0A0A0A;
+  --surface: #111111;
+  --surface-container-low: #181818;
+  --surface-container: #1C1C1C;
+  --surface-container-high: #262626;
+  --surface-bright: #333333;
+  --on-surface: #E0DDD8;
+  --on-surface-variant: #A8A49E;
+  --primary: #F0ECE4;
+  --accent: #C9A84C;
+  --outline: #6B6860;
+  --outline-variant: #3A3832;
+}
+
+/* Light theme — triggered by the OS / browser preference */
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --bg: #F5F1E8;
+    --surface: #EFE9DB;
+    --surface-container-low: #E8E1CE;
+    --surface-container: #DDD4BD;
+    --surface-container-high: #CEC4A9;
+    --surface-bright: #B9AD8F;
+    --on-surface: #1E1B15;
+    --on-surface-variant: #57534A;
+    --primary: #0F0D0A;
+    --accent: #7A5A0C;
+    --outline: #857F70;
+    --outline-variant: #B8B09C;
+  }
 }
 
 body {
@@ -107,8 +143,8 @@ h1 {
 /* ── Status dot pulse ── */
 
 @keyframes dotPulse {
-  0%, 100% { box-shadow: 0 0 6px rgba(201, 168, 76, 0.3); }
-  50% { box-shadow: 0 0 14px rgba(201, 168, 76, 0.6); }
+  0%, 100% { box-shadow: 0 0 6px color-mix(in srgb, var(--color-accent) 30%, transparent); }
+  50% { box-shadow: 0 0 14px color-mix(in srgb, var(--color-accent) 60%, transparent); }
 }
 
 .status-dot {

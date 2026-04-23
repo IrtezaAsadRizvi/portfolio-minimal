@@ -7,33 +7,33 @@ const { connect, status } = content;
 export default function ContactSidebar() {
   return (
     <div className="md:border-l border-outline-variant/10 md:pl-12 flex flex-col gap-16">
-      <Reveal>
-        <section>
-          <h2 className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/60 font-mono mb-4">
-            {connect.sectionTitle}
-          </h2>
-          <ul className="font-mono text-[0.7rem] space-y-1.5 text-on-surface-variant">
-            {connect.links.map((link, i) => (
-              <li key={link.label}>
+      <section>
+        <h2 className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/60 font-mono mb-4">
+          {connect.sectionTitle}
+        </h2>
+        <div className="flex flex-col gap-3.5 text-xs font-mono tracking-[0.15em] uppercase pt-4 border-t border-outline-variant/20">
+          {connect.links.map((link, i) => {
+            const isExternal = link.href.startsWith("http");
+            return (
+              <Reveal key={link.label} delay={i * 0.06}>
                 <Link
                   href={link.href}
-                  className="flex items-center gap-3 hover:text-accent transition-colors duration-300 group"
+                  {...(isExternal && {
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                  })}
+                  className="text-on-surface-variant/60 hover:text-accent transition-colors duration-300 flex items-center justify-between group"
                 >
-                  <span className="text-accent/60">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                  <span className="text-on-surface tracking-wider flex-1">
-                    {link.label}
-                  </span>
-                  <span className="material-symbols-outlined text-xs opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all duration-300">
+                  {link.label}
+                  <span className="material-symbols-outlined text-sm group-hover:translate-x-0.5 transition-transform duration-300">
                     north_east
                   </span>
                 </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      </Reveal>
+              </Reveal>
+            );
+          })}
+        </div>
+      </section>
 
       <Reveal delay={0.15}>
         <section>

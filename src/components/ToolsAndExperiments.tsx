@@ -1,4 +1,5 @@
 import content from "@/data/ai.json";
+import ProjectItem from "./ProjectItem";
 import Reveal from "./Reveal";
 
 const { sectionTitle, tools } = content.toolsAndExperiments;
@@ -11,27 +12,16 @@ export default function ToolsAndExperiments() {
           {sectionTitle}
         </h2>
       </Reveal>
-      <div className="space-y-10">
+      <div className="space-y-16">
         {tools.map((tool, i) => (
-          <Reveal key={tool.name} delay={i * 0.1}>
-            <a
-              href={tool.github_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group block"
-            >
-              <div className="flex flex-col md:flex-row md:items-baseline justify-between mb-1">
-                <h3 className="text-xl font-bold text-primary group-hover:text-accent transition-colors duration-300">
-                  {tool.name}
-                </h3>
-                <span className="text-[10px] uppercase tracking-widest text-accent/40 font-mono">
-                  {tool.status}
-                </span>
-              </div>
-              <p className="text-on-surface-variant max-w-2xl leading-relaxed">
-                {tool.description}
-              </p>
-            </a>
+          <Reveal key={tool.name} delay={i * 0.07}>
+            <ProjectItem
+              title={tool.name}
+              tag={tool.status}
+              description={tool.description}
+              stack={[]}
+              link={{ label: "GitHub", href: tool.github_url }}
+            />
           </Reveal>
         ))}
       </div>
