@@ -1,9 +1,8 @@
-import content from "@/data/about.json";
+import { getContent, type Locale } from "@/lib/i18n";
 import Reveal from "./Reveal";
 
-const { sectionTitle, positions } = content.experience;
-
-export default function ExperienceList() {
+export default function ExperienceList({ locale }: { locale: Locale }) {
+  const { sectionTitle, positions } = getContent(locale).about.experience;
   return (
     <section className="mb-24">
       <Reveal>

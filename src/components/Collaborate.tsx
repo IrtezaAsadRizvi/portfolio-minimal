@@ -1,10 +1,9 @@
 import Link from "next/link";
-import content from "@/data/en.json";
+import { getContent, localePath, type Locale } from "@/lib/i18n";
 import Reveal from "./Reveal";
 
-const { sectionTitle, description, cta, socials } = content.collaborate;
-
-export default function Collaborate() {
+export default function Collaborate({ locale }: { locale: Locale }) {
+  const { sectionTitle, description, cta, socials } = getContent(locale).common.collaborate;
   return (
     <div className="fixed-sidebar space-y-8 animate-in stagger-3">
       <section>
@@ -32,10 +31,11 @@ export default function Collaborate() {
           <div className="flex flex-col gap-3.5 text-xs font-mono tracking-[0.15em] uppercase pt-4 border-t border-outline-variant/20">
             {socials.map((social, i) => {
               const isExternal = social.href.startsWith("http");
+              const href = isExternal ? social.href : localePath(locale, social.href);
               return (
                 <Reveal key={social.label} delay={i * 0.06}>
                   <Link
-                    href={social.href}
+                    href={href}
                     {...(isExternal && {
                       target: "_blank",
                       rel: "noopener noreferrer",

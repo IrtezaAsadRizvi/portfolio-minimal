@@ -1,10 +1,9 @@
 import Link from "next/link";
-import content from "@/data/contact.json";
+import { getContent, type Locale } from "@/lib/i18n";
 import Reveal from "./Reveal";
 
-const { connect, status } = content;
-
-export default function ContactSidebar() {
+export default function ContactSidebar({ locale }: { locale: Locale }) {
+  const { connect, status } = getContent(locale).contact;
   return (
     <div className="md:border-l border-outline-variant/10 md:pl-12 flex flex-col gap-16">
       <section>

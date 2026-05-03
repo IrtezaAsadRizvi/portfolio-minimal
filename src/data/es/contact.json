@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Contacto: Contrata a un Ingeniero Full-Stack y de Automatización con IA",
+    "description": "Abierto a roles senior full-stack, consultoría en automatización con IA y colaboración en productos basados en LLM, plugins de Claude Code y servidores MCP. Ponte en contacto."
+  },
+  "header": {
+    "title": "Ponerse en contacto",
+    "description": "Actualmente abierto a nuevas oportunidades, consultoría especializada o colaboración en productos basados en IA."
+  },
+  "form": {
+    "fields": [
+      { "id": "name", "label": "Nombre", "type": "text", "placeholder": "TU NOMBRE", "prompt": "$" },
+      { "id": "email", "label": "Correo electrónico", "type": "email", "placeholder": "EMAIL@DOMINIO.COM", "prompt": "$" },
+      { "id": "message", "label": "Mensaje", "type": "textarea", "placeholder": "DESCRIBE TU PROYECTO", "prompt": ">", "rows": 4 }
+    ],
+    "submitLabel": "Enviar mensaje",
+    "validation": {
+      "nameRequired": "El nombre es obligatorio.",
+      "nameTooShort": "El nombre debe tener al menos 2 caracteres.",
+      "emailRequired": "El correo electrónico es obligatorio.",
+      "emailInvalid": "Introduce un correo electrónico válido (p. ej. tu@dominio.com).",
+      "messageRequired": "El mensaje es obligatorio.",
+      "messageTooShort": "El mensaje debe tener al menos 10 caracteres."
+    }
+  },
+  "systemStatus": {
+    "sectionTitle": "Estado del Sistema",
+    "online": "SYSTEM_ONLINE // CORE_ACTIVE",
+    "details": [
+      "LOC: 40.7128° N, 74.0060° W",
+      "NODE_ID: PS-7742-ALPHA",
+      "LATENCIA: 14MS"
+    ]
+  },
+  "environment": {
+    "sectionTitle": "Entorno",
+    "entries": [
+      { "key": "STACK", "value": "NEXT.JS / TAILWIND / TS" },
+      { "key": "RUNTIME", "value": "NODE_V20.10.0" },
+      { "key": "DEPLOY", "value": "EDGE_FUNCTION_NY1" },
+      { "key": "PROTO", "value": "HTTPS/3_QUIC" }
+    ]
+  },
+  "publicKey": {
+    "sectionTitle": "Clave Pública (RSA/4096)",
+    "content": "FP: 4D7B A872 E331 928C 11D4  5E2A 0B82 119C FD13 01E2\n-----BEGIN PGP PUBLIC KEY BLOCK-----\nmQINBF2S...[TECHNICAL_ENCRYPTION_LAYER_ACTIVE]...\n...0X1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P...\n-----END PGP PUBLIC KEY BLOCK-----"
+  },
+  "connect": {
+    "sectionTitle": "Conectar",
+    "links": [
+      { "label": "GITHUB", "href": "https://github.com/IrtezaAsadRizvi" },
+      { "label": "CODEPEN", "href": "https://codepen.io/IrtezaAsad" },
+      { "label": "LINKEDIN", "href": "https://www.linkedin.com/in/irtezaasad" },
+      { "label": "MEDIUM", "href": "https://medium.com/@irtezaasadrizvi" },
+      { "label": "BEHANCE", "href": "https://www.behance.net/irtezaasad" },
+      { "label": "INSTAGRAM", "href": "https://www.instagram.com/mr.irteza" },
+      { "label": "FACEBOOK", "href": "https://www.facebook.com/IrtezaAsad" },
+      { "label": "PORTFOLIO", "href": "https://irtezaasadrizvi.github.io" }
+    ]
+  },
+  "status": {
+    "sectionTitle": "Estado",
+    "available": true,
+    "label": "Disponible",
+    "details": "LAST_UPDATE: 2024.11.21\nLOC: 40.7128° N, 74.0060° W"
+  }
+}

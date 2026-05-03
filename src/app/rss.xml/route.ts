@@ -1,4 +1,6 @@
-import writing from "@/data/writing.json";
+import { getContent } from "@/lib/i18n";
+
+const writing = getContent("en").writing;
 
 export const dynamic = "force-static";
 

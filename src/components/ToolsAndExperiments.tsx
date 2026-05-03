@@ -1,10 +1,9 @@
-import content from "@/data/ai.json";
+import { getContent, type Locale } from "@/lib/i18n";
 import ProjectItem from "./ProjectItem";
 import Reveal from "./Reveal";
 
-const { sectionTitle, tools } = content.toolsAndExperiments;
-
-export default function ToolsAndExperiments() {
+export default function ToolsAndExperiments({ locale }: { locale: Locale }) {
+  const { sectionTitle, tools } = getContent(locale).ai.toolsAndExperiments;
   return (
     <section className="mb-16">
       <Reveal>

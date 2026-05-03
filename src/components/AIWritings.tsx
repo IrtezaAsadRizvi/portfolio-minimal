@@ -1,12 +1,11 @@
 import Link from "next/link";
-import aiContent from "@/data/ai.json";
-import writingData from "@/data/writing.json";
+import { getContent, type Locale } from "@/lib/i18n";
 import Reveal from "./Reveal";
 
-const { sectionTitle } = aiContent.writings;
-const posts = writingData.posts.filter((p) => p.category === "AI");
-
-export default function AIWritings() {
+export default function AIWritings({ locale }: { locale: Locale }) {
+  const dict = getContent(locale);
+  const { sectionTitle } = dict.ai.writings;
+  const posts = dict.writing.posts.filter((p) => p.category === "AI");
   return (
     <section className="mb-12">
       <Reveal>

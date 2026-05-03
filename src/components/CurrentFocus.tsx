@@ -1,9 +1,8 @@
-import content from "@/data/ai.json";
+import { getContent, type Locale } from "@/lib/i18n";
 import Reveal from "./Reveal";
 
-const { sectionTitle, items } = content.currentFocus;
-
-export default function CurrentFocus() {
+export default function CurrentFocus({ locale }: { locale: Locale }) {
+  const { sectionTitle, items } = getContent(locale).ai.currentFocus;
   return (
     <section className="mb-16">
       <Reveal>

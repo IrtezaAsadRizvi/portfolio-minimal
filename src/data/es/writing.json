@@ -1,13 +1,19 @@
 {
   "meta": {
-    "title": "Writing: Engineering, AI & Security Deep-Dives",
-    "description": "Technical deep-dives on Node.js internals, AI and LLM engineering, adversarial machine learning, DevOps, and web security — published on Medium and Dev.to."
+    "title": "Blog: Análisis Profundos de Ingeniería, IA y Seguridad",
+    "description": "Análisis técnicos profundos sobre internas de Node.js, ingeniería de IA y LLM, machine learning adversarial, DevOps y seguridad web — publicados en Medium y Dev.to."
   },
   "header": {
-    "title": "Writing",
-    "description": "Technical deep-dives on Node.js, security, DevOps, and AI — published on Medium."
+    "title": "Blog",
+    "description": "Análisis técnicos profundos sobre Node.js, seguridad, DevOps e IA — publicados en Medium."
   },
-  "categories": ["All", "Engineering", "Security", "AI", "DevOps"],
+  "categories": [
+    { "key": "All", "label": "Todos" },
+    { "key": "Engineering", "label": "Ingeniería" },
+    { "key": "Security", "label": "Seguridad" },
+    { "key": "AI", "label": "IA" },
+    { "key": "DevOps", "label": "DevOps" }
+  ],
   "posts": [
     {
       "title": "From Bytes to BPE: A From-Scratch Tour of LLM Tokenization",
@@ -20,7 +26,7 @@
       "title": "Breaking my own spam classifier: a hands-on tour of adversarial examples",
       "excerpt": "Training a spam classifier, then systematically breaking it with perturbed inputs — a hands-on walkthrough of adversarial examples in NLP.",
       "category": "AI",
-      "date": "APR 2026",
+      "date": "ABR 2026",
       "href": "https://irtezaasadrizvi.medium.com/breaking-my-own-spam-classifier-a-hands-on-tour-of-adversarial-examples-efe79ae21ece"
     },
     {
@@ -34,14 +40,14 @@
       "title": "How to Deploy a Basic MERN App on a Linux Server/VPS",
       "excerpt": "Step-by-step deployment with Node 22, PM2, Nginx, HTTPS via Certbot, and automated deployment aliases.",
       "category": "DevOps",
-      "date": "DEC 2025",
+      "date": "DIC 2025",
       "href": "https://blog.devops.dev/how-to-deploy-a-basic-mern-app-on-a-linux-server-vps-the-easy-way-2a069c843a30"
     },
     {
       "title": "When Your VPS Gets Hacked: How I Found a Miner Running On Our Server",
       "excerpt": "A security incident report — detection, forensics, and hardening after finding xmrig on a compromised VPS.",
       "category": "Security",
-      "date": "DEC 2025",
+      "date": "DIC 2025",
       "href": "https://blog.cubed.run/when-your-vps-gets-hacked-how-i-found-a-miner-running-on-our-server-65771b3f532c"
     },
     {
@@ -76,7 +82,7 @@
       "title": "Dive into V8: How JavaScript Gets Supercharged (and Sometimes Slows Down)",
       "excerpt": "V8 engine internals — parsing, Ignition bytecode, TurboFan compilation, and deoptimization triggers.",
       "category": "Engineering",
-      "date": "AUG 2025",
+      "date": "AGO 2025",
       "href": "https://blog.devops.dev/dive-into-v8-how-javascript-gets-supercharged-and-sometimes-slows-down-a21c3f847fa7"
     },
     {
@@ -111,7 +117,7 @@
       "title": "Play Arcade on a Docker Container",
       "excerpt": "Running classic arcade games inside a Docker container — a fun intro to containerization and port mapping.",
       "category": "DevOps",
-      "date": "DEC 2023",
+      "date": "DIC 2023",
       "href": "https://blog.devops.dev/play-arcade-on-docker-container-f9794a783d3c"
     },
     {
@@ -125,21 +131,21 @@
       "title": "Get Started with Dockerfile",
       "excerpt": "A practical guide to writing Dockerfiles — FROM, RUN, COPY, multi-stage builds, and best practices.",
       "category": "DevOps",
-      "date": "AUG 2023",
+      "date": "AGO 2023",
       "href": "https://blog.devops.dev/get-started-with-dockerfile-2ec50dd7e607"
     },
     {
       "title": "Optimize Your JavaScript Code for SEO",
       "excerpt": "Techniques for making JavaScript-heavy apps search-engine friendly — SSR, lazy loading, and structured data.",
       "category": "Engineering",
-      "date": "APR 2023",
+      "date": "ABR 2023",
       "href": "https://blog.devops.dev/optimize-your-javascript-code-for-seo-b854b3ff0493"
     },
     {
       "title": "Get 100 PageScore for Nuxt Application",
       "excerpt": "Achieving a perfect Lighthouse score in Nuxt — image optimization, code splitting, and performance tuning.",
       "category": "Engineering",
-      "date": "JAN 2023",
+      "date": "ENE 2023",
       "href": "https://blog.devops.dev/get-100-pagescore-for-nuxt-application-e8b387b2ddf1"
     }
   ]

@@ -1,10 +1,9 @@
 import Link from "next/link";
-import content from "@/data/en.json";
+import { getContent, type Locale } from "@/lib/i18n";
 import Reveal from "./Reveal";
 
-const { sectionTitle, posts } = content.latestWriting;
-
-export default function LatestWriting() {
+export default function LatestWriting({ locale }: { locale: Locale }) {
+  const { sectionTitle, posts } = getContent(locale).common.latestWriting;
   return (
     <section className="mb-20 animate-in stagger-5">
       <h2 className="text-[10px] uppercase tracking-[0.3em] text-on-surface-variant/80 font-mono mb-10">

@@ -1,14 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import content from "@/data/projects.json";
+import { getContent, type Locale } from "@/lib/i18n";
 import ProjectFilters from "./ProjectFilters";
 import ProjectItem from "./ProjectItem";
 import Reveal from "./Reveal";
 
-const { projects } = content;
-
-export default function ProjectList() {
+export default function ProjectList({ locale }: { locale: Locale }) {
+  const { categories, projects } = getContent(locale).projects;
   const [active, setActive] = useState("All");
 
   const filtered =
@@ -18,7 +17,7 @@ export default function ProjectList() {
 
   return (
     <>
-      <ProjectFilters active={active} onChange={setActive} />
+      <ProjectFilters categories={categories} active={active} onChange={setActive} />
       <section className="space-y-16">
         {filtered.map((project, i) => (
           <Reveal key={project.title} delay={i * 0.07}>

@@ -1,10 +1,9 @@
 import Link from "next/link";
-import content from "@/data/about.json";
+import { getContent, type Locale } from "@/lib/i18n";
 import Reveal from "./Reveal";
 
-const { coreStack, availability } = content;
-
-export default function TechnicalMeta() {
+export default function TechnicalMeta({ locale }: { locale: Locale }) {
+  const { coreStack, availability } = getContent(locale).about;
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
       <Reveal>

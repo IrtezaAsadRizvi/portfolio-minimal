@@ -13,7 +13,15 @@
       { "id": "email", "label": "Email", "type": "email", "placeholder": "EMAIL@DOMAIN.COM", "prompt": "$" },
       { "id": "message", "label": "Message", "type": "textarea", "placeholder": "DESCRIBE YOUR PROJECT", "prompt": ">", "rows": 4 }
     ],
-    "submitLabel": "Send message"
+    "submitLabel": "Send message",
+    "validation": {
+      "nameRequired": "Name is required.",
+      "nameTooShort": "Name must be at least 2 characters.",
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Enter a valid email address (e.g. you@domain.com).",
+      "messageRequired": "Message is required.",
+      "messageTooShort": "Message must be at least 10 characters."
+    }
   },
   "systemStatus": {
     "sectionTitle": "System Status",

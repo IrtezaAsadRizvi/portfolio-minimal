@@ -1,14 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import content from "@/data/writing.json";
+import { getContent, type Locale } from "@/lib/i18n";
 import WritingFilters from "./WritingFilters";
 import WritingItem from "./WritingItem";
 import Reveal from "./Reveal";
 
-const { posts } = content;
-
-export default function WritingList() {
+export default function WritingList({ locale }: { locale: Locale }) {
+  const { categories, posts } = getContent(locale).writing;
   const [active, setActive] = useState("All");
 
   const filtered =
@@ -18,7 +17,7 @@ export default function WritingList() {
 
   return (
     <>
-      <WritingFilters active={active} onChange={setActive} />
+      <WritingFilters categories={categories} active={active} onChange={setActive} />
       <section className="space-y-12">
         {filtered.map((post, i) => (
           <Reveal key={post.title} delay={i * 0.06}>

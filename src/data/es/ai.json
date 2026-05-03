@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Agentes de IA, Automatización y Flujos de Trabajo",
+    "description": "Experto en automatización con IA y flujos de trabajo: agentes LLM local-first, plugins de Claude Code, servidores MCP y ML adversarial aplicado. IA lista para producción integrada en pipelines reales de ingeniería."
+  },
+  "hero": {
+    "title": "IA y Agentes",
+    "description": "Construyo de forma práctica con LLMs — agentes de programación local-first, plugins y skills de Claude Code, servidores MCP, y experimentos ocasionales rompiendo mis propios modelos. Esta página recoge lo que estoy construyendo, leyendo y desmenuzando."
+  },
+  "currentFocus": {
+    "sectionTitle": "Foco Actual",
+    "items": [
+      "Agentes de programación local-first (Ollama, Gemma, bucles ReAct)",
+      "Plugins y skills de Claude Code propios",
+      "Servidores Model Context Protocol (MCP) para flujos reales de desarrollo",
+      "Ejemplos adversariales y robustez de modelos en NLP",
+      "Inferencia nativa en navegador con ONNX Runtime"
+    ]
+  },
+  "toolsAndExperiments": {
+    "sectionTitle": "Herramientas y Experimentos",
+    "tools": [
+      {
+        "name": "nip",
+        "status": "Open Source · Agente ReAct",
+        "description": "Un agente CLI de programación local-first impulsado por Gemma sobre Ollama. Implementa un bucle ReAct con tool-calling para leer, escribir y refactorizar código en tu máquina sin llamadas a la nube ni vendor lock-in.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/nip"
+      },
+      {
+        "name": "claude-human-review",
+        "status": "Plugin de Claude Code",
+        "description": "Un plugin de Claude Code que narra cada edición que el agente realiza en lenguaje claro, para que apruebes o deshagas con todo el contexto. Nacido de la desconfianza ante los diffs silenciosos — human-in-the-loop sin fricción.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/claude-human-review"
+      },
+      {
+        "name": "article-writing-skills",
+        "status": "Claude Skills · Biblioteca de Prompts",
+        "description": "Una colección de prompts de escritura y skills de Claude modelados sobre las voces de ingenieros e investigadores conocidos. Funciona con Claude Code, ChatGPT, Gemini y cualquier LLM — un campo de pruebas de hasta dónde puede llegar la transferencia de estilo vía prompts.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
+      },
+      {
+        "name": "MERN MCP",
+        "status": "Servidor MCP",
+        "description": "Un servidor open-source de Model Context Protocol que automatiza el scaffolding CRUD full-stack para apps MERN — desde modelos de Mongoose hasta componentes de React — con un flujo de previsualización-antes-de-aplicar para mantener al agente con correa.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/mern-mcp"
+      },
+      {
+        "name": "BG Remover AI",
+        "status": "Navegador · ONNX Runtime",
+        "description": "Una herramienta rápida, privada y sin servidor para eliminar fondos que se ejecuta enteramente en el navegador con modelos ONNX. Sin uploads ni tracking — explorando cuánto ML real puede entregarse al cliente en 2026.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
+      }
+    ]
+  },
+  "writings": {
+    "sectionTitle": "Publicaciones sobre IA"
+  },
+  "codeBlock": {
+    "filename": "nip-session.sh",
+    "lines": [
+      "$ nip \"refactor getUser to async/await and add a cache\"",
+      "> reading src/api/users.js ... [ok]",
+      "> plan: promisify callback, wrap with async, add LRU layer",
+      "> applying patch (3 hunks) ... [ok]",
+      "> running tests ... 12 passed, 0 failed.",
+      "> agent status: idle."
+    ]
+  }
+}

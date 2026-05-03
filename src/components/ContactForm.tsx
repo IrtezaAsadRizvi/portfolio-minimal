@@ -1,36 +1,45 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import content from "@/data/contact.json";
+import { getContent, type Locale } from "@/lib/i18n";
 import Reveal from "./Reveal";
-
-const { fields, submitLabel } = content.form;
 
 type Errors = Record<string, string>;
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-function validate(values: Record<string, string>): Errors {
+type Validation = {
+  nameRequired: string;
+  nameTooShort: string;
+  emailRequired: string;
+  emailInvalid: string;
+  messageRequired: string;
+  messageTooShort: string;
+};
+
+function validate(
+  values: Record<string, string>,
+  v: Validation,
+): Errors {
   const errors: Errors = {};
   const name = (values.name ?? "").trim();
   const email = (values.email ?? "").trim();
   const message = (values.message ?? "").trim();
 
-  if (!name) errors.name = "Name is required.";
-  else if (name.length < 2) errors.name = "Name must be at least 2 characters.";
+  if (!name) errors.name = v.nameRequired;
+  else if (name.length < 2) errors.name = v.nameTooShort;
 
-  if (!email) errors.email = "Email is required.";
-  else if (!EMAIL_RE.test(email))
-    errors.email = "Enter a valid email address (e.g. you@domain.com).";
+  if (!email) errors.email = v.emailRequired;
+  else if (!EMAIL_RE.test(email)) errors.email = v.emailInvalid;
 
-  if (!message) errors.message = "Message is required.";
-  else if (message.length < 10)
-    errors.message = "Message must be at least 10 characters.";
+  if (!message) errors.message = v.messageRequired;
+  else if (message.length < 10) errors.message = v.messageTooShort;
 
   return errors;
 }
 
-export default function ContactForm() {
+export default function ContactForm({ locale }: { locale: Locale }) {
+  const { fields, submitLabel, validation } = getContent(locale).contact.form;
   const [errors, setErrors] = useState<Errors>({});
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
@@ -41,7 +50,7 @@ export default function ContactForm() {
       values[f.id] = String(data.get(f.id) ?? "");
     });
 
-    const nextErrors = validate(values);
+    const nextErrors = validate(values, validation);
     if (Object.keys(nextErrors).length > 0) {
       e.preventDefault();
       setErrors(nextErrors);

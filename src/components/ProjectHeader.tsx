@@ -1,8 +1,7 @@
-import content from "@/data/projects.json";
+import { getContent, type Locale } from "@/lib/i18n";
 
-const { title, description } = content.header;
-
-export default function ProjectHeader() {
+export default function ProjectHeader({ locale }: { locale: Locale }) {
+  const { title, description } = getContent(locale).projects.header;
   return (
     <div className="mb-12 animate-in">
       <div className="accent-rule mb-6" />

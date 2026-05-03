@@ -1,8 +1,7 @@
-import content from "@/data/ai.json";
+import { getContent, type Locale } from "@/lib/i18n";
 
-const { title, description } = content.hero;
-
-export default function AIHero() {
+export default function AIHero({ locale }: { locale: Locale }) {
+  const { title, description } = getContent(locale).ai.hero;
   return (
     <section className="mb-16 animate-in">
       <div className="accent-rule mb-6" />

@@ -1,19 +1,24 @@
 {
   "meta": {
-    "title": "Projects: Full-Stack & AI Engineering Work",
-    "description": "Selected full-stack, AI automation, and open-source projects — production web systems, LLM agents, Claude Code plugins, MCP servers, and experimental ML tooling."
+    "title": "Proyectos: Trabajo Full-Stack y de Ingeniería de IA",
+    "description": "Proyectos seleccionados full-stack, de automatización con IA y open source — sistemas web de producción, agentes LLM, plugins de Claude Code, servidores MCP y herramientas experimentales de ML."
   },
   "header": {
-    "title": "Projects",
-    "description": "A selection of technical explorations, open-source modules, and experimental systems built with a focus on performance and architectural clarity."
+    "title": "Proyectos",
+    "description": "Una selección de exploraciones técnicas, módulos open source y sistemas experimentales construidos con foco en rendimiento y claridad arquitectónica."
   },
-  "categories": ["All", "AI", "WebDev", "Tools"],
+  "categories": [
+    { "key": "All", "label": "Todos" },
+    { "key": "AI", "label": "IA" },
+    { "key": "WebDev", "label": "WebDev" },
+    { "key": "Tools", "label": "Herramientas" }
+  ],
   "projects": [
     {
       "title": "claude-human-review",
       "category": "Tools",
-      "tag": "Developer Tools",
-      "description": "Claude Code plugin that reviews every edit in plain English so you approve or undo with full context.",
+      "tag": "Herramientas para Devs",
+      "description": "Plugin de Claude Code que revisa cada edición en lenguaje claro para que apruebes o deshagas con todo el contexto.",
       "stack": ["Python", "Shell", "Claude Code"],
       "link": {
         "label": "GitHub",
@@ -25,7 +30,7 @@
       "title": "article-writing-skills",
       "category": "AI",
       "tag": "LLM / Prompts",
-      "description": "Article, blog, and paper writing prompts and Claude skills modelled on famous engineers and researchers. Works with Claude Code, ChatGPT, Gemini, and any LLM.",
+      "description": "Prompts de escritura de artículos, blog y papers, y skills de Claude modelados sobre ingenieros e investigadores conocidos. Funciona con Claude Code, ChatGPT, Gemini y cualquier LLM.",
       "stack": ["Markdown", "Claude Code", "LLM"],
       "link": {
         "label": "GitHub",
@@ -36,8 +41,8 @@
     {
       "title": "nip",
       "category": "AI",
-      "tag": "AI Agent",
-      "description": "A local-first CLI code agent powered by Gemma. Reads, writes, and refactors code on your machine using a ReAct agent loop with tool-calling capabilities.",
+      "tag": "Agente de IA",
+      "description": "Un agente CLI de programación local-first impulsado por Gemma. Lee, escribe y refactoriza código en tu máquina mediante un bucle ReAct con capacidades de tool-calling.",
       "stack": ["Python", "Ollama", "Gemma"],
       "link": {
         "label": "GitHub",
@@ -48,8 +53,8 @@
     {
       "title": "BG Remover AI",
       "category": "AI",
-      "tag": "AI / Computer Vision",
-      "description": "A fast, private, serverless AI background removal tool that runs entirely in the browser using ONNX models. No uploads, no tracking.",
+      "tag": "IA / Visión por Computador",
+      "description": "Una herramienta rápida, privada y sin servidor para eliminar fondos que se ejecuta enteramente en el navegador con modelos ONNX. Sin uploads ni tracking.",
       "stack": ["React", "TypeScript", "ONNX Runtime", "Vite"],
       "link": {
         "label": "GitHub",
@@ -60,8 +65,8 @@
     {
       "title": "MERN MCP",
       "category": "Tools",
-      "tag": "Developer Tools",
-      "description": "An open-source MCP server that automates full-stack CRUD scaffolding for MERN apps, from database models to React components with a preview-before-apply workflow.",
+      "tag": "Herramientas para Devs",
+      "description": "Un servidor MCP open source que automatiza el scaffolding CRUD full-stack para apps MERN, desde modelos de base de datos hasta componentes React, con un flujo de previsualización-antes-de-aplicar.",
       "stack": ["TypeScript", "Node.js", "Express", "React"],
       "link": {
         "label": "GitHub",
@@ -72,8 +77,8 @@
     {
       "title": "Mars Snap",
       "category": "WebDev",
-      "tag": "WebGL / Creative",
-      "description": "A shader-driven procedural Mars landscape generator with atmosphere, fog, shadows, and filmic lighting. Exports wallpaper-quality PNGs.",
+      "tag": "WebGL / Creativo",
+      "description": "Un generador procedural de paisajes marcianos con shaders, atmósfera, niebla, sombras e iluminación cinematográfica. Exporta PNGs en calidad wallpaper.",
       "stack": ["JavaScript", "GLSL", "WebGL", "regl"],
       "link": {
         "label": "GitHub",
@@ -84,8 +89,8 @@
     {
       "title": "Short Video Subtitle Automation",
       "category": "AI",
-      "tag": "AI / Automation",
-      "description": "An automated pipeline for generating and burning word-level subtitles into short-form videos using local speech-to-text with whisper.cpp.",
+      "tag": "IA / Automatización",
+      "description": "Una pipeline automatizada para generar e incrustar subtítulos a nivel de palabra en vídeos cortos usando reconocimiento de voz local con whisper.cpp.",
       "stack": ["Python", "FFmpeg", "whisper.cpp"],
       "link": {
         "label": "GitHub",
@@ -96,8 +101,8 @@
     {
       "title": "EnviroConfig",
       "category": "Tools",
-      "tag": "NPM Package",
-      "description": "A flexible Node.js package for managing environment configurations with schema validation, defaults, and multi-environment support.",
+      "tag": "Paquete NPM",
+      "description": "Un paquete flexible de Node.js para gestionar configuraciones de entorno con validación de esquema, valores por defecto y soporte multi-entorno.",
       "stack": ["TypeScript", "Node.js", "Joi"],
       "link": {
         "label": "GitHub",
@@ -108,8 +113,8 @@
     {
       "title": "ProPassword",
       "category": "WebDev",
-      "tag": "Web App",
-      "description": "A privacy-first, client-side password generator with phrase-based generation, entropy analysis, and multi-language support.",
+      "tag": "Aplicación Web",
+      "description": "Un generador de contraseñas privacy-first y client-side con generación basada en frases, análisis de entropía y soporte multi-idioma.",
       "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
       "link": {
         "label": "GitHub",
@@ -120,8 +125,8 @@
     {
       "title": "Ayah Daily",
       "category": "WebDev",
-      "tag": "Web App",
-      "description": "A tiny, fast, and distraction-free web app that displays one randomly selected Quran ayah each day. Supports 11 languages with no ads or tracking.",
+      "tag": "Aplicación Web",
+      "description": "Una pequeña web app rápida y libre de distracciones que muestra una aleya del Corán seleccionada al azar cada día. Soporta 11 idiomas, sin anuncios ni tracking.",
       "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Firebase"],
       "link": {
         "label": "GitHub",
@@ -132,8 +137,8 @@
     {
       "title": "node-express-rate-limiter",
       "category": "Tools",
-      "tag": "NPM Package",
-      "description": "An Express.js rate limiting middleware with customizable rules, IP whitelisting, Redis support, and burst handling.",
+      "tag": "Paquete NPM",
+      "description": "Middleware de rate limiting para Express.js con reglas personalizables, whitelist de IPs, soporte de Redis y manejo de ráfagas.",
       "stack": ["TypeScript", "Express", "Redis"],
       "link": {
         "label": "GitHub",
@@ -144,8 +149,8 @@
     {
       "title": "vue3-counter",
       "category": "Tools",
-      "tag": "Vue Component",
-      "description": "A highly customizable numeric counter component for Vue 3 with flexible layouts, styling options, and TypeScript support.",
+      "tag": "Componente Vue",
+      "description": "Un componente de contador numérico altamente personalizable para Vue 3 con layouts flexibles, opciones de estilo y soporte para TypeScript.",
       "stack": ["Vue 3", "TypeScript", "Vite"],
       "link": {
         "label": "GitHub",
@@ -156,8 +161,8 @@
     {
       "title": "macOS Portfolio",
       "category": "WebDev",
-      "tag": "Web App",
-      "description": "A portfolio website designed with a macOS-inspired aesthetic, built with modern web technologies.",
+      "tag": "Aplicación Web",
+      "description": "Un sitio de portfolio con estética inspirada en macOS, construido con tecnologías web modernas.",
       "stack": ["Next.js", "TypeScript", "Tailwind CSS"],
       "link": {
         "label": "GitHub",

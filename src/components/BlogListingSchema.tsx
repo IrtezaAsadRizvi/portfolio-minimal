@@ -1,4 +1,4 @@
-import writing from "@/data/writing.json";
+import { getContent, type Locale } from "@/lib/i18n";
 
 const SITE_URL = "https://irtezaasadrizvi.github.io";
 const AUTHOR = "Irteza Asad Rizvi";
@@ -6,6 +6,8 @@ const AUTHOR = "Irteza Asad Rizvi";
 const MONTHS: Record<string, number> = {
   JAN: 0, FEB: 1, MAR: 2, APR: 3, MAY: 4, JUN: 5,
   JUL: 6, AUG: 7, SEP: 8, OCT: 9, NOV: 10, DEC: 11,
+  MÄR: 2, MAI: 4, OKT: 9, DEZ: 11,
+  ENE: 0, ABR: 3, AGO: 7, DIC: 11,
 };
 
 function parsePostDate(label: string): string {
@@ -15,7 +17,8 @@ function parsePostDate(label: string): string {
   return new Date(Date.UTC(y, month, 1)).toISOString();
 }
 
-export default function BlogListingSchema() {
+export default function BlogListingSchema({ locale }: { locale: Locale }) {
+  const writing = getContent(locale).writing;
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",

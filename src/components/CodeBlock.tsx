@@ -1,9 +1,8 @@
-import content from "@/data/ai.json";
+import { getContent, type Locale } from "@/lib/i18n";
 import Reveal from "./Reveal";
 
-const { filename, lines } = content.codeBlock;
-
-export default function CodeBlock() {
+export default function CodeBlock({ locale }: { locale: Locale }) {
+  const { filename, lines } = getContent(locale).ai.codeBlock;
   return (
     <Reveal>
       <section className="mb-12">

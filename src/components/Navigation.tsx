@@ -4,11 +4,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import content from "@/data/en.json";
+import { getContent, localePath, type Locale } from "@/lib/i18n";
 
-const { logo, links } = content.navigation;
-
-export default function Navigation() {
+export default function Navigation({ locale }: { locale: Locale }) {
+  const { logo, menuLabel, availableForWork, links } = getContent(locale).common.navigation;
   const pathname = usePathname();
   const normalized =
     pathname.endsWith("/") && pathname !== "/"
@@ -39,7 +38,7 @@ export default function Navigation() {
     <>
       <nav className="flex justify-between items-center w-full px-6 py-8 max-w-5xl mx-auto animate-in">
         <Link
-          href="/"
+          href={localePath(locale, "/")}
           aria-label={logo}
           className="flex items-center hover:opacity-80 transition-opacity"
         >
@@ -55,12 +54,13 @@ export default function Navigation() {
 
         <div className="hidden md:flex gap-6 items-center">
           {links.map((link) => {
-            const isActive = normalized === link.href;
+            const localizedHref = localePath(locale, link.href);
+            const isActive = normalized === localizedHref;
             const isFeatured = link.href === "/ai";
             return (
               <Link
                 key={link.href}
-                href={link.href}
+                href={localizedHref}
                 className={`text-[11px] font-mono tracking-widest transition-colors nav-link ${
                   isActive
                     ? "text-accent nav-link-active"
@@ -87,7 +87,7 @@ export default function Navigation() {
         <button
           type="button"
           onClick={() => setOpen(true)}
-          aria-label="Open menu"
+          aria-label={menuLabel}
           aria-expanded={open}
           aria-controls="mobile-menu"
           className="md:hidden relative z-50 flex items-center justify-center w-10 h-10 text-on-surface-variant hover:text-accent transition-colors"
@@ -118,7 +118,7 @@ export default function Navigation() {
       >
         <div className="flex items-center justify-between px-6 py-8">
           <span className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/80 font-mono">
-            Menu
+            {menuLabel}
           </span>
           <button
             type="button"
@@ -134,7 +134,8 @@ export default function Navigation() {
 
         <ul className="px-6 font-mono text-[0.7rem] space-y-5 text-on-surface-variant">
           {links.map((link, i) => {
-            const isActive = normalized === link.href;
+            const localizedHref = localePath(locale, link.href);
+            const isActive = normalized === localizedHref;
             const isFeatured = link.href === "/ai";
             return (
               <li
@@ -148,7 +149,7 @@ export default function Navigation() {
                 }}
               >
                 <Link
-                  href={link.href}
+                  href={localizedHref}
                   onClick={close}
                   className="flex items-center gap-4 group"
                 >
@@ -190,7 +191,7 @@ export default function Navigation() {
         >
           <div className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 bg-accent status-dot" />
-            <span className="uppercase tracking-widest">Available for work</span>
+            <span className="uppercase tracking-widest">{availableForWork}</span>
           </div>
         </div>
       </aside>

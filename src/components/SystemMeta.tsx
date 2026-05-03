@@ -1,9 +1,8 @@
-import content from "@/data/contact.json";
+import { getContent, type Locale } from "@/lib/i18n";
 import Reveal from "./Reveal";
 
-const { systemStatus, environment, publicKey } = content;
-
-export default function SystemMeta() {
+export default function SystemMeta({ locale }: { locale: Locale }) {
+  const { systemStatus, environment, publicKey } = getContent(locale).contact;
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-12 border-t border-outline-variant/10">
       <Reveal>

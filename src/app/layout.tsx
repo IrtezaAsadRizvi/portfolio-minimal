@@ -190,7 +190,7 @@ const personSchema = {
     "Jenkins",
     "Web security",
   ],
-  knowsLanguage: ["English"],
+  knowsLanguage: ["English", "German", "Spanish"],
   sameAs: [
     "https://github.com/IrtezaAsadRizvi",
     "https://www.linkedin.com/in/irtezaasad",
@@ -262,6 +262,11 @@ export default function RootLayout({
           type="application/rss+xml"
           title="Irteza Asad Rizvi — Writing"
           href="/rss.xml"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var p=location.pathname;var m=p.match(/^\\/(de|es)(?:\\/|$)/);var urlLocale=m?m[1]:null;if(urlLocale){document.documentElement.lang=urlLocale;try{localStorage.setItem('locale',urlLocale);}catch(e){}return;}var stored=null;try{stored=localStorage.getItem('locale');}catch(e){}var target=stored;if(!target){var nav=(navigator.language||'en').toLowerCase();if(nav.startsWith('de'))target='de';else if(nav.startsWith('es'))target='es';else target='en';}if(target&&target!=='en'){var rest=p==='/'?'':p;location.replace('/'+target+rest+location.search+location.hash);}else{document.documentElement.lang='en';}}catch(e){}})();`,
+          }}
         />
         <script
           type="application/ld+json"

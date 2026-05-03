@@ -1,8 +1,7 @@
-import content from "@/data/writing.json";
+import { getContent, type Locale } from "@/lib/i18n";
 
-const { title, description } = content.header;
-
-export default function WritingHeader() {
+export default function WritingHeader({ locale }: { locale: Locale }) {
+  const { title, description } = getContent(locale).writing.header;
   return (
     <section className="mb-24 animate-in">
       <div className="accent-rule mb-6" />
