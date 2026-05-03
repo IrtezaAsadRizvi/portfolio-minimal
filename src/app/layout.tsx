@@ -94,7 +94,7 @@ export const metadata: Metadata = {
   },
   manifest: "/favicon/site.webmanifest",
   verification: {
-    google: "wSAkGfAf4CSWulVgO9OauOzC85hcY2_TVue1ftZJlF4",
+    google: "FzwPvNzIwsUO4IFoXPqofvJHU7or-WbCQWST3_lS-8g",
   },
 };
 
