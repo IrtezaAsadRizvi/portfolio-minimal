@@ -5,7 +5,7 @@
   },
   "header": {
     "title": "Projects",
-    "description": "A selection of technical explorations, open-source modules, and experimental systems built with a focus on performance and architectural clarity."
+    "description": "Open-source AI agents, Claude Code plugins, MCP servers, and full-stack web tools — production-grade and experimental work, all built with a focus on architectural clarity and human-in-the-loop control."
   },
   "categories": [
     { "key": "All", "label": "All" },
@@ -16,73 +16,79 @@
   "projects": [
     {
       "title": "claude-human-review",
+      "slug": "claude-human-review",
       "category": "Tools",
       "tag": "Developer Tools",
       "description": "Claude Code plugin that reviews every edit in plain English so you approve or undo with full context.",
       "stack": ["Python", "Shell", "Claude Code"],
       "link": {
-        "label": "GitHub",
-        "href": "https://github.com/IrtezaAsadRizvi/claude-human-review"
+        "label": "Read more",
+        "href": "/projects/claude-human-review"
       },
       "showOnHomePage": true
     },
     {
       "title": "article-writing-skills",
+      "slug": "article-writing-skills",
       "category": "AI",
       "tag": "LLM / Prompts",
       "description": "Article, blog, and paper writing prompts and Claude skills modelled on famous engineers and researchers. Works with Claude Code, ChatGPT, Gemini, and any LLM.",
       "stack": ["Markdown", "Claude Code", "LLM"],
       "link": {
-        "label": "GitHub",
-        "href": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
+        "label": "Read more",
+        "href": "/projects/article-writing-skills"
       },
       "showOnHomePage": true
     },
     {
       "title": "nip",
+      "slug": "nip",
       "category": "AI",
       "tag": "AI Agent",
       "description": "A local-first CLI code agent powered by Gemma. Reads, writes, and refactors code on your machine using a ReAct agent loop with tool-calling capabilities.",
       "stack": ["Python", "Ollama", "Gemma"],
       "link": {
-        "label": "GitHub",
-        "href": "https://github.com/IrtezaAsadRizvi/nip"
+        "label": "Read more",
+        "href": "/projects/nip"
       },
       "showOnHomePage": true
     },
     {
       "title": "BG Remover AI",
+      "slug": "bg-remover-ai",
       "category": "AI",
       "tag": "AI / Computer Vision",
       "description": "A fast, private, serverless AI background removal tool that runs entirely in the browser using ONNX models. No uploads, no tracking.",
       "stack": ["React", "TypeScript", "ONNX Runtime", "Vite"],
       "link": {
-        "label": "GitHub",
-        "href": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
+        "label": "Read more",
+        "href": "/projects/bg-remover-ai"
       },
       "showOnHomePage": true
     },
     {
       "title": "MERN MCP",
+      "slug": "mern-mcp",
       "category": "Tools",
       "tag": "Developer Tools",
       "description": "An open-source MCP server that automates full-stack CRUD scaffolding for MERN apps, from database models to React components with a preview-before-apply workflow.",
       "stack": ["TypeScript", "Node.js", "Express", "React"],
       "link": {
-        "label": "GitHub",
-        "href": "https://github.com/IrtezaAsadRizvi/mern-mcp"
+        "label": "Read more",
+        "href": "/projects/mern-mcp"
       },
       "showOnHomePage": true
     },
     {
       "title": "Mars Snap",
+      "slug": "mars-snap",
       "category": "WebDev",
       "tag": "WebGL / Creative",
       "description": "A shader-driven procedural Mars landscape generator with atmosphere, fog, shadows, and filmic lighting. Exports wallpaper-quality PNGs.",
       "stack": ["JavaScript", "GLSL", "WebGL", "regl"],
       "link": {
-        "label": "GitHub",
-        "href": "https://github.com/IrtezaAsadRizvi/mars-snap"
+        "label": "Read more",
+        "href": "/projects/mars-snap"
       },
       "showOnHomePage": true
     },

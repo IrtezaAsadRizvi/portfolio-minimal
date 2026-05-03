@@ -4,8 +4,8 @@
     "description": "Technical deep-dives on Node.js internals, AI and LLM engineering, adversarial machine learning, DevOps, and web security — published on Medium and Dev.to."
   },
   "header": {
-    "title": "Writing",
-    "description": "Technical deep-dives on Node.js, security, DevOps, and AI — published on Medium."
+    "title": "Writing on AI, Engineering & Security",
+    "description": "Technical deep-dives on AI-enabled web development, LLM tokenization, Claude Code plugins, MCP servers, Node.js internals, V8, adversarial ML, and web security — featured posts hosted here, full archive on Medium."
   },
   "categories": [
     { "key": "All", "label": "All" },
@@ -15,6 +15,13 @@
     { "key": "DevOps", "label": "DevOps" }
   ],
   "posts": [
+    {
+      "title": "AI-Enabled Web Development: A Practical Field Guide for 2026",
+      "excerpt": "What 'AI-enabled web development' actually means in 2026 — beyond the hype: LLM agents in your codebase, Claude Code plugins, MCP servers, browser-native ML, and the senior full-stack engineer's job inside all of it.",
+      "category": "AI",
+      "date": "MAY 2026",
+      "href": "/writing/ai-enabled-web-development"
+    },
     {
       "title": "From Bytes to BPE: A From-Scratch Tour of LLM Tokenization",
       "excerpt": "Building a tokenizer from the ground up — UTF-8 byte streams, character-level encoding, and Byte-Pair Encoding explained through working code.",

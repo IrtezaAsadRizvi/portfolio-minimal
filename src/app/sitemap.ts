@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next";
 import { LOCALES, DEFAULT_LOCALE } from "@/lib/i18n";
+import { caseStudySlugs } from "@/data/en/case-studies";
+import { nativePostSlugs } from "@/data/en/posts";
 
 export const dynamic = "force-static";
 
@@ -48,5 +50,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     }
   }
+
+  for (const slug of caseStudySlugs) {
+    entries.push({
+      url: `${SITE_URL}/projects/${slug}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.85,
+    });
+  }
+
+  for (const slug of nativePostSlugs) {
+    entries.push({
+      url: `${SITE_URL}/writing/${slug}`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    });
+  }
+
   return entries;
 }

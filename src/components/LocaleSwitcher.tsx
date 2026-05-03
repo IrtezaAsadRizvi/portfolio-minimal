@@ -71,7 +71,12 @@ export default function LocaleSwitcher({ locale }: { locale: Locale }) {
       /* ignore */
     }
     const { rest } = stripLocalePrefix(pathname);
-    router.push(buildLocalizedPath(next, rest));
+    const englishOnly = /^\/(projects|writing)\/[^/]+/.test(rest);
+    let target = rest;
+    if (englishOnly && next !== DEFAULT_LOCALE) {
+      target = rest.startsWith("/projects") ? "/projects" : "/writing";
+    }
+    router.push(buildLocalizedPath(next, target));
   };
 
   return (

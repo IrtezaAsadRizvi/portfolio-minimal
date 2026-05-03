@@ -4,8 +4,8 @@
     "description": "AI automation and workflow expert building local-first LLM agents, Claude Code plugins, MCP servers, and applied adversarial ML. Production-ready AI integrated into real engineering pipelines."
   },
   "hero": {
-    "title": "AI & Agents",
-    "description": "I build hands-on with LLMs — local-first coding agents, Claude Code plugins and skills, MCP servers, and the occasional experiment in breaking my own models. This page tracks what I'm shipping, reading, and tearing apart."
+    "title": "AI Engineering & Agent Development",
+    "description": "AI engineering for the web, hands-on — local-first LLM coding agents, Claude Code plugins, MCP servers, browser-native ML, and the occasional experiment in breaking my own models. This page tracks what I'm shipping into AI-enabled web development."
   },
   "currentFocus": {
     "sectionTitle": "Current Focus",
