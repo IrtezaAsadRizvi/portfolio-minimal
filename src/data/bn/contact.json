@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "যোগাযোগ: একজন ফুল-স্ট্যাক ও AI অটোমেশন ইঞ্জিনিয়ার নিয়োগ দিন",
+    "description": "সিনিয়র ফুল-স্ট্যাক ভূমিকা, AI অটোমেশন কনসালটিং, এবং LLM-চালিত প্রোডাক্ট, Claude Code প্লাগইন ও MCP সার্ভারে সহযোগিতার জন্য উন্মুক্ত। যোগাযোগ করুন।"
+  },
+  "header": {
+    "title": "যোগাযোগ করুন",
+    "description": "বর্তমানে নতুন সুযোগ, বিশেষায়িত কনসালটিং, অথবা AI-নির্ভর প্রোডাক্টে সহযোগিতার জন্য উন্মুক্ত।"
+  },
+  "form": {
+    "fields": [
+      { "id": "name", "label": "নাম", "type": "text", "placeholder": "আপনার নাম", "prompt": "$" },
+      { "id": "email", "label": "ইমেইল", "type": "email", "placeholder": "EMAIL@DOMAIN.COM", "prompt": "$" },
+      { "id": "message", "label": "বার্তা", "type": "textarea", "placeholder": "আপনার প্রজেক্ট বর্ণনা করুন", "prompt": ">", "rows": 4 }
+    ],
+    "submitLabel": "বার্তা পাঠান",
+    "validation": {
+      "nameRequired": "নাম আবশ্যক।",
+      "nameTooShort": "নাম অন্তত ২ অক্ষরের হতে হবে।",
+      "emailRequired": "ইমেইল আবশ্যক।",
+      "emailInvalid": "একটি বৈধ ইমেইল ঠিকানা লিখুন (যেমন you@domain.com)।",
+      "messageRequired": "বার্তা আবশ্যক।",
+      "messageTooShort": "বার্তা অন্তত ১০ অক্ষরের হতে হবে।"
+    }
+  },
+  "systemStatus": {
+    "sectionTitle": "সিস্টেম স্ট্যাটাস",
+    "online": "SYSTEM_ONLINE // CORE_ACTIVE",
+    "details": [
+      "LOC: 40.7128° N, 74.0060° W",
+      "NODE_ID: PS-7742-ALPHA",
+      "LATENCY: 14MS"
+    ]
+  },
+  "environment": {
+    "sectionTitle": "এনভায়রনমেন্ট",
+    "entries": [
+      { "key": "STACK", "value": "NEXT.JS / TAILWIND / TS" },
+      { "key": "RUNTIME", "value": "NODE_V20.10.0" },
+      { "key": "DEPLOY", "value": "EDGE_FUNCTION_NY1" },
+      { "key": "PROTO", "value": "HTTPS/3_QUIC" }
+    ]
+  },
+  "publicKey": {
+    "sectionTitle": "পাবলিক কী (RSA/4096)",
+    "content": "FP: 4D7B A872 E331 928C 11D4  5E2A 0B82 119C FD13 01E2\n-----BEGIN PGP PUBLIC KEY BLOCK-----\nmQINBF2S...[TECHNICAL_ENCRYPTION_LAYER_ACTIVE]...\n...0X1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P...\n-----END PGP PUBLIC KEY BLOCK-----"
+  },
+  "connect": {
+    "sectionTitle": "সংযোগ",
+    "links": [
+      { "label": "GITHUB", "href": "https://github.com/IrtezaAsadRizvi" },
+      { "label": "CODEPEN", "href": "https://codepen.io/IrtezaAsad" },
+      { "label": "LINKEDIN", "href": "https://www.linkedin.com/in/irtezaasad" },
+      { "label": "MEDIUM", "href": "https://medium.com/@irtezaasadrizvi" },
+      { "label": "BEHANCE", "href": "https://www.behance.net/irtezaasad" },
+      { "label": "INSTAGRAM", "href": "https://www.instagram.com/mr.irteza" },
+      { "label": "FACEBOOK", "href": "https://www.facebook.com/IrtezaAsad" },
+      { "label": "PORTFOLIO", "href": "https://irtezaasadrizvi.github.io" }
+    ]
+  },
+  "status": {
+    "sectionTitle": "স্ট্যাটাস",
+    "available": true,
+    "label": "উপলব্ধ",
+    "details": "LAST_UPDATE: 2024.11.21\nLOC: 40.7128° N, 74.0060° W"
+  }
+}

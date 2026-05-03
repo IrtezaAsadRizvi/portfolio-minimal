@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "المشاريع: أعمال Full-Stack وهندسة الذكاء الاصطناعي",
+    "description": "مجموعة مختارة من المشاريع في Full-Stack وأتمتة الذكاء الاصطناعي ومفتوحة المصدر — أنظمة ويب إنتاجية، ووكلاء LLM، وإضافات Claude Code، وخوادم MCP، وأدوات ML تجريبية."
+  },
+  "header": {
+    "title": "المشاريع",
+    "description": "مجموعة مختارة من الاستكشافات التقنية والوحدات مفتوحة المصدر والأنظمة التجريبية، مبنيّة بتركيز على الأداء ووضوح البنية."
+  },
+  "categories": [
+    { "key": "All", "label": "الكل" },
+    { "key": "AI", "label": "الذكاء الاصطناعي" },
+    { "key": "WebDev", "label": "WebDev" },
+    { "key": "Tools", "label": "أدوات" }
+  ],
+  "projects": [
+    {
+      "title": "claude-human-review",
+      "category": "Tools",
+      "tag": "أدوات للمطوّرين",
+      "description": "إضافة Claude Code تراجع كل تعديل بلغة واضحة بحيث توافق أو تتراجع مع كامل السياق.",
+      "stack": ["Python", "Shell", "Claude Code"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/claude-human-review"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "article-writing-skills",
+      "category": "AI",
+      "tag": "LLM / موجّهات",
+      "description": "موجّهات لكتابة المقالات والمدوّنات والأوراق، وسكلز Claude مبنيّة على مهندسين وباحثين معروفين. تعمل مع Claude Code و ChatGPT و Gemini وأي LLM.",
+      "stack": ["Markdown", "Claude Code", "LLM"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "nip",
+      "category": "AI",
+      "tag": "وكيل ذكاء اصطناعي",
+      "description": "وكيل برمجة CLI محلي مدفوع بـ Gemma. يقرأ الكود ويكتبه ويعيد بنيته على جهازك عبر حلقة وكيل ReAct بقدرات استدعاء أدوات.",
+      "stack": ["Python", "Ollama", "Gemma"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/nip"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "BG Remover AI",
+      "category": "AI",
+      "tag": "ذكاء اصطناعي / رؤية حاسوبية",
+      "description": "أداة سريعة وخاصة وبدون خادم لإزالة خلفية الصور باستخدام الذكاء الاصطناعي تعمل بالكامل في المتصفح عبر نماذج ONNX. لا رفع ولا تتبّع.",
+      "stack": ["React", "TypeScript", "ONNX Runtime", "Vite"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "MERN MCP",
+      "category": "Tools",
+      "tag": "أدوات للمطوّرين",
+      "description": "خادم MCP مفتوح المصدر يؤتمت سقالات CRUD كاملة لتطبيقات MERN، من نماذج قاعدة البيانات إلى مكوّنات React مع تدفق معاينة-قبل-التطبيق.",
+      "stack": ["TypeScript", "Node.js", "Express", "React"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/mern-mcp"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "Mars Snap",
+      "category": "WebDev",
+      "tag": "WebGL / إبداعي",
+      "description": "مولّد إجرائي لمناظر المريخ مدفوع بالشيدرات مع غلاف جوي وضباب وظلال وإضاءة سينمائية. يصدّر صور PNG بجودة خلفيات شاشة.",
+      "stack": ["JavaScript", "GLSL", "WebGL", "regl"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/mars-snap"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "Short Video Subtitle Automation",
+      "category": "AI",
+      "tag": "ذكاء اصطناعي / أتمتة",
+      "description": "خط أنابيب آلي لتوليد وحرق ترجمات على مستوى الكلمة في الفيديوهات القصيرة باستخدام whisper.cpp للتعرّف على الكلام محلياً.",
+      "stack": ["Python", "FFmpeg", "whisper.cpp"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/short-video-subtitle-automation"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "EnviroConfig",
+      "category": "Tools",
+      "tag": "حزمة NPM",
+      "description": "حزمة Node.js مرنة لإدارة إعدادات البيئة مع التحقق من المخطط، والقيم الافتراضية، ودعم بيئات متعدّدة.",
+      "stack": ["TypeScript", "Node.js", "Joi"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/EnviroConfig"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "ProPassword",
+      "category": "WebDev",
+      "tag": "تطبيق ويب",
+      "description": "مولّد كلمات مرور يحترم الخصوصية ويعمل من جهة العميل، بتوليد قائم على العبارات وتحليل إنتروبيا ودعم متعدّد اللغات.",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/pro-password"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "Ayah Daily",
+      "category": "WebDev",
+      "tag": "تطبيق ويب",
+      "description": "تطبيق ويب صغير وسريع وخالٍ من المشتّتات يعرض آية قرآنية مختارة عشوائياً كل يوم. يدعم 11 لغة، بدون إعلانات أو تتبّع.",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Firebase"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/ayah-daily"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "node-express-rate-limiter",
+      "category": "Tools",
+      "tag": "حزمة NPM",
+      "description": "Middleware لتحديد المعدّل في Express.js بقواعد قابلة للتخصيص، وقائمة سماح للـ IP، ودعم Redis، ومعالجة دفعات.",
+      "stack": ["TypeScript", "Express", "Redis"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/node-express-rate-limiter"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "vue3-counter",
+      "category": "Tools",
+      "tag": "مكوّن Vue",
+      "description": "مكوّن عدّاد رقمي قابل للتخصيص بشكل كبير لـ Vue 3 مع تخطيطات مرنة وخيارات تنسيق ودعم TypeScript.",
+      "stack": ["Vue 3", "TypeScript", "Vite"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/vue3-counter"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "macOS Portfolio",
+      "category": "WebDev",
+      "tag": "تطبيق ويب",
+      "description": "موقع portfolio بطابع مستوحى من macOS، مبني بتقنيات ويب حديثة.",
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/macos-portfolio"
+      },
+      "showOnHomePage": false
+    }
+  ]
+}

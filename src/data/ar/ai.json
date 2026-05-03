@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "وكلاء الذكاء الاصطناعي والأتمتة وتدفقات العمل",
+    "description": "خبير في أتمتة الذكاء الاصطناعي وتدفقات العمل — وكلاء LLM محلية، وإضافات Claude Code، وخوادم MCP، والتعلم الآلي العدائي التطبيقي. ذكاء اصطناعي جاهز للإنتاج مدمج في خطوط أنابيب هندسية حقيقية."
+  },
+  "hero": {
+    "title": "الذكاء الاصطناعي والوكلاء",
+    "description": "أعمل بشكل عملي مع نماذج LLM — وكلاء برمجة محلية، وإضافات وسكلز Claude Code، وخوادم MCP، وتجارب عرضية في كسر نماذجي الخاصة. تتابع هذه الصفحة ما أبنيه وأقرأه وأفكّكه."
+  },
+  "currentFocus": {
+    "sectionTitle": "التركيز الحالي",
+    "items": [
+      "وكلاء برمجة محلية (Ollama و Gemma وحلقات ReAct)",
+      "إضافات وسكلز Claude Code من تأليفي",
+      "خوادم Model Context Protocol (MCP) لتدفقات تطوير حقيقية",
+      "الأمثلة العدائية ومتانة النموذج في NLP",
+      "استدلال أصلي في المتصفح باستخدام ONNX Runtime"
+    ]
+  },
+  "toolsAndExperiments": {
+    "sectionTitle": "أدوات وتجارب",
+    "tools": [
+      {
+        "name": "nip",
+        "status": "مفتوح المصدر · وكيل ReAct",
+        "description": "وكيل برمجة CLI محلي مدفوع بـ Gemma فوق Ollama. يطبّق حلقة ReAct مع استدعاء الأدوات بحيث يقرأ الكود ويكتبه ويعيد بنيته على جهازك دون أي استدعاءات للسحابة ودون قيود مزوّد.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/nip"
+      },
+      {
+        "name": "claude-human-review",
+        "status": "إضافة Claude Code",
+        "description": "إضافة Claude Code تروي كل تعديل يجريه الوكيل بلغة واضحة، حتى تستطيع الموافقة أو التراجع مع كامل السياق. وُلدت من عدم الثقة بالـ diffs الصامتة — Human-in-the-Loop دون احتكاك.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/claude-human-review"
+      },
+      {
+        "name": "article-writing-skills",
+        "status": "Claude Skills · مكتبة موجّهات",
+        "description": "مجموعة من موجّهات الكتابة وسكلز Claude مبنيّة على أصوات مهندسين وباحثين معروفين. تعمل مع Claude Code و ChatGPT و Gemini وأي LLM — حقل تجارب لمعرفة إلى أيّ مدى يمكن الذهاب بنقل الأسلوب عبر الموجّهات.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
+      },
+      {
+        "name": "MERN MCP",
+        "status": "خادم MCP",
+        "description": "خادم Model Context Protocol مفتوح المصدر يؤتمت سقالات CRUD كاملة لتطبيقات MERN — من نماذج Mongoose إلى مكوّنات React — مع تدفق معاينة-قبل-التطبيق ليبقى الوكيل في إطار محدّد.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/mern-mcp"
+      },
+      {
+        "name": "BG Remover AI",
+        "status": "متصفح · ONNX Runtime",
+        "description": "أداة سريعة وخاصة وبدون خادم لإزالة الخلفية تعمل بالكامل في المتصفح عبر نماذج ONNX. لا رفع ولا تتبّع — استكشاف لكم من ML الحقيقي يمكن دفعه إلى العميل في 2026.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
+      }
+    ]
+  },
+  "writings": {
+    "sectionTitle": "مقالات في الذكاء الاصطناعي"
+  },
+  "codeBlock": {
+    "filename": "nip-session.sh",
+    "lines": [
+      "$ nip \"refactor getUser to async/await and add a cache\"",
+      "> reading src/api/users.js ... [ok]",
+      "> plan: promisify callback, wrap with async, add LRU layer",
+      "> applying patch (3 hunks) ... [ok]",
+      "> running tests ... 12 passed, 0 failed.",
+      "> agent status: idle."
+    ]
+  }
+}

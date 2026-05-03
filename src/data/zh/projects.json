@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "项目:全栈与 AI 工程作品",
+    "description": "精选的全栈、AI 自动化与开源项目 — 生产级 Web 系统、LLM 智能体、Claude Code 插件、MCP 服务器和实验性 ML 工具。"
+  },
+  "header": {
+    "title": "项目",
+    "description": "一组聚焦性能与架构清晰度的技术探索、开源模块与实验系统。"
+  },
+  "categories": [
+    { "key": "All", "label": "全部" },
+    { "key": "AI", "label": "AI" },
+    { "key": "WebDev", "label": "WebDev" },
+    { "key": "Tools", "label": "工具" }
+  ],
+  "projects": [
+    {
+      "title": "claude-human-review",
+      "category": "Tools",
+      "tag": "开发者工具",
+      "description": "Claude Code 插件,用清晰的语言审查每一次编辑,让你能在完整上下文下批准或撤销。",
+      "stack": ["Python", "Shell", "Claude Code"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/claude-human-review"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "article-writing-skills",
+      "category": "AI",
+      "tag": "LLM / 提示词",
+      "description": "一组以知名工程师与研究者为模板的文章、博客与论文写作提示词,以及 Claude skills。可与 Claude Code、ChatGPT、Gemini 及任意 LLM 配合使用。",
+      "stack": ["Markdown", "Claude Code", "LLM"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "nip",
+      "category": "AI",
+      "tag": "AI 智能体",
+      "description": "由 Gemma 驱动的本地优先 CLI 代码智能体。通过带工具调用的 ReAct 循环在你的本机读、写、重构代码。",
+      "stack": ["Python", "Ollama", "Gemma"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/nip"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "BG Remover AI",
+      "category": "AI",
+      "tag": "AI / 计算机视觉",
+      "description": "快速、私密、无服务器的 AI 去背景工具,通过 ONNX 模型完全在浏览器中运行。无上传、无追踪。",
+      "stack": ["React", "TypeScript", "ONNX Runtime", "Vite"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "MERN MCP",
+      "category": "Tools",
+      "tag": "开发者工具",
+      "description": "开源 MCP 服务器,自动化 MERN 应用的全栈 CRUD 脚手架,从数据库模型到 React 组件,带有先预览再应用的工作流。",
+      "stack": ["TypeScript", "Node.js", "Express", "React"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/mern-mcp"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "Mars Snap",
+      "category": "WebDev",
+      "tag": "WebGL / 创意",
+      "description": "由着色器驱动的程序化火星景观生成器,带有大气、雾、阴影与电影级光照,可导出壁纸级别的 PNG。",
+      "stack": ["JavaScript", "GLSL", "WebGL", "regl"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/mars-snap"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "Short Video Subtitle Automation",
+      "category": "AI",
+      "tag": "AI / 自动化",
+      "description": "一条自动化流水线,使用 whisper.cpp 进行本地语音转文本,为短视频生成并烧录词级字幕。",
+      "stack": ["Python", "FFmpeg", "whisper.cpp"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/short-video-subtitle-automation"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "EnviroConfig",
+      "category": "Tools",
+      "tag": "NPM 包",
+      "description": "一个灵活的 Node.js 包,用于管理环境配置,支持 schema 校验、默认值和多环境配置。",
+      "stack": ["TypeScript", "Node.js", "Joi"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/EnviroConfig"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "ProPassword",
+      "category": "WebDev",
+      "tag": "Web 应用",
+      "description": "隐私优先的客户端密码生成器,支持基于短语的生成、熵分析和多语言。",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/pro-password"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "Ayah Daily",
+      "category": "WebDev",
+      "tag": "Web 应用",
+      "description": "一个小巧、快速、零干扰的 Web 应用,每天随机展示一段古兰经经文。支持 11 种语言,无广告无追踪。",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Firebase"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/ayah-daily"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "node-express-rate-limiter",
+      "category": "Tools",
+      "tag": "NPM 包",
+      "description": "一个 Express.js 限流中间件,支持自定义规则、IP 白名单、Redis 与突发流量处理。",
+      "stack": ["TypeScript", "Express", "Redis"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/node-express-rate-limiter"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "vue3-counter",
+      "category": "Tools",
+      "tag": "Vue 组件",
+      "description": "一个高度可定制的 Vue 3 数值计数器组件,具备灵活的布局、样式选项和 TypeScript 支持。",
+      "stack": ["Vue 3", "TypeScript", "Vite"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/vue3-counter"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "macOS Portfolio",
+      "category": "WebDev",
+      "tag": "Web 应用",
+      "description": "一个以 macOS 风格为灵感的作品集站点,使用现代 Web 技术构建。",
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/macos-portfolio"
+      },
+      "showOnHomePage": false
+    }
+  ]
+}

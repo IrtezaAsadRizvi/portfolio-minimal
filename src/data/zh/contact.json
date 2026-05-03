@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "联系:雇用一位全栈与 AI 自动化工程师",
+    "description": "目前可接受高级全栈职位、AI 自动化咨询,以及在 LLM 驱动产品、Claude Code 插件和 MCP 服务器上的合作。欢迎联系。"
+  },
+  "header": {
+    "title": "保持联系",
+    "description": "目前可接受新机会、专业咨询,或在 AI 驱动的产品上合作。"
+  },
+  "form": {
+    "fields": [
+      { "id": "name", "label": "姓名", "type": "text", "placeholder": "您的姓名", "prompt": "$" },
+      { "id": "email", "label": "邮箱", "type": "email", "placeholder": "EMAIL@DOMAIN.COM", "prompt": "$" },
+      { "id": "message", "label": "留言", "type": "textarea", "placeholder": "描述您的项目", "prompt": ">", "rows": 4 }
+    ],
+    "submitLabel": "发送留言",
+    "validation": {
+      "nameRequired": "姓名为必填项。",
+      "nameTooShort": "姓名至少需要 2 个字符。",
+      "emailRequired": "邮箱为必填项。",
+      "emailInvalid": "请输入有效的邮箱地址(例如 you@domain.com)。",
+      "messageRequired": "留言为必填项。",
+      "messageTooShort": "留言至少需要 10 个字符。"
+    }
+  },
+  "systemStatus": {
+    "sectionTitle": "系统状态",
+    "online": "SYSTEM_ONLINE // CORE_ACTIVE",
+    "details": [
+      "LOC: 40.7128° N, 74.0060° W",
+      "NODE_ID: PS-7742-ALPHA",
+      "延迟: 14MS"
+    ]
+  },
+  "environment": {
+    "sectionTitle": "运行环境",
+    "entries": [
+      { "key": "STACK", "value": "NEXT.JS / TAILWIND / TS" },
+      { "key": "RUNTIME", "value": "NODE_V20.10.0" },
+      { "key": "DEPLOY", "value": "EDGE_FUNCTION_NY1" },
+      { "key": "PROTO", "value": "HTTPS/3_QUIC" }
+    ]
+  },
+  "publicKey": {
+    "sectionTitle": "公钥(RSA/4096)",
+    "content": "FP: 4D7B A872 E331 928C 11D4  5E2A 0B82 119C FD13 01E2\n-----BEGIN PGP PUBLIC KEY BLOCK-----\nmQINBF2S...[TECHNICAL_ENCRYPTION_LAYER_ACTIVE]...\n...0X1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P...\n-----END PGP PUBLIC KEY BLOCK-----"
+  },
+  "connect": {
+    "sectionTitle": "联系方式",
+    "links": [
+      { "label": "GITHUB", "href": "https://github.com/IrtezaAsadRizvi" },
+      { "label": "CODEPEN", "href": "https://codepen.io/IrtezaAsad" },
+      { "label": "LINKEDIN", "href": "https://www.linkedin.com/in/irtezaasad" },
+      { "label": "MEDIUM", "href": "https://medium.com/@irtezaasadrizvi" },
+      { "label": "BEHANCE", "href": "https://www.behance.net/irtezaasad" },
+      { "label": "INSTAGRAM", "href": "https://www.instagram.com/mr.irteza" },
+      { "label": "FACEBOOK", "href": "https://www.facebook.com/IrtezaAsad" },
+      { "label": "PORTFOLIO", "href": "https://irtezaasadrizvi.github.io" }
+    ]
+  },
+  "status": {
+    "sectionTitle": "状态",
+    "available": true,
+    "label": "可接受",
+    "details": "LAST_UPDATE: 2024.11.21\nLOC: 40.7128° N, 74.0060° W"
+  }
+}

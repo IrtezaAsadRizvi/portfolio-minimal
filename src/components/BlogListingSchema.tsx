@@ -8,10 +8,18 @@ const MONTHS: Record<string, number> = {
   JUL: 6, AUG: 7, SEP: 8, OCT: 9, NOV: 10, DEC: 11,
   MÄR: 2, MAI: 4, OKT: 9, DEZ: 11,
   ENE: 0, ABR: 3, AGO: 7, DIC: 11,
+  AVR: 3, JUIN: 5, JUIL: 6, AOÛ: 7, FÉV: 1, DÉC: 11,
 };
 
 function parsePostDate(label: string): string {
-  const [mon, year] = label.trim().toUpperCase().split(/\s+/);
+  const trimmed = label.trim();
+  const cjk = trimmed.match(/^(\d{4})年(\d{1,2})月$/);
+  if (cjk) {
+    const y = Number.parseInt(cjk[1], 10);
+    const m = Number.parseInt(cjk[2], 10) - 1;
+    return new Date(Date.UTC(y, m, 1)).toISOString();
+  }
+  const [mon, year] = trimmed.toUpperCase().split(/\s+/);
   const month = MONTHS[mon] ?? 0;
   const y = Number.parseInt(year, 10) || new Date().getFullYear();
   return new Date(Date.UTC(y, month, 1)).toISOString();

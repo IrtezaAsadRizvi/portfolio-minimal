@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "ইরতেজা আসাদ রিজভি — সিনিয়র ফুল-স্ট্যাক ও AI অটোমেশন ইঞ্জিনিয়ার",
+    "description": "সিনিয়র ফুল-স্ট্যাক ইঞ্জিনিয়ার এবং AI অটোমেশন এক্সপার্ট। আমি Next.js, Node.js এবং MERN স্ট্যাক দিয়ে প্রোডাকশন ওয়েব সিস্টেম তৈরি করি, এবং LLM-চালিত এজেন্ট, Claude Code প্লাগইন ও MCP সার্ভার বানাই যা বাস্তব ইঞ্জিনিয়ারিং ওয়ার্কফ্লো অটোমেট করে।"
+  },
+  "navigation": {
+    "logo": "Irteza",
+    "menuLabel": "মেনু",
+    "availableForWork": "কাজের জন্য উপলব্ধ",
+    "links": [
+      { "label": "হোম", "href": "/" },
+      { "label": "প্রজেক্ট", "href": "/projects" },
+      { "label": "AI", "href": "/ai" },
+      { "label": "পরিচিতি", "href": "/about" },
+      { "label": "ব্লগ", "href": "/writing" },
+      { "label": "যোগাযোগ", "href": "/contact" }
+    ]
+  },
+  "hero": {
+    "heading": "হ্যালো, আমি ইরতেজা",
+    "description": "সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার, স্কেলেবল ওয়েব সিস্টেম এবং AI ইন্টিগ্রেশনে ফোকাসড। আমি MERN স্ট্যাক, Next.js এবং পরিচ্ছন্ন আর্কিটেকচারের প্রতি দৃষ্টি রেখে কাজ করি।",
+    "socials": [
+      { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "code" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "groups" },
+      { "label": "Twitter / X", "href": "https://x.com/IrtezaAsad", "icon": "terminal" }
+    ]
+  },
+  "recentWork": {
+    "sectionTitle": "সাম্প্রতিক কাজ"
+  },
+  "latestWriting": {
+    "sectionTitle": "সাম্প্রতিক লেখা",
+    "posts": [
+      {
+        "title": "From Bytes to BPE: A From-Scratch Tour of LLM Tokenization",
+        "date": "MAY 2026",
+        "href": "https://blog.gopenai.com/from-bytes-to-bpe-a-from-scratch-tour-of-llm-tokenization-a49c70c87c41"
+      },
+      {
+        "title": "Breaking my own spam classifier: a hands-on tour of adversarial examples",
+        "date": "APR 2026",
+        "href": "https://irtezaasadrizvi.medium.com/breaking-my-own-spam-classifier-a-hands-on-tour-of-adversarial-examples-efe79ae21ece"
+      },
+      {
+        "title": "How Node.js Handles 10,000 Requests",
+        "date": "MAR 2026",
+        "href": "https://blog.devops.dev/how-node-js-handles-10000-requests-61911c846d45"
+      },
+      {
+        "title": "When Your VPS Gets Hacked: Finding a Miner on Our Server",
+        "date": "DEC 2025",
+        "href": "https://blog.cubed.run/when-your-vps-gets-hacked-how-i-found-a-miner-running-on-our-server-65771b3f532c"
+      },
+      {
+        "title": "Dive into V8: How JavaScript Gets Supercharged",
+        "date": "AUG 2025",
+        "href": "https://blog.devops.dev/dive-into-v8-how-javascript-gets-supercharged-and-sometimes-slows-down-a21c3f847fa7"
+      }
+    ]
+  },
+  "collaborate": {
+    "sectionTitle": "সহযোগিতা",
+    "description": "বর্তমানে নতুন সুযোগ, বিশেষায়িত কনসালটিং, অথবা AI-নির্ভর প্রোডাক্টে সহযোগিতার জন্য উন্মুক্ত।",
+    "cta": {
+      "primary": { "label": "আমাকে নিয়োগ দিন", "href": "mailto:contact@irteza.dev" },
+      "secondary": { "label": "জীবনবৃত্তান্ত", "href": "#" }
+    },
+    "socials": [
+      { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "north_east" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "north_east" },
+      { "label": "Medium", "href": "https://medium.com/@irtezaasadrizvi", "icon": "north_east" },
+      { "label": "CodePen", "href": "https://codepen.io/IrtezaAsad", "icon": "north_east" },
+      { "label": "Behance", "href": "https://www.behance.net/irtezaasad", "icon": "north_east" },
+      { "label": "Instagram", "href": "https://www.instagram.com/mr.irteza", "icon": "north_east" },
+      { "label": "Facebook", "href": "https://www.facebook.com/IrtezaAsad", "icon": "north_east" },
+      { "label": "যোগাযোগ পেজ", "href": "/contact", "icon": "mail" }
+    ]
+  },
+  "footer": {
+    "copyright": "© ২০২৪ ইরতেজা — সর্বস্বত্ব সংরক্ষিত",
+    "tagline": "নিখুঁতভাবে নির্মিত"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Projets : Travaux Full-Stack & Ingénierie IA",
+    "description": "Projets sélectionnés en full-stack, automatisation IA et open source — systèmes web en production, agents LLM, plugins Claude Code, serveurs MCP et outillage ML expérimental."
+  },
+  "header": {
+    "title": "Projets",
+    "description": "Une sélection d'explorations techniques, de modules open source et de systèmes expérimentaux construits avec un focus sur la performance et la clarté architecturale."
+  },
+  "categories": [
+    { "key": "All", "label": "Tous" },
+    { "key": "AI", "label": "IA" },
+    { "key": "WebDev", "label": "WebDev" },
+    { "key": "Tools", "label": "Outils" }
+  ],
+  "projects": [
+    {
+      "title": "claude-human-review",
+      "category": "Tools",
+      "tag": "Outils Devs",
+      "description": "Plugin Claude Code qui passe en revue chaque édition en clair, pour que vous approuviez ou annuliez avec tout le contexte.",
+      "stack": ["Python", "Shell", "Claude Code"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/claude-human-review"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "article-writing-skills",
+      "category": "AI",
+      "tag": "LLM / Prompts",
+      "description": "Prompts d'écriture d'articles, de blogs et de papers, et skills Claude modélisés sur des ingénieurs et chercheurs connus. Fonctionne avec Claude Code, ChatGPT, Gemini et n'importe quel LLM.",
+      "stack": ["Markdown", "Claude Code", "LLM"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "nip",
+      "category": "AI",
+      "tag": "Agent IA",
+      "description": "Un agent CLI local de code propulsé par Gemma. Lit, écrit et refactorise du code sur votre machine via une boucle ReAct avec capacités de tool-calling.",
+      "stack": ["Python", "Ollama", "Gemma"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/nip"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "BG Remover AI",
+      "category": "AI",
+      "tag": "IA / Vision par Ordinateur",
+      "description": "Un outil rapide, privé et sans serveur de suppression d'arrière-plan qui s'exécute entièrement dans le navigateur via des modèles ONNX. Pas d'upload, pas de tracking.",
+      "stack": ["React", "TypeScript", "ONNX Runtime", "Vite"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "MERN MCP",
+      "category": "Tools",
+      "tag": "Outils Devs",
+      "description": "Un serveur MCP open source qui automatise le scaffolding CRUD full-stack pour les apps MERN, des modèles de base de données aux composants React, avec un workflow d'aperçu-avant-application.",
+      "stack": ["TypeScript", "Node.js", "Express", "React"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/mern-mcp"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "Mars Snap",
+      "category": "WebDev",
+      "tag": "WebGL / Créatif",
+      "description": "Un générateur procédural de paysages martiens piloté par shaders avec atmosphère, brouillard, ombres et éclairage cinématographique. Exporte des PNG en qualité fond d'écran.",
+      "stack": ["JavaScript", "GLSL", "WebGL", "regl"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/mars-snap"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "Short Video Subtitle Automation",
+      "category": "AI",
+      "tag": "IA / Automatisation",
+      "description": "Un pipeline automatisé pour générer et incruster des sous-titres au mot près dans des vidéos courtes, via la reconnaissance vocale locale avec whisper.cpp.",
+      "stack": ["Python", "FFmpeg", "whisper.cpp"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/short-video-subtitle-automation"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "EnviroConfig",
+      "category": "Tools",
+      "tag": "Paquet NPM",
+      "description": "Un paquet Node.js flexible pour gérer les configurations d'environnement avec validation de schéma, valeurs par défaut et support multi-environnement.",
+      "stack": ["TypeScript", "Node.js", "Joi"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/EnviroConfig"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "ProPassword",
+      "category": "WebDev",
+      "tag": "Application Web",
+      "description": "Un générateur de mots de passe privacy-first, côté client, avec génération basée sur des phrases, analyse d'entropie et support multi-langue.",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/pro-password"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "Ayah Daily",
+      "category": "WebDev",
+      "tag": "Application Web",
+      "description": "Une petite app web rapide et sans distraction qui affiche chaque jour un verset du Coran choisi au hasard. Supporte 11 langues, sans pubs ni tracking.",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Firebase"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/ayah-daily"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "node-express-rate-limiter",
+      "category": "Tools",
+      "tag": "Paquet NPM",
+      "description": "Un middleware de rate limiting Express.js avec règles personnalisables, whitelist d'IP, support Redis et gestion des bursts.",
+      "stack": ["TypeScript", "Express", "Redis"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/node-express-rate-limiter"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "vue3-counter",
+      "category": "Tools",
+      "tag": "Composant Vue",
+      "description": "Un composant compteur numérique hautement personnalisable pour Vue 3 avec mises en page flexibles, options de style et support TypeScript.",
+      "stack": ["Vue 3", "TypeScript", "Vite"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/vue3-counter"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "macOS Portfolio",
+      "category": "WebDev",
+      "tag": "Application Web",
+      "description": "Un site portfolio à l'esthétique inspirée de macOS, construit avec des technologies web modernes.",
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/macos-portfolio"
+      },
+      "showOnHomePage": false
+    }
+  ]
+}

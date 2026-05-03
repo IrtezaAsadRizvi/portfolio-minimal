@@ -8,12 +8,20 @@ const LABELS: Record<Locale, string> = {
   en: "EN",
   de: "DE",
   es: "ES",
+  fr: "FR",
+  zh: "ZH",
+  bn: "BN",
+  ar: "AR",
 };
 
 const FULL_NAMES: Record<Locale, string> = {
   en: "English",
   de: "Deutsch",
   es: "Español",
+  fr: "Français",
+  zh: "中文",
+  bn: "বাংলা",
+  ar: "العربية",
 };
 
 function stripLocalePrefix(pathname: string): { locale: Locale; rest: string } {

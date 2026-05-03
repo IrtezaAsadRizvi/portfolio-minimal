@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "À propos : Ingénieur Full-Stack & Expert en Automatisation IA",
+    "description": "Ingénieur senior full-stack avec plus de 7 ans d'expérience à livrer des produits web en Node.js, React, Next.js, Vue et Nuxt — désormais centré sur l'automatisation par IA, les agents LLM, les plugins Claude Code et les serveurs MCP."
+  },
+  "header": {
+    "title": "À propos",
+    "description": "Développeur full-stack avec plus de 7 ans à livrer des produits web — JavaScript, Node.js, React/Next.js, Vue, et toute la colle CI/CD autour. Récemment, je bascule vers l'IA : agents de code locaux, plugins et skills Claude Code, et serveurs MCP pour de vrais workflows de développement. La sécurité est un intérêt récurrent — j'ai écrit sur les compromissions de VPS, le ML adversarial et l'entropie des mots de passe, en plus des deep-dives backend et frontend."
+  },
+  "experience": {
+    "sectionTitle": "Parcours Professionnel",
+    "positions": [
+      {
+        "role": "Senior Software Engineer",
+        "company": "TransMedia Inc.",
+        "website": "https://www.trmedia.ca/",
+        "location": "Toronto, Canada · À distance",
+        "period": "JAN 2025 — AUJOURD'HUI",
+        "bullets": [
+          "Responsable de freeconvert.com et de l'ensemble de la plateforme TransMedia après promotion. Stack principale : Node.js et Nuxt.js.",
+          "Mise en place du pipeline CI/CD Jenkins + Docker pour ProPDF — un nouvel outil SaaS de la suite TransMedia — et livraison de son éditeur PDF complet dans le navigateur.",
+          "Développement de TrueRCE, un éditeur de texte enrichi maison conçu comme remplacement direct de TinyMCE sur toute la plateforme.",
+          "Introduction de workflows IA agentiques dans le quotidien de l'équipe, et construction d'automatisations qui traduisent et publient automatiquement du contenu localisé de bout en bout.",
+          "Contributions au pipeline de build .NET et aux améliorations de workflow inter-équipes."
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "TransMedia Inc.",
+        "website": "https://www.trmedia.ca/",
+        "location": "Toronto, Canada · À distance",
+        "period": "JUIL 2021 — JAN 2025",
+        "bullets": [
+          "Développement et maintenance de freeconvert.com — une plateforme SaaS de premier plan pour la conversion, la compression et le transcodage de fichiers en ligne.",
+          "Stack principale : Nuxt.js et Node.js. Collaboration étroite avec l'équipe DevOps sur les pipelines de déploiement et l'optimisation serveur.",
+          "Stack de production et intégrations : WebSocket, Docker, Kubernetes, AWS, SSH, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp, Jira."
+        ]
+      },
+      {
+        "role": "Fullstack Developer",
+        "company": "Sheba.xyz",
+        "website": "https://www.sheba.xyz/",
+        "location": "Dacca, Bangladesh",
+        "period": "FÉV 2018 — JUIN 2021",
+        "bullets": [
+          "Lead technique de l'équipe marketplace de sheba.xyz (8 ingénieurs).",
+          "Livraison d'une PWA eCommerce en Vue.js, d'un outil web B2B en Angular, et de plusieurs SPAs en Nuxt et React.",
+          "Construction d'APIs backend en Laravel et Node, ainsi que de panneaux d'administration en Laravel / Blade / Vue.",
+          "Intégration et exploitation de : WebSocket, PM2, Amazon S3, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp."
+        ]
+      }
+    ]
+  },
+  "coreStack": {
+    "sectionTitle": "Stack Principale",
+    "items": "TypeScript, Node.js, Next.js, React, Vue, Python, MongoDB, PostgreSQL, Docker, AWS, Linux, CI/CD, Claude SDK, Model Context Protocol, Ollama, ONNX Runtime."
+  },
+  "availability": {
+    "sectionTitle": "Disponibilité",
+    "status": "Ouvert aux postes orientés IA, contrats full-stack et missions de conseil.",
+    "cta": {
+      "label": "Prendre contact →",
+      "href": "mailto:contact@irteza.dev"
+    }
+  }
+}

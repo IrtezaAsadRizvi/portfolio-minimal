@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "Irteza Asad Rizvi — Ingénieur Senior Full-Stack & Automatisation IA",
+    "description": "Ingénieur senior full-stack et expert en automatisation par IA. Je livre des systèmes web en production avec Next.js, Node.js et la stack MERN, et je construis des agents LLM, des plugins Claude Code et des serveurs MCP qui automatisent de vrais workflows d'ingénierie."
+  },
+  "navigation": {
+    "logo": "Irteza",
+    "menuLabel": "Menu",
+    "availableForWork": "Disponible pour des missions",
+    "links": [
+      { "label": "ACCUEIL", "href": "/" },
+      { "label": "PROJETS", "href": "/projects" },
+      { "label": "IA", "href": "/ai" },
+      { "label": "À PROPOS", "href": "/about" },
+      { "label": "BLOG", "href": "/writing" },
+      { "label": "CONTACT", "href": "/contact" }
+    ]
+  },
+  "hero": {
+    "heading": "Bonjour, je suis Irteza",
+    "description": "Ingénieur logiciel senior, je me concentre sur les systèmes web scalables et l'intégration de l'IA. Je travaille avec la stack MERN, Next.js, et un vrai souci d'architecture propre.",
+    "socials": [
+      { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "code" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "groups" },
+      { "label": "Twitter / X", "href": "https://x.com/IrtezaAsad", "icon": "terminal" }
+    ]
+  },
+  "recentWork": {
+    "sectionTitle": "Travaux Récents"
+  },
+  "latestWriting": {
+    "sectionTitle": "Derniers Articles",
+    "posts": [
+      {
+        "title": "From Bytes to BPE: A From-Scratch Tour of LLM Tokenization",
+        "date": "MAI 2026",
+        "href": "https://blog.gopenai.com/from-bytes-to-bpe-a-from-scratch-tour-of-llm-tokenization-a49c70c87c41"
+      },
+      {
+        "title": "Breaking my own spam classifier: a hands-on tour of adversarial examples",
+        "date": "AVR 2026",
+        "href": "https://irtezaasadrizvi.medium.com/breaking-my-own-spam-classifier-a-hands-on-tour-of-adversarial-examples-efe79ae21ece"
+      },
+      {
+        "title": "How Node.js Handles 10,000 Requests",
+        "date": "MAR 2026",
+        "href": "https://blog.devops.dev/how-node-js-handles-10000-requests-61911c846d45"
+      },
+      {
+        "title": "When Your VPS Gets Hacked: Finding a Miner on Our Server",
+        "date": "DÉC 2025",
+        "href": "https://blog.cubed.run/when-your-vps-gets-hacked-how-i-found-a-miner-running-on-our-server-65771b3f532c"
+      },
+      {
+        "title": "Dive into V8: How JavaScript Gets Supercharged",
+        "date": "AOÛ 2025",
+        "href": "https://blog.devops.dev/dive-into-v8-how-javascript-gets-supercharged-and-sometimes-slows-down-a21c3f847fa7"
+      }
+    ]
+  },
+  "collaborate": {
+    "sectionTitle": "Collaborer",
+    "description": "Actuellement ouvert à de nouvelles opportunités, conseil spécialisé, ou collaboration sur des produits pilotés par l'IA.",
+    "cta": {
+      "primary": { "label": "Me contacter", "href": "mailto:contact@irteza.dev" },
+      "secondary": { "label": "CV", "href": "#" }
+    },
+    "socials": [
+      { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "north_east" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "north_east" },
+      { "label": "Medium", "href": "https://medium.com/@irtezaasadrizvi", "icon": "north_east" },
+      { "label": "CodePen", "href": "https://codepen.io/IrtezaAsad", "icon": "north_east" },
+      { "label": "Behance", "href": "https://www.behance.net/irtezaasad", "icon": "north_east" },
+      { "label": "Instagram", "href": "https://www.instagram.com/mr.irteza", "icon": "north_east" },
+      { "label": "Facebook", "href": "https://www.facebook.com/IrtezaAsad", "icon": "north_east" },
+      { "label": "Page de contact", "href": "/contact", "icon": "mail" }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2024 IRTEZA — TOUS DROITS RÉSERVÉS",
+    "tagline": "CONSTRUIT AVEC PRÉCISION"
+  }
+}

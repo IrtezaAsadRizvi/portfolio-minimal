@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "title": "إرتيزا أسد رضوي — مهندس Full-Stack أول وخبير أتمتة الذكاء الاصطناعي",
+    "description": "مهندس Full-Stack أول وخبير في أتمتة الذكاء الاصطناعي. أبني أنظمة ويب جاهزة للإنتاج باستخدام Next.js و Node.js و MERN Stack، وأطوّر وكلاء معتمدين على نماذج اللغة الكبيرة، وإضافات Claude Code، وخوادم MCP التي تؤتمت تدفقات عمل هندسية حقيقية."
+  },
+  "navigation": {
+    "logo": "Irteza",
+    "menuLabel": "القائمة",
+    "availableForWork": "متاح للعمل",
+    "links": [
+      { "label": "الرئيسية", "href": "/" },
+      { "label": "المشاريع", "href": "/projects" },
+      { "label": "الذكاء الاصطناعي", "href": "/ai" },
+      { "label": "نبذة", "href": "/about" },
+      { "label": "المدوّنة", "href": "/writing" },
+      { "label": "تواصل", "href": "/contact" }
+    ]
+  },
+  "hero": {
+    "heading": "مرحباً، أنا إرتيزا",
+    "description": "مهندس برمجيات أول مهتم بأنظمة الويب القابلة للتوسّع وتكامل الذكاء الاصطناعي. أعمل بـ MERN Stack و Next.js مع تركيز واضح على هندسة معمارية نظيفة.",
+    "socials": [
+      { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "code" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "groups" },
+      { "label": "Twitter / X", "href": "https://x.com/IrtezaAsad", "icon": "terminal" }
+    ]
+  },
+  "recentWork": {
+    "sectionTitle": "أعمال حديثة"
+  },
+  "latestWriting": {
+    "sectionTitle": "أحدث المقالات",
+    "posts": [
+      {
+        "title": "From Bytes to BPE: A From-Scratch Tour of LLM Tokenization",
+        "date": "MAY 2026",
+        "href": "https://blog.gopenai.com/from-bytes-to-bpe-a-from-scratch-tour-of-llm-tokenization-a49c70c87c41"
+      },
+      {
+        "title": "Breaking my own spam classifier: a hands-on tour of adversarial examples",
+        "date": "APR 2026",
+        "href": "https://irtezaasadrizvi.medium.com/breaking-my-own-spam-classifier-a-hands-on-tour-of-adversarial-examples-efe79ae21ece"
+      },
+      {
+        "title": "How Node.js Handles 10,000 Requests",
+        "date": "MAR 2026",
+        "href": "https://blog.devops.dev/how-node-js-handles-10000-requests-61911c846d45"
+      },
+      {
+        "title": "When Your VPS Gets Hacked: Finding a Miner on Our Server",
+        "date": "DEC 2025",
+        "href": "https://blog.cubed.run/when-your-vps-gets-hacked-how-i-found-a-miner-running-on-our-server-65771b3f532c"
+      },
+      {
+        "title": "Dive into V8: How JavaScript Gets Supercharged",
+        "date": "AUG 2025",
+        "href": "https://blog.devops.dev/dive-into-v8-how-javascript-gets-supercharged-and-sometimes-slows-down-a21c3f847fa7"
+      }
+    ]
+  },
+  "collaborate": {
+    "sectionTitle": "للتعاون",
+    "description": "متاح حالياً لفرص جديدة، أو استشارات متخصصة، أو التعاون على منتجات معتمدة على الذكاء الاصطناعي.",
+    "cta": {
+      "primary": { "label": "تواصل معي", "href": "mailto:contact@irteza.dev" },
+      "secondary": { "label": "السيرة الذاتية", "href": "#" }
+    },
+    "socials": [
+      { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "north_east" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "north_east" },
+      { "label": "Medium", "href": "https://medium.com/@irtezaasadrizvi", "icon": "north_east" },
+      { "label": "CodePen", "href": "https://codepen.io/IrtezaAsad", "icon": "north_east" },
+      { "label": "Behance", "href": "https://www.behance.net/irtezaasad", "icon": "north_east" },
+      { "label": "Instagram", "href": "https://www.instagram.com/mr.irteza", "icon": "north_east" },
+      { "label": "Facebook", "href": "https://www.facebook.com/IrtezaAsad", "icon": "north_east" },
+      { "label": "صفحة التواصل", "href": "/contact", "icon": "mail" }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2024 إرتيزا — جميع الحقوق محفوظة",
+    "tagline": "صُنع بإتقان"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Contact : Recruter un Ingénieur Full-Stack & Automatisation IA",
+    "description": "Ouvert à des postes seniors full-stack, du conseil en automatisation IA, et des collaborations sur des produits LLM, plugins Claude Code et serveurs MCP. Prenez contact."
+  },
+  "header": {
+    "title": "Prendre contact",
+    "description": "Actuellement ouvert à de nouvelles opportunités, conseil spécialisé, ou collaboration sur des produits pilotés par l'IA."
+  },
+  "form": {
+    "fields": [
+      { "id": "name", "label": "Nom", "type": "text", "placeholder": "VOTRE NOM", "prompt": "$" },
+      { "id": "email", "label": "E-mail", "type": "email", "placeholder": "EMAIL@DOMAINE.COM", "prompt": "$" },
+      { "id": "message", "label": "Message", "type": "textarea", "placeholder": "DÉCRIVEZ VOTRE PROJET", "prompt": ">", "rows": 4 }
+    ],
+    "submitLabel": "Envoyer le message",
+    "validation": {
+      "nameRequired": "Le nom est requis.",
+      "nameTooShort": "Le nom doit comporter au moins 2 caractères.",
+      "emailRequired": "L'e-mail est requis.",
+      "emailInvalid": "Saisissez une adresse e-mail valide (par ex. vous@domaine.com).",
+      "messageRequired": "Le message est requis.",
+      "messageTooShort": "Le message doit comporter au moins 10 caractères."
+    }
+  },
+  "systemStatus": {
+    "sectionTitle": "État du Système",
+    "online": "SYSTEM_ONLINE // CORE_ACTIVE",
+    "details": [
+      "LOC: 40.7128° N, 74.0060° W",
+      "NODE_ID: PS-7742-ALPHA",
+      "LATENCE: 14MS"
+    ]
+  },
+  "environment": {
+    "sectionTitle": "Environnement",
+    "entries": [
+      { "key": "STACK", "value": "NEXT.JS / TAILWIND / TS" },
+      { "key": "RUNTIME", "value": "NODE_V20.10.0" },
+      { "key": "DEPLOY", "value": "EDGE_FUNCTION_NY1" },
+      { "key": "PROTO", "value": "HTTPS/3_QUIC" }
+    ]
+  },
+  "publicKey": {
+    "sectionTitle": "Clé Publique (RSA/4096)",
+    "content": "FP: 4D7B A872 E331 928C 11D4  5E2A 0B82 119C FD13 01E2\n-----BEGIN PGP PUBLIC KEY BLOCK-----\nmQINBF2S...[TECHNICAL_ENCRYPTION_LAYER_ACTIVE]...\n...0X1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P...\n-----END PGP PUBLIC KEY BLOCK-----"
+  },
+  "connect": {
+    "sectionTitle": "Connecter",
+    "links": [
+      { "label": "GITHUB", "href": "https://github.com/IrtezaAsadRizvi" },
+      { "label": "CODEPEN", "href": "https://codepen.io/IrtezaAsad" },
+      { "label": "LINKEDIN", "href": "https://www.linkedin.com/in/irtezaasad" },
+      { "label": "MEDIUM", "href": "https://medium.com/@irtezaasadrizvi" },
+      { "label": "BEHANCE", "href": "https://www.behance.net/irtezaasad" },
+      { "label": "INSTAGRAM", "href": "https://www.instagram.com/mr.irteza" },
+      { "label": "FACEBOOK", "href": "https://www.facebook.com/IrtezaAsad" },
+      { "label": "PORTFOLIO", "href": "https://irtezaasadrizvi.github.io" }
+    ]
+  },
+  "status": {
+    "sectionTitle": "Statut",
+    "available": true,
+    "label": "Disponible",
+    "details": "LAST_UPDATE: 2024.11.21\nLOC: 40.7128° N, 74.0060° W"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "প্রজেক্ট: ফুল-স্ট্যাক ও AI ইঞ্জিনিয়ারিং কাজ",
+    "description": "নির্বাচিত ফুল-স্ট্যাক, AI অটোমেশন এবং ওপেন-সোর্স প্রজেক্ট — প্রোডাকশন ওয়েব সিস্টেম, LLM এজেন্ট, Claude Code প্লাগইন, MCP সার্ভার এবং পরীক্ষামূলক ML টুলিং।"
+  },
+  "header": {
+    "title": "প্রজেক্ট",
+    "description": "পারফরম্যান্স ও আর্কিটেকচারাল স্পষ্টতার দিকে দৃষ্টি রেখে তৈরি প্রযুক্তিগত অন্বেষণ, ওপেন-সোর্স মডিউল এবং পরীক্ষামূলক সিস্টেমের একটি নির্বাচন।"
+  },
+  "categories": [
+    { "key": "All", "label": "সব" },
+    { "key": "AI", "label": "AI" },
+    { "key": "WebDev", "label": "WebDev" },
+    { "key": "Tools", "label": "টুল" }
+  ],
+  "projects": [
+    {
+      "title": "claude-human-review",
+      "category": "Tools",
+      "tag": "ডেভেলপার টুল",
+      "description": "Claude Code প্লাগইন যা প্রতিটি এডিট পরিষ্কার ভাষায় রিভিউ করে যাতে আপনি সম্পূর্ণ কনটেক্সট সহ অনুমোদন বা পূর্বাবস্থায় ফেরাতে পারেন।",
+      "stack": ["Python", "Shell", "Claude Code"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/claude-human-review"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "article-writing-skills",
+      "category": "AI",
+      "tag": "LLM / প্রম্পট",
+      "description": "বিখ্যাত ইঞ্জিনিয়ার ও গবেষকদের আদলে আর্টিকেল, ব্লগ এবং পেপার লেখার প্রম্পট ও Claude স্কিল। Claude Code, ChatGPT, Gemini এবং যেকোনো LLM-এর সাথে কাজ করে।",
+      "stack": ["Markdown", "Claude Code", "LLM"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "nip",
+      "category": "AI",
+      "tag": "AI এজেন্ট",
+      "description": "Gemma দ্বারা চালিত একটি লোকাল-ফার্স্ট CLI কোড এজেন্ট। টুল-কলিং সক্ষমতা সহ ReAct এজেন্ট লুপ ব্যবহার করে আপনার মেশিনে কোড পড়ে, লেখে এবং রিফ্যাক্টর করে।",
+      "stack": ["Python", "Ollama", "Gemma"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/nip"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "BG Remover AI",
+      "category": "AI",
+      "tag": "AI / কম্পিউটার ভিশন",
+      "description": "একটি দ্রুত, প্রাইভেট, সার্ভারলেস AI ব্যাকগ্রাউন্ড রিমুভাল টুল যা ONNX মডেল ব্যবহার করে সম্পূর্ণরূপে ব্রাউজারে চলে। কোনো আপলোড নেই, কোনো ট্র্যাকিং নেই।",
+      "stack": ["React", "TypeScript", "ONNX Runtime", "Vite"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "MERN MCP",
+      "category": "Tools",
+      "tag": "ডেভেলপার টুল",
+      "description": "একটি ওপেন-সোর্স MCP সার্ভার যা MERN অ্যাপের জন্য ফুল-স্ট্যাক CRUD স্ক্যাফোল্ডিং অটোমেট করে, ডাটাবেস মডেল থেকে React কম্পোনেন্ট পর্যন্ত, প্রিভিউ-আগে-প্রয়োগ ওয়ার্কফ্লো সহ।",
+      "stack": ["TypeScript", "Node.js", "Express", "React"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/mern-mcp"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "Mars Snap",
+      "category": "WebDev",
+      "tag": "WebGL / ক্রিয়েটিভ",
+      "description": "শেডার-চালিত একটি প্রসেডিউরাল মঙ্গল ল্যান্ডস্কেপ জেনারেটর যাতে রয়েছে অ্যাটমোস্ফিয়ার, কুয়াশা, ছায়া এবং ফিল্মিক আলোকসজ্জা। ওয়ালপেপার-মানের PNG এক্সপোর্ট করে।",
+      "stack": ["JavaScript", "GLSL", "WebGL", "regl"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/mars-snap"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "Short Video Subtitle Automation",
+      "category": "AI",
+      "tag": "AI / অটোমেশন",
+      "description": "whisper.cpp ব্যবহার করে লোকাল স্পিচ-টু-টেক্সট-এর মাধ্যমে শর্ট-ফর্ম ভিডিওতে ওয়ার্ড-লেভেল সাবটাইটেল জেনারেট ও বার্ন করার একটি অটোমেটেড পাইপলাইন।",
+      "stack": ["Python", "FFmpeg", "whisper.cpp"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/short-video-subtitle-automation"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "EnviroConfig",
+      "category": "Tools",
+      "tag": "NPM প্যাকেজ",
+      "description": "একটি নমনীয় Node.js প্যাকেজ যা স্কিমা ভ্যালিডেশন, ডিফল্ট এবং মাল্টি-এনভায়রনমেন্ট সাপোর্ট সহ এনভায়রনমেন্ট কনফিগারেশন ম্যানেজ করে।",
+      "stack": ["TypeScript", "Node.js", "Joi"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/EnviroConfig"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "ProPassword",
+      "category": "WebDev",
+      "tag": "ওয়েব অ্যাপ",
+      "description": "একটি প্রাইভেসি-ফার্স্ট ক্লায়েন্ট-সাইড পাসওয়ার্ড জেনারেটর যাতে রয়েছে ফ্রেজ-ভিত্তিক জেনারেশন, এন্ট্রপি বিশ্লেষণ এবং বহুভাষিক সমর্থন।",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/pro-password"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "Ayah Daily",
+      "category": "WebDev",
+      "tag": "ওয়েব অ্যাপ",
+      "description": "একটি ছোট, দ্রুত এবং বিভ্রান্তিমুক্ত ওয়েব অ্যাপ যা প্রতিদিন একটি র‍্যান্ডম কোরআনের আয়াত প্রদর্শন করে। ১১টি ভাষা সমর্থন করে, কোনো বিজ্ঞাপন বা ট্র্যাকিং নেই।",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Firebase"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/ayah-daily"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "node-express-rate-limiter",
+      "category": "Tools",
+      "tag": "NPM প্যাকেজ",
+      "description": "একটি Express.js রেট লিমিটিং মিডলওয়্যার যাতে রয়েছে কাস্টমাইজযোগ্য নিয়ম, IP হোয়াইটলিস্টিং, Redis সাপোর্ট এবং বার্স্ট হ্যান্ডলিং।",
+      "stack": ["TypeScript", "Express", "Redis"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/node-express-rate-limiter"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "vue3-counter",
+      "category": "Tools",
+      "tag": "Vue কম্পোনেন্ট",
+      "description": "Vue 3-এর জন্য একটি অত্যন্ত কাস্টমাইজযোগ্য সংখ্যাসূচক কাউন্টার কম্পোনেন্ট যাতে রয়েছে নমনীয় লেআউট, স্টাইলিং অপশন এবং TypeScript সাপোর্ট।",
+      "stack": ["Vue 3", "TypeScript", "Vite"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/vue3-counter"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "macOS Portfolio",
+      "category": "WebDev",
+      "tag": "ওয়েব অ্যাপ",
+      "description": "macOS-অনুপ্রাণিত নান্দনিকতায় ডিজাইন করা একটি পোর্টফোলিও ওয়েবসাইট, আধুনিক ওয়েব প্রযুক্তি দিয়ে নির্মিত।",
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/macos-portfolio"
+      },
+      "showOnHomePage": false
+    }
+  ]
+}

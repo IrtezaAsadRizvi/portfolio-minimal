@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "关于:全栈工程师与 AI 自动化专家",
+    "description": "资深全栈工程师,7 年以上 Node.js、React、Next.js、Vue 和 Nuxt 的 Web 产品交付经验,目前专注于 AI 自动化、LLM 智能体、Claude Code 插件和 MCP 服务器。"
+  },
+  "header": {
+    "title": "关于",
+    "description": "全栈开发者,7 年以上交付 Web 产品的经验 — JavaScript、Node.js、React/Next.js、Vue,以及围绕它们的 CI/CD 链路。最近正在转向 AI:本地优先的代码智能体、Claude Code 插件与 skills,以及面向真实开发工作流的 MCP 服务器。安全是我反复关注的副课题 — 写过关于 VPS 入侵、对抗式机器学习与密码熵的文章,与后端、前端的深度文章并行。"
+  },
+  "experience": {
+    "sectionTitle": "工作经历",
+    "positions": [
+      {
+        "role": "Senior Software Engineer",
+        "company": "TransMedia Inc.",
+        "website": "https://www.trmedia.ca/",
+        "location": "加拿大多伦多 · 远程",
+        "period": "2025年1月 — 至今",
+        "bullets": [
+          "晋升后继续负责 freeconvert.com 与整个 TransMedia 平台。主要技术栈:Node.js 和 Nuxt.js。",
+          "为 ProPDF — TransMedia 套件中的新 SaaS 工具 — 搭建了 Jenkins + Docker 的 CI/CD 流水线,并交付了功能完整的浏览器内 PDF 编辑器。",
+          "开发了 TrueRCE,一款自研富文本编辑器,作为 TinyMCE 在整个平台上的直接替代品。",
+          "将 agentic AI 工作流引入团队的日常开发,并构建了端到端翻译并自动发布本地化内容的自动化流程。",
+          "参与 .NET 构建流水线及跨团队工作流改进。"
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": "TransMedia Inc.",
+        "website": "https://www.trmedia.ca/",
+        "location": "加拿大多伦多 · 远程",
+        "period": "2021年7月 — 2025年1月",
+        "bullets": [
+          "开发并维护 freeconvert.com — 在线文件转换、压缩与转码领域排名靠前的 SaaS 平台。",
+          "主要技术栈:Nuxt.js 和 Node.js。与 DevOps 团队合作完成部署流水线和服务器优化。",
+          "生产环境技术栈与集成:WebSocket、Docker、Kubernetes、AWS、SSH、GTM、Google Analytics、Amplitude、Sentry、Intercom、Crisp、Jira。"
+        ]
+      },
+      {
+        "role": "Fullstack Developer",
+        "company": "Sheba.xyz",
+        "website": "https://www.sheba.xyz/",
+        "location": "孟加拉达卡",
+        "period": "2018年2月 — 2021年6月",
+        "bullets": [
+          "担任 sheba.xyz 市场团队(8 名工程师)的技术负责人。",
+          "交付了 Vue.js 写的电商 PWA、Angular 写的 B2B Web 工具,以及多个 Nuxt 与 React 的 SPA。",
+          "用 Laravel 和 Node 构建后端 API,并使用 Laravel / Blade / Vue 开发管理面板。",
+          "集成与运维:WebSocket、PM2、Amazon S3、GTM、Google Analytics、Amplitude、Sentry、Intercom、Crisp。"
+        ]
+      }
+    ]
+  },
+  "coreStack": {
+    "sectionTitle": "核心技术栈",
+    "items": "TypeScript, Node.js, Next.js, React, Vue, Python, MongoDB, PostgreSQL, Docker, AWS, Linux, CI/CD, Claude SDK, Model Context Protocol, Ollama, ONNX Runtime."
+  },
+  "availability": {
+    "sectionTitle": "工作状态",
+    "status": "可接受 AI 方向的全职、全栈合同与咨询工作。",
+    "cta": {
+      "label": "联系我 →",
+      "href": "mailto:contact@irteza.dev"
+    }
+  }
+}

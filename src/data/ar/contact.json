@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "تواصل: استأجر مهندس Full-Stack وأتمتة الذكاء الاصطناعي",
+    "description": "متاح لأدوار Full-Stack من مستوى Senior، واستشارات أتمتة الذكاء الاصطناعي، والتعاون على منتجات معتمدة على LLM وإضافات Claude Code وخوادم MCP. تواصل معي."
+  },
+  "header": {
+    "title": "تواصل معي",
+    "description": "متاح حالياً لفرص جديدة، أو استشارات متخصصة، أو التعاون على منتجات معتمدة على الذكاء الاصطناعي."
+  },
+  "form": {
+    "fields": [
+      { "id": "name", "label": "الاسم", "type": "text", "placeholder": "اسمك", "prompt": "$" },
+      { "id": "email", "label": "البريد الإلكتروني", "type": "email", "placeholder": "EMAIL@DOMAIN.COM", "prompt": "$" },
+      { "id": "message", "label": "الرسالة", "type": "textarea", "placeholder": "صف مشروعك", "prompt": ">", "rows": 4 }
+    ],
+    "submitLabel": "إرسال الرسالة",
+    "validation": {
+      "nameRequired": "الاسم مطلوب.",
+      "nameTooShort": "يجب أن يحتوي الاسم على حرفين على الأقل.",
+      "emailRequired": "البريد الإلكتروني مطلوب.",
+      "emailInvalid": "أدخل عنوان بريد إلكتروني صالح (مثلاً you@domain.com).",
+      "messageRequired": "الرسالة مطلوبة.",
+      "messageTooShort": "يجب أن تحتوي الرسالة على 10 أحرف على الأقل."
+    }
+  },
+  "systemStatus": {
+    "sectionTitle": "حالة النظام",
+    "online": "SYSTEM_ONLINE // CORE_ACTIVE",
+    "details": [
+      "LOC: 40.7128° N, 74.0060° W",
+      "NODE_ID: PS-7742-ALPHA",
+      "LATENCY: 14MS"
+    ]
+  },
+  "environment": {
+    "sectionTitle": "البيئة",
+    "entries": [
+      { "key": "STACK", "value": "NEXT.JS / TAILWIND / TS" },
+      { "key": "RUNTIME", "value": "NODE_V20.10.0" },
+      { "key": "DEPLOY", "value": "EDGE_FUNCTION_NY1" },
+      { "key": "PROTO", "value": "HTTPS/3_QUIC" }
+    ]
+  },
+  "publicKey": {
+    "sectionTitle": "المفتاح العام (RSA/4096)",
+    "content": "FP: 4D7B A872 E331 928C 11D4  5E2A 0B82 119C FD13 01E2\n-----BEGIN PGP PUBLIC KEY BLOCK-----\nmQINBF2S...[TECHNICAL_ENCRYPTION_LAYER_ACTIVE]...\n...0X1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P...\n-----END PGP PUBLIC KEY BLOCK-----"
+  },
+  "connect": {
+    "sectionTitle": "روابطي",
+    "links": [
+      { "label": "GITHUB", "href": "https://github.com/IrtezaAsadRizvi" },
+      { "label": "CODEPEN", "href": "https://codepen.io/IrtezaAsad" },
+      { "label": "LINKEDIN", "href": "https://www.linkedin.com/in/irtezaasad" },
+      { "label": "MEDIUM", "href": "https://medium.com/@irtezaasadrizvi" },
+      { "label": "BEHANCE", "href": "https://www.behance.net/irtezaasad" },
+      { "label": "INSTAGRAM", "href": "https://www.instagram.com/mr.irteza" },
+      { "label": "FACEBOOK", "href": "https://www.facebook.com/IrtezaAsad" },
+      { "label": "PORTFOLIO", "href": "https://irtezaasadrizvi.github.io" }
+    ]
+  },
+  "status": {
+    "sectionTitle": "الحالة",
+    "available": true,
+    "label": "متاح",
+    "details": "LAST_UPDATE: 2024.11.21\nLOC: 40.7128° N, 74.0060° W"
+  }
+}

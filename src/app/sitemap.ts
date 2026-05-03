@@ -9,6 +9,10 @@ const HTML_LANG: Record<string, string> = {
   en: "en",
   de: "de",
   es: "es",
+  fr: "fr",
+  zh: "zh",
+  bn: "bn",
+  ar: "ar",
 };
 
 function pathFor(locale: string, path: string): string {

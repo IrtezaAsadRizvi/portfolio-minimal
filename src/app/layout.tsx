@@ -190,7 +190,7 @@ const personSchema = {
     "Jenkins",
     "Web security",
   ],
-  knowsLanguage: ["English", "German", "Spanish"],
+  knowsLanguage: ["English", "German", "Spanish", "French", "Chinese", "Bengali", "Arabic"],
   sameAs: [
     "https://github.com/IrtezaAsadRizvi",
     "https://www.linkedin.com/in/irtezaasad",
@@ -265,7 +265,7 @@ export default function RootLayout({
         />
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var p=location.pathname;var m=p.match(/^\\/(de|es)(?:\\/|$)/);var urlLocale=m?m[1]:null;if(urlLocale){document.documentElement.lang=urlLocale;try{localStorage.setItem('locale',urlLocale);}catch(e){}return;}var stored=null;try{stored=localStorage.getItem('locale');}catch(e){}var target=stored;if(!target){var nav=(navigator.language||'en').toLowerCase();if(nav.startsWith('de'))target='de';else if(nav.startsWith('es'))target='es';else target='en';}if(target&&target!=='en'){var rest=p==='/'?'':p;location.replace('/'+target+rest+location.search+location.hash);}else{document.documentElement.lang='en';}}catch(e){}})();`,
+            __html: `(function(){try{var RTL={ar:1};var SUPP={en:1,de:1,es:1,fr:1,zh:1,bn:1,ar:1};function setLang(l){document.documentElement.lang=l;document.documentElement.dir=RTL[l]?'rtl':'ltr';}var p=location.pathname;var m=p.match(/^\\/(de|es|fr|zh|bn|ar)(?:\\/|$)/);var urlLocale=m?m[1]:null;if(urlLocale){setLang(urlLocale);try{localStorage.setItem('locale',urlLocale);}catch(e){}return;}var stored=null;try{stored=localStorage.getItem('locale');}catch(e){}var target=stored&&SUPP[stored]?stored:null;if(!target){var nav=(navigator.language||'en').toLowerCase();var two=nav.split('-')[0];if(SUPP[two])target=two;else target='en';}if(target&&target!=='en'){var rest=p==='/'?'':p;location.replace('/'+target+rest+location.search+location.hash);}else{setLang('en');}}catch(e){}})();`,
           }}
         />
         <script

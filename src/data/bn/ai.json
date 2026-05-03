@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "AI এজেন্ট, অটোমেশন এবং ওয়ার্কফ্লো",
+    "description": "AI অটোমেশন এবং ওয়ার্কফ্লো এক্সপার্ট — লোকাল-ফার্স্ট LLM এজেন্ট, Claude Code প্লাগইন, MCP সার্ভার, এবং ফলিত অ্যাডভার্সারিয়াল ML। প্রোডাকশন-রেডি AI বাস্তব ইঞ্জিনিয়ারিং পাইপলাইনে ইন্টিগ্রেটেড।"
+  },
+  "hero": {
+    "title": "AI ও এজেন্ট",
+    "description": "আমি LLM-এর সাথে হাতে-কলমে কাজ করি — লোকাল-ফার্স্ট কোডিং এজেন্ট, Claude Code প্লাগইন ও স্কিল, MCP সার্ভার, এবং মাঝে মাঝে নিজের মডেল ভাঙার পরীক্ষা। এই পেজে আমি কী তৈরি করছি, পড়ছি এবং বিশ্লেষণ করছি তা ট্র্যাক করি।"
+  },
+  "currentFocus": {
+    "sectionTitle": "বর্তমান ফোকাস",
+    "items": [
+      "লোকাল-ফার্স্ট কোডিং এজেন্ট (Ollama, Gemma, ReAct লুপ)",
+      "Claude Code প্লাগইন এবং নিজে লেখা স্কিল",
+      "বাস্তব ডেভ ওয়ার্কফ্লোর জন্য Model Context Protocol (MCP) সার্ভার",
+      "NLP-এ অ্যাডভার্সারিয়াল উদাহরণ এবং মডেল রোবাস্টনেস",
+      "ONNX Runtime দিয়ে ব্রাউজার-নেটিভ ইনফারেন্স"
+    ]
+  },
+  "toolsAndExperiments": {
+    "sectionTitle": "টুল ও পরীক্ষা",
+    "tools": [
+      {
+        "name": "nip",
+        "status": "ওপেন সোর্স · ReAct এজেন্ট",
+        "description": "Ollama-এর উপর Gemma দ্বারা চালিত একটি লোকাল-ফার্স্ট CLI কোড এজেন্ট। টুল-কলিং সহ ReAct লুপ ইমপ্লিমেন্ট করে, যাতে এটি কোনো ক্লাউড কল বা ভেন্ডর লক-ইন ছাড়াই আপনার মেশিনে কোড পড়তে, লিখতে এবং রিফ্যাক্টর করতে পারে।",
+        "github_url": "https://github.com/IrtezaAsadRizvi/nip"
+      },
+      {
+        "name": "claude-human-review",
+        "status": "Claude Code প্লাগইন",
+        "description": "একটি Claude Code প্লাগইন যা এজেন্টের প্রতিটি এডিট পরিষ্কার ভাষায় বর্ণনা করে, যাতে আপনি সম্পূর্ণ কনটেক্সট সহ অনুমোদন বা পূর্বাবস্থায় ফেরাতে পারেন। নীরব diff-এর প্রতি অবিশ্বাস থেকে জন্ম — ঘর্ষণ ছাড়া human-in-the-loop।",
+        "github_url": "https://github.com/IrtezaAsadRizvi/claude-human-review"
+      },
+      {
+        "name": "article-writing-skills",
+        "status": "Claude Skills · প্রম্পট লাইব্রেরি",
+        "description": "বিখ্যাত ইঞ্জিনিয়ার ও গবেষকদের কণ্ঠস্বরের আদলে তৈরি লেখার প্রম্পট ও Claude স্কিলের সংগ্রহ। Claude Code, ChatGPT, Gemini এবং যেকোনো LLM-এর সাথে কাজ করে — প্রম্পট-ভিত্তিক স্টাইল ট্রান্সফার কতদূর যেতে পারে তার পরীক্ষাগার।",
+        "github_url": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
+      },
+      {
+        "name": "MERN MCP",
+        "status": "MCP সার্ভার",
+        "description": "একটি ওপেন-সোর্স Model Context Protocol সার্ভার যা MERN অ্যাপের জন্য ফুল-স্ট্যাক CRUD স্ক্যাফোল্ডিং অটোমেট করে — Mongoose মডেল থেকে React কম্পোনেন্ট পর্যন্ত — প্রিভিউ-আগে-প্রয়োগ ওয়ার্কফ্লো সহ যাতে এজেন্ট লাগামে থাকে।",
+        "github_url": "https://github.com/IrtezaAsadRizvi/mern-mcp"
+      },
+      {
+        "name": "BG Remover AI",
+        "status": "ব্রাউজার · ONNX Runtime",
+        "description": "একটি দ্রুত, প্রাইভেট, সার্ভারলেস ব্যাকগ্রাউন্ড রিমুভাল টুল যা ONNX মডেলের মাধ্যমে সম্পূর্ণরূপে ব্রাউজারে চলে। কোনো আপলোড নেই, কোনো ট্র্যাকিং নেই — ২০২৬-এ ক্লায়েন্টে কতটুকু বাস্তব ML পাঠানো যায় তা অন্বেষণ।",
+        "github_url": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
+      }
+    ]
+  },
+  "writings": {
+    "sectionTitle": "AI বিষয়ক লেখা"
+  },
+  "codeBlock": {
+    "filename": "nip-session.sh",
+    "lines": [
+      "$ nip \"refactor getUser to async/await and add a cache\"",
+      "> reading src/api/users.js ... [ok]",
+      "> plan: promisify callback, wrap with async, add LRU layer",
+      "> applying patch (3 hunks) ... [ok]",
+      "> running tests ... 12 passed, 0 failed.",
+      "> agent status: idle."
+    ]
+  }
+}
