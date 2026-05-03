@@ -9,7 +9,7 @@ export default function TechnicalMeta() {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
       <Reveal>
         <section>
-          <h2 className="text-[11px] uppercase tracking-widest text-on-surface-variant/60 font-mono mb-6">
+          <h2 className="text-[11px] uppercase tracking-widest text-on-surface-variant/80 font-mono mb-6">
             {coreStack.sectionTitle}
           </h2>
           <p className="text-on-surface-variant text-sm leading-loose">
@@ -19,7 +19,7 @@ export default function TechnicalMeta() {
       </Reveal>
       <Reveal delay={0.15}>
         <section>
-          <h2 className="text-[11px] uppercase tracking-widest text-on-surface-variant/60 font-mono mb-6">
+          <h2 className="text-[11px] uppercase tracking-widest text-on-surface-variant/80 font-mono mb-6">
             {availability.sectionTitle}
           </h2>
           <p className="text-primary text-sm">{availability.status}</p>

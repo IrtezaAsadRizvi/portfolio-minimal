@@ -8,7 +8,7 @@ export default function SystemMeta() {
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-12 border-t border-outline-variant/10">
       <Reveal>
         <section>
-          <h2 className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/60 font-mono mb-4">
+          <h2 className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/80 font-mono mb-4">
             {systemStatus.sectionTitle}
           </h2>
           <div className="font-mono text-[0.7rem] space-y-2 text-on-surface-variant">
@@ -25,13 +25,13 @@ export default function SystemMeta() {
 
       <Reveal delay={0.12}>
         <section>
-          <h2 className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/60 font-mono mb-4">
+          <h2 className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/80 font-mono mb-4">
             {environment.sectionTitle}
           </h2>
           <div className="font-mono text-[0.7rem] space-y-1 text-on-surface-variant">
             {environment.entries.map((entry) => (
               <p key={entry.key}>
-                <span className="text-accent/60">{entry.key}:</span>{" "}
+                <span className="text-accent/80">{entry.key}:</span>{" "}
                 {entry.value}
               </p>
             ))}
@@ -41,7 +41,7 @@ export default function SystemMeta() {
 
       <Reveal delay={0.24} className="sm:col-span-2">
         <section>
-          <h2 className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/60 font-mono mb-4">
+          <h2 className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/80 font-mono mb-4">
             {publicKey.sectionTitle}
           </h2>
           <div className="bg-surface-container-low p-4 font-mono text-[0.65rem] leading-relaxed text-on-surface-variant overflow-x-auto border border-outline-variant/10">

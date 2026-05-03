@@ -8,11 +8,11 @@ export default function Collaborate() {
   return (
     <div className="fixed-sidebar space-y-8 animate-in stagger-3">
       <section>
-        <h2 className="text-[10px] uppercase tracking-[0.3em] text-on-surface-variant/60 font-mono mb-6">
+        <h2 className="text-[10px] uppercase tracking-[0.3em] text-on-surface-variant/80 font-mono mb-6">
           {sectionTitle}
         </h2>
         <div className="space-y-6">
-          <p className="text-on-surface-variant/60 text-sm leading-relaxed max-w-sm">
+          <p className="text-on-surface-variant/80 text-sm leading-relaxed max-w-sm">
             {description}
           </p>
           <div className="flex flex-wrap gap-3">
@@ -40,7 +40,7 @@ export default function Collaborate() {
                       target: "_blank",
                       rel: "noopener noreferrer",
                     })}
-                    className="text-on-surface-variant/60 hover:text-accent transition-colors duration-300 flex items-center justify-between group"
+                    className="text-on-surface-variant/80 hover:text-accent transition-colors duration-300 flex items-center justify-between group"
                   >
                     {social.label}
                     <span className="material-symbols-outlined text-sm group-hover:translate-x-0.5 transition-transform duration-300">

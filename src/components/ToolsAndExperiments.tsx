@@ -8,7 +8,7 @@ export default function ToolsAndExperiments() {
   return (
     <section className="mb-16">
       <Reveal>
-        <h2 className="text-[11px] font-mono text-on-surface-variant/60 uppercase tracking-widest mb-8">
+        <h2 className="text-[11px] font-mono text-on-surface-variant/80 uppercase tracking-widest mb-8">
           {sectionTitle}
         </h2>
       </Reveal>

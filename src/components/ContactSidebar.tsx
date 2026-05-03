@@ -8,7 +8,7 @@ export default function ContactSidebar() {
   return (
     <div className="md:border-l border-outline-variant/10 md:pl-12 flex flex-col gap-16">
       <section>
-        <h2 className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/60 font-mono mb-4">
+        <h2 className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/80 font-mono mb-4">
           {connect.sectionTitle}
         </h2>
         <div className="flex flex-col gap-3.5 text-xs font-mono tracking-[0.15em] uppercase pt-4 border-t border-outline-variant/20">
@@ -22,7 +22,7 @@ export default function ContactSidebar() {
                     target: "_blank",
                     rel: "noopener noreferrer",
                   })}
-                  className="text-on-surface-variant/60 hover:text-accent transition-colors duration-300 flex items-center justify-between group"
+                  className="text-on-surface-variant/80 hover:text-accent transition-colors duration-300 flex items-center justify-between group"
                 >
                   {link.label}
                   <span className="material-symbols-outlined text-sm group-hover:translate-x-0.5 transition-transform duration-300">
@@ -37,7 +37,7 @@ export default function ContactSidebar() {
 
       <Reveal delay={0.15}>
         <section>
-          <h2 className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/60 font-mono mb-6">
+          <h2 className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/80 font-mono mb-6">
             {status.sectionTitle}
           </h2>
           <div className="bg-surface-container-low p-6 border-l-2 border-accent">

@@ -140,6 +140,29 @@ h1 {
   animation: accentBreath 4s ease-in-out infinite;
 }
 
+/* ── Star pop-in ── */
+
+@keyframes starPop {
+  0% {
+    opacity: 0;
+    transform: scale(0) rotate(-90deg);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.4) rotate(12deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.star-pop {
+  display: inline-block;
+  transform-origin: center;
+  animation: starPop 0.55s cubic-bezier(0.34, 1.56, 0.64, 1) 0.7s both;
+}
+
 /* ── Status dot pulse ── */
 
 @keyframes dotPulse {

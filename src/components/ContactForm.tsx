@@ -91,7 +91,7 @@ export default function ContactForm() {
           <Reveal key={field.id} delay={i * 0.1}>
             <div className="flex flex-col">
               <label
-                className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/60 font-mono mb-2"
+                className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/80 font-mono mb-2"
                 htmlFor={field.id}
               >
                 {field.label}
@@ -105,7 +105,7 @@ export default function ContactForm() {
               >
                 <span
                   className={`font-mono pr-3 pt-3 ${
-                    error ? "text-red-400/70" : "text-accent/30"
+                    error ? "text-red-400" : "text-accent/80"
                   }`}
                 >
                   {field.prompt}
@@ -119,7 +119,7 @@ export default function ContactForm() {
                     aria-invalid={error ? true : undefined}
                     aria-describedby={error ? errorId : undefined}
                     onChange={() => clearError(field.id)}
-                    className="bg-transparent border-none py-3 text-on-surface placeholder:text-on-surface-variant/20 focus:ring-0 flex-1 resize-none focus:outline-none"
+                    className="bg-transparent border-none py-3 text-on-surface placeholder:text-on-surface-variant/60 focus:ring-0 flex-1 resize-none focus:outline-none"
                   />
                 ) : (
                   <input
@@ -130,7 +130,7 @@ export default function ContactForm() {
                     aria-invalid={error ? true : undefined}
                     aria-describedby={error ? errorId : undefined}
                     onChange={() => clearError(field.id)}
-                    className="bg-transparent border-none py-3 text-on-surface placeholder:text-on-surface-variant/20 focus:ring-0 flex-1 focus:outline-none"
+                    className="bg-transparent border-none py-3 text-on-surface placeholder:text-on-surface-variant/60 focus:ring-0 flex-1 focus:outline-none"
                   />
                 )}
               </div>
@@ -138,7 +138,7 @@ export default function ContactForm() {
                 <p
                   id={errorId}
                   role="alert"
-                  className="mt-2 text-[0.7rem] font-mono uppercase tracking-widest text-red-400/80"
+                  className="mt-2 text-[0.7rem] font-mono uppercase tracking-widest text-red-400"
                 >
                   {error}
                 </p>

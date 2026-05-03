@@ -9,7 +9,7 @@ const projects = projectsData.projects.filter((p) => p.showOnHomePage);
 export default function RecentWork() {
   return (
     <section className="mb-24 animate-in stagger-4">
-      <h2 className="text-[10px] uppercase tracking-[0.3em] text-on-surface-variant/60 font-mono mb-10">
+      <h2 className="text-[10px] uppercase tracking-[0.3em] text-on-surface-variant/80 font-mono mb-10">
         {sectionTitle}
       </h2>
       <div className="space-y-16">

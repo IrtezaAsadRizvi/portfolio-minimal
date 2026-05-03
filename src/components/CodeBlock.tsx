@@ -10,7 +10,7 @@ export default function CodeBlock() {
         <div className="bg-surface-container-low p-6 border border-outline-variant/10">
           <div className="flex items-center gap-2 mb-3">
             <span className="w-2 h-2 bg-accent/40 status-dot" />
-            <span className="text-[10px] text-on-surface-variant/50 font-mono">
+            <span className="text-[10px] text-on-surface-variant/80 font-mono">
               {filename}
             </span>
           </div>

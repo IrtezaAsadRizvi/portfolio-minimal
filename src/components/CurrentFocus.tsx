@@ -7,7 +7,7 @@ export default function CurrentFocus() {
   return (
     <section className="mb-16">
       <Reveal>
-        <h2 className="text-[11px] font-mono text-on-surface-variant/60 uppercase tracking-widest mb-4">
+        <h2 className="text-[11px] font-mono text-on-surface-variant/80 uppercase tracking-widest mb-4">
           {sectionTitle}
         </h2>
       </Reveal>
@@ -15,7 +15,7 @@ export default function CurrentFocus() {
         {items.map((item, i) => (
           <Reveal key={item} delay={i * 0.1}>
             <li className="flex items-start">
-              <span className="mr-4 text-accent/40">&mdash;</span>
+              <span className="mr-4 text-accent/70">&mdash;</span>
               <span className="text-lg text-on-surface">{item}</span>
             </li>
           </Reveal>

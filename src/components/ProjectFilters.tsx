@@ -22,7 +22,7 @@ export default function ProjectFilters({
           className={`text-[11px] font-mono uppercase tracking-[0.2em] pb-2 transition-colors ${
             active === cat
               ? "text-accent border-b border-accent -mb-[9px]"
-              : "text-on-surface-variant/30 hover:text-primary"
+              : "text-on-surface-variant/70 hover:text-primary"
           }`}
         >
           {cat}

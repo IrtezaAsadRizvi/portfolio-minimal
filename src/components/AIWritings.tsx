@@ -10,7 +10,7 @@ export default function AIWritings() {
   return (
     <section className="mb-12">
       <Reveal>
-        <h2 className="text-[11px] font-mono text-on-surface-variant/60 uppercase tracking-widest mb-8">
+        <h2 className="text-[11px] font-mono text-on-surface-variant/80 uppercase tracking-widest mb-8">
           {sectionTitle}
         </h2>
       </Reveal>
@@ -22,7 +22,7 @@ export default function AIWritings() {
                 <h3 className="text-primary group-hover:text-accent transition-colors duration-300 nav-link">
                   {post.title}
                 </h3>
-                <span className="text-accent/40 text-xs font-mono shrink-0">
+                <span className="text-accent/80 text-xs font-mono shrink-0">
                   {post.date}
                 </span>
               </div>

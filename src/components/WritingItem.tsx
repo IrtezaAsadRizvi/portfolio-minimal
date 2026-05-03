@@ -23,7 +23,7 @@ export default function WritingItem({
             <h2 className="text-lg font-medium text-primary group-hover:text-accent transition-colors duration-300">
               {title}
             </h2>
-            <span className="text-[10px] text-on-surface-variant/60 font-mono tracking-tighter uppercase">
+            <span className="text-[10px] text-on-surface-variant/80 font-mono tracking-tighter uppercase">
               [{category}]
             </span>
           </div>
@@ -32,8 +32,8 @@ export default function WritingItem({
           </p>
         </div>
         <div className="flex items-center gap-3 mt-2 md:mt-0 shrink-0">
-          <span className="text-accent/30 text-xs font-mono">{date}</span>
-          <span className="material-symbols-outlined text-sm text-on-surface-variant/30 group-hover:text-accent transition-all duration-300 group-hover:translate-x-0.5">
+          <span className="text-accent/80 text-xs font-mono">{date}</span>
+          <span className="material-symbols-outlined text-sm text-on-surface-variant/60 group-hover:text-accent transition-all duration-300 group-hover:translate-x-0.5">
             north_east
           </span>
         </div>

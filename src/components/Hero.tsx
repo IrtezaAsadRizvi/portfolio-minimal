@@ -19,7 +19,7 @@ export default function Hero() {
             <Link
               key={social.label}
               href={social.href}
-              className="text-on-surface-variant/60 hover:text-accent transition-colors flex items-center gap-1.5 text-[10px] uppercase tracking-widest font-mono"
+              className="text-on-surface-variant/80 hover:text-accent transition-colors flex items-center gap-1.5 text-[10px] uppercase tracking-widest font-mono"
             >
               <span className="material-symbols-outlined !text-sm">
                 {social.icon}

@@ -56,6 +56,7 @@ export default function Navigation() {
         <div className="hidden md:flex gap-6 items-center">
           {links.map((link) => {
             const isActive = normalized === link.href;
+            const isFeatured = link.href === "/ai";
             return (
               <Link
                 key={link.href}
@@ -63,9 +64,20 @@ export default function Navigation() {
                 className={`text-[11px] font-mono tracking-widest transition-colors nav-link ${
                   isActive
                     ? "text-accent nav-link-active"
-                    : "text-on-surface-variant/60 hover:text-primary"
+                    : isFeatured
+                      ? "text-accent hover:text-primary inline-flex items-center gap-1.5"
+                      : "text-on-surface-variant/80 hover:text-primary"
                 }`}
               >
+                {isFeatured && !isActive && (
+                  <span
+                    aria-hidden="true"
+                    className="material-symbols-outlined !text-[14px] text-accent star-pop"
+                    style={{ fontVariationSettings: '"FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24' }}
+                  >
+                    star
+                  </span>
+                )}
                 {link.label}
               </Link>
             );
@@ -105,7 +117,7 @@ export default function Navigation() {
         className="md:hidden fixed top-0 right-0 z-50 h-full w-[78%] max-w-xs bg-surface border-l border-outline-variant/20 shadow-2xl"
       >
         <div className="flex items-center justify-between px-6 py-8">
-          <span className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/60 font-mono">
+          <span className="text-[0.75rem] uppercase tracking-widest text-on-surface-variant/80 font-mono">
             Menu
           </span>
           <button
@@ -123,6 +135,7 @@ export default function Navigation() {
         <ul className="px-6 font-mono text-[0.7rem] space-y-5 text-on-surface-variant">
           {links.map((link, i) => {
             const isActive = normalized === link.href;
+            const isFeatured = link.href === "/ai";
             return (
               <li
                 key={link.href}
@@ -139,17 +152,26 @@ export default function Navigation() {
                   onClick={close}
                   className="flex items-center gap-4 group"
                 >
-                  <span className="text-accent/60">
+                  <span className="text-accent/80">
                     {String(i + 1).padStart(2, "0")}
                   </span>
                   <span
-                    className={`tracking-widest flex-1 transition-colors ${
-                      isActive
+                    className={`tracking-widest flex-1 transition-colors flex items-center gap-2 ${
+                      isActive || isFeatured
                         ? "text-accent"
                         : "text-on-surface group-hover:text-accent"
                     }`}
                   >
                     {link.label}
+                    {isFeatured && !isActive && (
+                      <span
+                        aria-hidden="true"
+                        className="material-symbols-outlined !text-[14px] text-accent star-pop"
+                        style={{ fontVariationSettings: '"FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24' }}
+                      >
+                        star
+                      </span>
+                    )}
                   </span>
                   <span className="material-symbols-outlined text-xs opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all duration-300">
                     north_east
@@ -161,7 +183,7 @@ export default function Navigation() {
         </ul>
 
         <div
-          className={`absolute bottom-8 left-6 right-6 font-mono text-[0.65rem] text-on-surface-variant/60 transition-opacity duration-500 ${
+          className={`absolute bottom-8 left-6 right-6 font-mono text-[0.65rem] text-on-surface-variant/80 transition-opacity duration-500 ${
             open ? "opacity-100" : "opacity-0"
           }`}
           style={{ transitionDelay: open ? `${120 + links.length * 60}ms` : "0ms" }}

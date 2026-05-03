@@ -36,7 +36,10 @@
       "Bash(git push *)",
       "Bash(git status *)",
       "Bash(git check-ignore *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Read(//Users/irteza/.claude/plugins/**)",
+      "Read(//Users/irteza/.claude/**)",
+      "Bash(python3 *)"
     ]
   }
 }
