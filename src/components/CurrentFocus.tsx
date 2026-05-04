@@ -14,7 +14,7 @@ export default function CurrentFocus({ locale }: { locale: Locale }) {
         {items.map((item, i) => (
           <Reveal key={item} delay={i * 0.1}>
             <li className="flex items-start">
-              <span className="mr-4 text-accent/70">&mdash;</span>
+              <span className="mr-4 text-accent/70">-</span>
               <span className="text-lg text-on-surface">{item}</span>
             </li>
           </Reveal>

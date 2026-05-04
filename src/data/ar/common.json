@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "إرتيزا أسد رضوي — مهندس Full-Stack أول وخبير أتمتة الذكاء الاصطناعي",
+    "title": "إرتيزا أسد رضوي - مهندس Full-Stack أول وخبير أتمتة الذكاء الاصطناعي",
     "description": "مهندس Full-Stack أول وخبير في أتمتة الذكاء الاصطناعي. أبني أنظمة ويب جاهزة للإنتاج باستخدام Next.js و Node.js و MERN Stack، وأطوّر وكلاء معتمدين على نماذج اللغة الكبيرة، وإضافات Claude Code، وخوادم MCP التي تؤتمت تدفقات عمل هندسية حقيقية."
   },
   "navigation": {
@@ -31,6 +31,11 @@
   "latestWriting": {
     "sectionTitle": "أحدث المقالات",
     "posts": [
+      {
+        "title": "AI-enabled web development: notes from a year of shipping it",
+        "date": "MAY 2026",
+        "href": "/writing/ai-enabled-web-development"
+      },
       {
         "title": "From Bytes to BPE: A From-Scratch Tour of LLM Tokenization",
         "date": "MAY 2026",
@@ -77,7 +82,7 @@
     ]
   },
   "footer": {
-    "copyright": "© 2024 إرتيزا — جميع الحقوق محفوظة",
+    "copyright": "© 2024 إرتيزا - جميع الحقوق محفوظة",
     "tagline": "صُنع بإتقان"
   }
 }

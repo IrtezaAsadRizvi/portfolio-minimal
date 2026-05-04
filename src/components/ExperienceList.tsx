@@ -40,7 +40,7 @@ export default function ExperienceList({ locale }: { locale: Locale }) {
                   <ul className="text-on-surface-variant text-sm space-y-2 max-w-xl">
                     {pos.bullets.map((bullet) => (
                       <li key={bullet} className="flex gap-3">
-                        <span className="text-accent/70">&mdash;</span>
+                        <span className="text-accent/70">-</span>
                         {bullet}
                       </li>
                     ))}

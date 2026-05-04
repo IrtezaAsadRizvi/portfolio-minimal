@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "KI-Agenten, Automatisierung & Workflows",
-    "description": "Experte für KI-Automatisierung und Workflows — lokal lauffähige LLM-Agenten, Claude-Code-Plugins, MCP-Server und angewandte adversariale ML. Produktionsreife KI, integriert in echte Engineering-Pipelines."
+    "description": "Experte für KI-Automatisierung und Workflows - lokal lauffähige LLM-Agenten, Claude-Code-Plugins, MCP-Server und angewandte adversariale ML. Produktionsreife KI, integriert in echte Engineering-Pipelines."
   },
   "hero": {
     "title": "KI & Agenten",
-    "description": "Ich arbeite hands-on mit LLMs — lokal lauffähige Coding-Agenten, Claude-Code-Plugins und Skills, MCP-Server und gelegentliche Experimente, in denen ich meine eigenen Modelle breche. Diese Seite dokumentiert, was ich gerade ausliefere, lese und auseinandernehme."
+    "description": "Ich arbeite hands-on mit LLMs - lokal lauffähige Coding-Agenten, Claude-Code-Plugins und Skills, MCP-Server und gelegentliche Experimente, in denen ich meine eigenen Modelle breche. Diese Seite dokumentiert, was ich gerade ausliefere, lese und auseinandernehme."
   },
   "currentFocus": {
     "sectionTitle": "Aktueller Fokus",
@@ -23,31 +23,31 @@
       {
         "name": "nip",
         "status": "Open Source · ReAct-Agent",
-        "description": "Ein lokal lauffähiger CLI-Code-Agent auf Basis von Gemma über Ollama. Implementiert eine ReAct-Schleife mit Tool-Calling, sodass er Code auf deinem Rechner lesen, schreiben und refaktorieren kann — ohne Cloud-Aufrufe und ohne Vendor-Lock-in.",
+        "description": "Ein lokal lauffähiger CLI-Code-Agent auf Basis von Gemma über Ollama. Implementiert eine ReAct-Schleife mit Tool-Calling, sodass er Code auf deinem Rechner lesen, schreiben und refaktorieren kann - ohne Cloud-Aufrufe und ohne Vendor-Lock-in.",
         "github_url": "https://github.com/IrtezaAsadRizvi/nip"
       },
       {
         "name": "claude-human-review",
         "status": "Claude-Code-Plugin",
-        "description": "Ein Claude-Code-Plugin, das jede Änderung des Agenten in einfachem Englisch erläutert, sodass du sie mit vollem Kontext freigeben oder rückgängig machen kannst. Aus dem Misstrauen gegenüber stillen Diffs entstanden — Human-in-the-Loop ohne Reibung.",
+        "description": "Ein Claude-Code-Plugin, das jede Änderung des Agenten in einfachem Englisch erläutert, sodass du sie mit vollem Kontext freigeben oder rückgängig machen kannst. Aus dem Misstrauen gegenüber stillen Diffs entstanden - Human-in-the-Loop ohne Reibung.",
         "github_url": "https://github.com/IrtezaAsadRizvi/claude-human-review"
       },
       {
         "name": "article-writing-skills",
         "status": "Claude Skills · Prompt-Bibliothek",
-        "description": "Eine Sammlung von Schreib-Prompts und Claude-Skills, modelliert nach den Stimmen bekannter Engineers und Forscher. Funktioniert mit Claude Code, ChatGPT, Gemini und jedem LLM — ein Testfeld dafür, wie weit prompt-basierter Stiltransfer gehen kann.",
+        "description": "Eine Sammlung von Schreib-Prompts und Claude-Skills, modelliert nach den Stimmen bekannter Engineers und Forscher. Funktioniert mit Claude Code, ChatGPT, Gemini und jedem LLM - ein Testfeld dafür, wie weit prompt-basierter Stiltransfer gehen kann.",
         "github_url": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
       },
       {
         "name": "MERN MCP",
         "status": "MCP-Server",
-        "description": "Ein Open-Source-Model-Context-Protocol-Server, der das Full-Stack-CRUD-Scaffolding für MERN-Apps automatisiert — von Mongoose-Modellen bis zu React-Komponenten — mit Vorschau-vor-Anwendung-Workflow, damit der Agent an der Leine bleibt.",
+        "description": "Ein Open-Source-Model-Context-Protocol-Server, der das Full-Stack-CRUD-Scaffolding für MERN-Apps automatisiert - von Mongoose-Modellen bis zu React-Komponenten - mit Vorschau-vor-Anwendung-Workflow, damit der Agent an der Leine bleibt.",
         "github_url": "https://github.com/IrtezaAsadRizvi/mern-mcp"
       },
       {
         "name": "BG Remover AI",
         "status": "Browser · ONNX Runtime",
-        "description": "Ein schnelles, privates, serverloses Tool zum Entfernen von Hintergründen, das vollständig im Browser über ONNX-Modelle läuft. Keine Uploads, kein Tracking — eine Erkundung, wie viel echtes ML man 2026 zum Client ausliefern kann.",
+        "description": "Ein schnelles, privates, serverloses Tool zum Entfernen von Hintergründen, das vollständig im Browser über ONNX-Modelle läuft. Keine Uploads, kein Tracking - eine Erkundung, wie viel echtes ML man 2026 zum Client ausliefern kann.",
         "github_url": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
       }
     ]

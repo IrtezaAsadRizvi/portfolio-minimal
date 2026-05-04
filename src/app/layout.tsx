@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 const SITE_URL = "https://irtezaasadrizvi.github.io";
 const AUTHOR = "Irteza Asad Rizvi";
 const DEFAULT_TITLE =
-  "Irteza Asad Rizvi — Senior Full-Stack & AI Automation Engineer";
+  "Irteza Asad Rizvi - Senior Full-Stack & AI Automation Engineer";
 const DEFAULT_DESCRIPTION =
   "Senior software engineer and AI automation expert. I build production full-stack systems (Next.js, Node.js, MERN), AI agents, Claude Code plugins, and MCP servers that automate real engineering workflows.";
 
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: DEFAULT_TITLE,
-    template: "%s — Irteza Asad Rizvi",
+    template: "%s - Irteza Asad Rizvi",
   },
   description: DEFAULT_DESCRIPTION,
   applicationName: "Irteza Asad Rizvi Portfolio",
@@ -182,7 +182,7 @@ const websiteSchema = {
 const professionalServiceSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
-  name: "Irteza Asad Rizvi — Full-Stack & AI Automation Consulting",
+  name: "Irteza Asad Rizvi - Full-Stack & AI Automation Consulting",
   url: SITE_URL,
   image: `${SITE_URL}/logo.png`,
   description:
@@ -214,7 +214,7 @@ const faqSchema = {
       name: "What is AI-enabled web development?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "It's the new layer of full-stack work in 2026 — large language models, agents, and ML inference wired into both the product (chat, copilot, summarization, semantic search) and the engineering loop (Claude Code plugins, MCP servers, local-first coding agents). I've been shipping it for the last year or two across Next.js, Node.js, and the MERN stack. The high-leverage piece is almost always the typed integration surface, not the prompt.",
+        text: "It's the new layer of full-stack work in 2026 - large language models, agents, and ML inference wired into both the product (chat, copilot, summarization, semantic search) and the engineering loop (Claude Code plugins, MCP servers, local-first coding agents). I've been shipping it for the last year or two across Next.js, Node.js, and the MERN stack. The high-leverage piece is almost always the typed integration surface, not the prompt.",
       },
     },
     {
@@ -222,7 +222,7 @@ const faqSchema = {
       name: "What is an MCP server?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "An MCP (Model Context Protocol) server is just a process that exposes tools, data, and capabilities to an LLM client over a standardized protocol — kind of like a GraphQL endpoint, but for an agent. It lets a client like Claude Code read your database, call your APIs, or run domain-specific actions without bespoke integration code. I build custom MCP servers, including the open-source MERN MCP, that automate full-stack CRUD scaffolding and developer workflows.",
+        text: "An MCP (Model Context Protocol) server is just a process that exposes tools, data, and capabilities to an LLM client over a standardized protocol - kind of like a GraphQL endpoint, but for an agent. It lets a client like Claude Code read your database, call your APIs, or run domain-specific actions without bespoke integration code. I build custom MCP servers, including the open-source MERN MCP, that automate full-stack CRUD scaffolding and developer workflows.",
       },
     },
     {
@@ -230,7 +230,7 @@ const faqSchema = {
       name: "What is a Claude Code plugin?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A Claude Code plugin extends the Claude Code CLI with custom commands, hooks, MCP servers, sub-agents, or skills tailored to your codebase. Plugins can narrate edits, enforce conventions, run pre-commit checks, or wire in proprietary tools. I've authored claude-human-review, which describes each edit Claude is about to make in plain English so engineers can approve or undo with full context — diff hunts are the wrong review surface.",
+        text: "A Claude Code plugin extends the Claude Code CLI with custom commands, hooks, MCP servers, sub-agents, or skills tailored to your codebase. Plugins can narrate edits, enforce conventions, run pre-commit checks, or wire in proprietary tools. I've authored claude-human-review, which describes each edit Claude is about to make in plain English so engineers can approve or undo with full context - diff hunts are the wrong review surface.",
       },
     },
     {
@@ -238,7 +238,7 @@ const faqSchema = {
       name: "What is a ReAct agent?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A ReAct (Reasoning + Acting) agent is an LLM that interleaves thoughts with concrete tool calls — read a file, run a search, write a patch — until a task is complete. It's the loop behind most modern coding agents. My open-source project nip is a local-first ReAct agent powered by Gemma on Ollama, with no cloud calls and no vendor lock-in.",
+        text: "A ReAct (Reasoning + Acting) agent is an LLM that interleaves thoughts with concrete tool calls - read a file, run a search, write a patch - until a task is complete. It's the loop behind most modern coding agents. My open-source project nip is a local-first ReAct agent powered by Gemma on Ollama, with no cloud calls and no vendor lock-in.",
       },
     },
     {
@@ -246,7 +246,7 @@ const faqSchema = {
       name: "Is Irteza Asad Rizvi available for hire?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. I'm open to senior full-stack roles, AI-focused contracts, and consulting engagements. Remote out of Toronto, specializing in shipping production AI features — LLM agents, Claude Code plugins, MCP servers — into Next.js, Node.js, Vue, and Nuxt apps. Fastest way to reach me: irtezaasad@gmail.com.",
+        text: "Yes. I'm open to senior full-stack roles, AI-focused contracts, and consulting engagements. Remote out of Toronto, specializing in shipping production AI features - LLM agents, Claude Code plugins, MCP servers - into Next.js, Node.js, Vue, and Nuxt apps. Fastest way to reach me: irtezaasad@gmail.com.",
       },
     },
     {
@@ -279,7 +279,7 @@ export default function RootLayout({
         <link
           rel="alternate"
           type="application/rss+xml"
-          title="Irteza Asad Rizvi — Writing"
+          title="Irteza Asad Rizvi - Writing"
           href="/rss.xml"
         />
         <script

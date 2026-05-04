@@ -6,7 +6,7 @@ export const dynamic = "force-static";
 
 const SITE_URL = "https://irtezaasadrizvi.github.io";
 const AUTHOR = "Irteza Asad Rizvi";
-const FEED_TITLE = "Irteza Asad Rizvi — Writing";
+const FEED_TITLE = "Irteza Asad Rizvi - Writing";
 const FEED_DESCRIPTION =
   "Technical deep-dives on Node.js internals, AI and LLM engineering, adversarial machine learning, DevOps, and web security.";
 

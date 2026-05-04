@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Irteza Asad Rizvi — Ingeniero Senior Full-Stack y de Automatización con IA",
+    "title": "Irteza Asad Rizvi - Ingeniero Senior Full-Stack y de Automatización con IA",
     "description": "Ingeniero senior full-stack y experto en automatización con IA. Construyo sistemas web de producción con Next.js, Node.js y el stack MERN, y desarrollo agentes basados en LLM, plugins de Claude Code y servidores MCP que automatizan flujos reales de ingeniería."
   },
   "navigation": {
@@ -31,6 +31,11 @@
   "latestWriting": {
     "sectionTitle": "Últimas Publicaciones",
     "posts": [
+      {
+        "title": "AI-enabled web development: notes from a year of shipping it",
+        "date": "MAY 2026",
+        "href": "/writing/ai-enabled-web-development"
+      },
       {
         "title": "From Bytes to BPE: A From-Scratch Tour of LLM Tokenization",
         "date": "MAY 2026",
@@ -77,7 +82,7 @@
     ]
   },
   "footer": {
-    "copyright": "© 2024 IRTEZA — TODOS LOS DERECHOS RESERVADOS",
+    "copyright": "© 2024 IRTEZA - TODOS LOS DERECHOS RESERVADOS",
     "tagline": "CONSTRUIDO CON PRECISIÓN"
   }
 }

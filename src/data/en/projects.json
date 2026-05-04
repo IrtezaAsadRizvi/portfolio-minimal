@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Projects: Full-Stack & AI Engineering Work",
-    "description": "Selected full-stack, AI automation, and open-source projects — production web systems, LLM agents, Claude Code plugins, MCP servers, and experimental ML tooling."
+    "description": "Selected full-stack, AI automation, and open-source projects - production web systems, LLM agents, Claude Code plugins, MCP servers, and experimental ML tooling."
   },
   "header": {
     "title": "Projects",
-    "description": "Open-source AI agents, Claude Code plugins, MCP servers, and full-stack web tools — production-grade and experimental work, all built with a focus on architectural clarity and human-in-the-loop control."
+    "description": "Open-source AI agents, Claude Code plugins, MCP servers, and full-stack web tools - production-grade and experimental work, all built with a focus on architectural clarity and human-in-the-loop control."
   },
   "categories": [
     { "key": "All", "label": "All" },

@@ -102,7 +102,7 @@ export default async function NativePostPage({
                 <ul className="space-y-2 text-sm text-on-surface-variant leading-relaxed">
                   {post.tldr.map((line, i) => (
                     <li key={i} className="flex gap-3">
-                      <span className="text-accent/70">—</span>
+                      <span className="text-accent/70">-</span>
                       <span>{line}</span>
                     </li>
                   ))}
@@ -140,7 +140,7 @@ export default async function NativePostPage({
                       <ul className="space-y-2 text-on-surface text-base leading-relaxed">
                         {section.list.map((item, j) => (
                           <li key={j} className="flex gap-3">
-                            <span className="text-accent/70 shrink-0">—</span>
+                            <span className="text-accent/70 shrink-0">-</span>
                             <span>{item}</span>
                           </li>
                         ))}

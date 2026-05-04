@@ -5,7 +5,7 @@
   },
   "hero": {
     "title": "IA y Agentes",
-    "description": "Construyo de forma práctica con LLMs — agentes de programación local-first, plugins y skills de Claude Code, servidores MCP, y experimentos ocasionales rompiendo mis propios modelos. Esta página recoge lo que estoy construyendo, leyendo y desmenuzando."
+    "description": "Construyo de forma práctica con LLMs - agentes de programación local-first, plugins y skills de Claude Code, servidores MCP, y experimentos ocasionales rompiendo mis propios modelos. Esta página recoge lo que estoy construyendo, leyendo y desmenuzando."
   },
   "currentFocus": {
     "sectionTitle": "Foco Actual",
@@ -29,25 +29,25 @@
       {
         "name": "claude-human-review",
         "status": "Plugin de Claude Code",
-        "description": "Un plugin de Claude Code que narra cada edición que el agente realiza en lenguaje claro, para que apruebes o deshagas con todo el contexto. Nacido de la desconfianza ante los diffs silenciosos — human-in-the-loop sin fricción.",
+        "description": "Un plugin de Claude Code que narra cada edición que el agente realiza en lenguaje claro, para que apruebes o deshagas con todo el contexto. Nacido de la desconfianza ante los diffs silenciosos - human-in-the-loop sin fricción.",
         "github_url": "https://github.com/IrtezaAsadRizvi/claude-human-review"
       },
       {
         "name": "article-writing-skills",
         "status": "Claude Skills · Biblioteca de Prompts",
-        "description": "Una colección de prompts de escritura y skills de Claude modelados sobre las voces de ingenieros e investigadores conocidos. Funciona con Claude Code, ChatGPT, Gemini y cualquier LLM — un campo de pruebas de hasta dónde puede llegar la transferencia de estilo vía prompts.",
+        "description": "Una colección de prompts de escritura y skills de Claude modelados sobre las voces de ingenieros e investigadores conocidos. Funciona con Claude Code, ChatGPT, Gemini y cualquier LLM - un campo de pruebas de hasta dónde puede llegar la transferencia de estilo vía prompts.",
         "github_url": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
       },
       {
         "name": "MERN MCP",
         "status": "Servidor MCP",
-        "description": "Un servidor open-source de Model Context Protocol que automatiza el scaffolding CRUD full-stack para apps MERN — desde modelos de Mongoose hasta componentes de React — con un flujo de previsualización-antes-de-aplicar para mantener al agente con correa.",
+        "description": "Un servidor open-source de Model Context Protocol que automatiza el scaffolding CRUD full-stack para apps MERN - desde modelos de Mongoose hasta componentes de React - con un flujo de previsualización-antes-de-aplicar para mantener al agente con correa.",
         "github_url": "https://github.com/IrtezaAsadRizvi/mern-mcp"
       },
       {
         "name": "BG Remover AI",
         "status": "Navegador · ONNX Runtime",
-        "description": "Una herramienta rápida, privada y sin servidor para eliminar fondos que se ejecuta enteramente en el navegador con modelos ONNX. Sin uploads ni tracking — explorando cuánto ML real puede entregarse al cliente en 2026.",
+        "description": "Una herramienta rápida, privada y sin servidor para eliminar fondos que se ejecuta enteramente en el navegador con modelos ONNX. Sin uploads ni tracking - explorando cuánto ML real puede entregarse al cliente en 2026.",
         "github_url": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
       }
     ]

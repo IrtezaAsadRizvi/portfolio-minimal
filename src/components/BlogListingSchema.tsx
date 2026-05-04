@@ -30,7 +30,7 @@ export default function BlogListingSchema({ locale }: { locale: Locale }) {
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: "Writing — Irteza Asad Rizvi",
+    name: "Writing - Irteza Asad Rizvi",
     itemListOrder: "https://schema.org/ItemListOrderDescending",
     numberOfItems: writing.posts.length,
     itemListElement: writing.posts.map((post, i) => ({

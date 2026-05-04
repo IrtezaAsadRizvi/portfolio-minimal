@@ -37,7 +37,7 @@
   --outline-variant: #3A3832;
 }
 
-/* Light theme — triggered by the OS / browser preference */
+/* Light theme - triggered by the OS / browser preference */
 @media (prefers-color-scheme: light) {
   :root {
     color-scheme: light;

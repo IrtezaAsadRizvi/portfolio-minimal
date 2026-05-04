@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Irteza Asad Rizvi — Senior Full-Stack & AI Automation Engineer",
+    "title": "Irteza Asad Rizvi - Senior Full-Stack & AI Automation Engineer",
     "description": "Senior full-stack engineer and AI automation expert. I ship production web systems with Next.js, Node.js, and the MERN stack, and build LLM-powered agents, Claude Code plugins, and MCP servers that automate real engineering workflows."
   },
   "navigation": {
@@ -18,7 +18,7 @@
   },
   "hero": {
     "heading": "Hey, I'm Irteza",
-    "description": "Senior full-stack engineer. Lately I've been shipping AI-enabled web development end-to-end — production Next.js / Node.js systems, AI agents, Claude Code plugins, and MCP servers — with a stubborn preference for narrow loops and humans in the loop.",
+    "description": "Senior full-stack engineer. Lately I've been shipping AI-enabled web development end-to-end - production Next.js / Node.js systems, AI agents, Claude Code plugins, and MCP servers - with a stubborn preference for narrow loops and humans in the loop.",
     "socials": [
       { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "code" },
       { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "groups" },
@@ -31,6 +31,11 @@
   "latestWriting": {
     "sectionTitle": "Latest Writing",
     "posts": [
+      {
+        "title": "AI-enabled web development: notes from a year of shipping it",
+        "date": "MAY 2026",
+        "href": "/writing/ai-enabled-web-development"
+      },
       {
         "title": "From Bytes to BPE: A From-Scratch Tour of LLM Tokenization",
         "date": "MAY 2026",
@@ -77,7 +82,7 @@
     ]
   },
   "footer": {
-    "copyright": "\u00a9 2024 IRTEZA \u2014 ALL RIGHTS RESERVED",
+    "copyright": "\u00a9 2024 IRTEZA - ALL RIGHTS RESERVED",
     "tagline": "BUILT WITH PRECISION"
   }
 }

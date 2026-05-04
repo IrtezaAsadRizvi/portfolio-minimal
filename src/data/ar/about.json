@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "نبذة: مهندس Full-Stack وخبير أتمتة الذكاء الاصطناعي",
-    "description": "مهندس Full-Stack أول مع أكثر من 7 سنوات في تسليم منتجات ويب باستخدام Node.js و React و Next.js و Vue و Nuxt — وأركّز الآن على أتمتة الذكاء الاصطناعي ووكلاء LLM وإضافات Claude Code وخوادم MCP."
+    "description": "مهندس Full-Stack أول مع أكثر من 7 سنوات في تسليم منتجات ويب باستخدام Node.js و React و Next.js و Vue و Nuxt - وأركّز الآن على أتمتة الذكاء الاصطناعي ووكلاء LLM وإضافات Claude Code وخوادم MCP."
   },
   "header": {
     "title": "نبذة",
-    "description": "مطوّر Full-Stack مع أكثر من 7 سنوات من تسليم منتجات الويب — JavaScript و Node.js و React/Next.js و Vue، وكل ما يلتصق بها من CI/CD. مؤخراً أتحوّل نحو الذكاء الاصطناعي: وكلاء برمجة محلية، وإضافات وسكلز Claude Code، وخوادم MCP لتدفقات عمل تطوير حقيقية. الأمن اهتمام جانبي متكرّر — كتبت عن اختراق الـ VPS، والتعلم الآلي العدائي، وإنتروبيا كلمات المرور، إلى جانب التحليلات العميقة في الواجهة الخلفية والأمامية."
+    "description": "مطوّر Full-Stack مع أكثر من 7 سنوات من تسليم منتجات الويب - JavaScript و Node.js و React/Next.js و Vue، وكل ما يلتصق بها من CI/CD. مؤخراً أتحوّل نحو الذكاء الاصطناعي: وكلاء برمجة محلية، وإضافات وسكلز Claude Code، وخوادم MCP لتدفقات عمل تطوير حقيقية. الأمن اهتمام جانبي متكرّر - كتبت عن اختراق الـ VPS، والتعلم الآلي العدائي، وإنتروبيا كلمات المرور، إلى جانب التحليلات العميقة في الواجهة الخلفية والأمامية."
   },
   "experience": {
     "sectionTitle": "المسيرة المهنية",
@@ -15,10 +15,10 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "تورنتو، كندا · عن بُعد",
-        "period": "JAN 2025 — حتى الآن",
+        "period": "JAN 2025 - حتى الآن",
         "bullets": [
           "متابعة المسؤولية عن freeconvert.com ومنصة TransMedia ككل بعد الترقية. الـ Stack الأساسي: Node.js و Nuxt.js.",
-          "إعداد خط أنابيب CI/CD باستخدام Jenkins + Docker لـ ProPDF — أداة SaaS جديدة في باقة TransMedia — وتسليم محرّر PDF غني الميزات يعمل داخل المتصفح.",
+          "إعداد خط أنابيب CI/CD باستخدام Jenkins + Docker لـ ProPDF - أداة SaaS جديدة في باقة TransMedia - وتسليم محرّر PDF غني الميزات يعمل داخل المتصفح.",
           "تطوير TrueRCE، محرّر نص غني داخلي يعمل كبديل مباشر لـ TinyMCE عبر المنصة بأكملها.",
           "إدخال تدفقات عمل ذكاء اصطناعي وكيلية إلى يوميات الفريق، وبناء أتمتة تترجم وتنشر محتوى مُحلَّناً تلقائياً من البداية إلى النهاية.",
           "المساهمة في خط أنابيب بناء .NET وتحسينات تدفقات العمل بين الفرق."
@@ -29,9 +29,9 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "تورنتو، كندا · عن بُعد",
-        "period": "JUL 2021 — JAN 2025",
+        "period": "JUL 2021 - JAN 2025",
         "bullets": [
-          "تطوير وصيانة freeconvert.com — منصة SaaS رائدة لتحويل وضغط وإعادة تشفير الملفات عبر الإنترنت.",
+          "تطوير وصيانة freeconvert.com - منصة SaaS رائدة لتحويل وضغط وإعادة تشفير الملفات عبر الإنترنت.",
           "الـ Stack الأساسي: Nuxt.js و Node.js. تعاون مع فريق DevOps على خطوط أنابيب النشر وتحسين الخوادم.",
           "Stack الإنتاج والتكاملات: WebSocket و Docker و Kubernetes و AWS و SSH و GTM و Google Analytics و Amplitude و Sentry و Intercom و Crisp و Jira."
         ]
@@ -41,7 +41,7 @@
         "company": "Sheba.xyz",
         "website": "https://www.sheba.xyz/",
         "location": "دكا، بنغلاديش",
-        "period": "FEB 2018 — JUN 2021",
+        "period": "FEB 2018 - JUN 2021",
         "bullets": [
           "قائد تقني لفريق سوق sheba.xyz (8 مهندسين).",
           "تسليم تطبيق PWA للتجارة الإلكترونية بـ Vue.js، وأداة ويب B2B بـ Angular، والعديد من تطبيقات SPA بـ Nuxt و React.",

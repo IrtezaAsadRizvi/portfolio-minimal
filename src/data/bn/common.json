@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ইরতেজা আসাদ রিজভি — সিনিয়র ফুল-স্ট্যাক ও AI অটোমেশন ইঞ্জিনিয়ার",
+    "title": "ইরতেজা আসাদ রিজভি - সিনিয়র ফুল-স্ট্যাক ও AI অটোমেশন ইঞ্জিনিয়ার",
     "description": "সিনিয়র ফুল-স্ট্যাক ইঞ্জিনিয়ার এবং AI অটোমেশন এক্সপার্ট। আমি Next.js, Node.js এবং MERN স্ট্যাক দিয়ে প্রোডাকশন ওয়েব সিস্টেম তৈরি করি, এবং LLM-চালিত এজেন্ট, Claude Code প্লাগইন ও MCP সার্ভার বানাই যা বাস্তব ইঞ্জিনিয়ারিং ওয়ার্কফ্লো অটোমেট করে।"
   },
   "navigation": {
@@ -31,6 +31,11 @@
   "latestWriting": {
     "sectionTitle": "সাম্প্রতিক লেখা",
     "posts": [
+      {
+        "title": "AI-enabled web development: notes from a year of shipping it",
+        "date": "MAY 2026",
+        "href": "/writing/ai-enabled-web-development"
+      },
       {
         "title": "From Bytes to BPE: A From-Scratch Tour of LLM Tokenization",
         "date": "MAY 2026",
@@ -77,7 +82,7 @@
     ]
   },
   "footer": {
-    "copyright": "© ২০২৪ ইরতেজা — সর্বস্বত্ব সংরক্ষিত",
+    "copyright": "© ২০২৪ ইরতেজা - সর্বস্বত্ব সংরক্ষিত",
     "tagline": "নিখুঁতভাবে নির্মিত"
   }
 }

@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Projekte: Full-Stack- & KI-Engineering-Arbeiten",
-    "description": "Ausgewählte Full-Stack-, KI-Automatisierungs- und Open-Source-Projekte — produktionsreife Web-Systeme, LLM-Agenten, Claude-Code-Plugins, MCP-Server und experimentelles ML-Tooling."
+    "description": "Ausgewählte Full-Stack-, KI-Automatisierungs- und Open-Source-Projekte - produktionsreife Web-Systeme, LLM-Agenten, Claude-Code-Plugins, MCP-Server und experimentelles ML-Tooling."
   },
   "header": {
     "title": "Projekte",
-    "description": "Eine Auswahl technischer Erkundungen, Open-Source-Module und experimenteller Systeme — gebaut mit Fokus auf Performance und architektonischer Klarheit."
+    "description": "Eine Auswahl technischer Erkundungen, Open-Source-Module und experimenteller Systeme - gebaut mit Fokus auf Performance und architektonischer Klarheit."
   },
   "categories": [
     { "key": "All", "label": "Alle" },
@@ -66,7 +66,7 @@
       "title": "MERN MCP",
       "category": "Tools",
       "tag": "Entwickler-Tools",
-      "description": "Ein Open-Source-MCP-Server, der das Full-Stack-CRUD-Scaffolding für MERN-Apps automatisiert — von Datenbankmodellen bis zu React-Komponenten — mit Vorschau-vor-Anwendung-Workflow.",
+      "description": "Ein Open-Source-MCP-Server, der das Full-Stack-CRUD-Scaffolding für MERN-Apps automatisiert - von Datenbankmodellen bis zu React-Komponenten - mit Vorschau-vor-Anwendung-Workflow.",
       "stack": ["TypeScript", "Node.js", "Express", "React"],
       "link": {
         "label": "GitHub",

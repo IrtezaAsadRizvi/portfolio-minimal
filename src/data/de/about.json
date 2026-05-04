@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "Über mich: Full-Stack-Engineer & KI-Automatisierungs-Experte",
-    "description": "Senior Full-Stack-Engineer mit über 7 Jahren Erfahrung im Ausliefern von Web-Produkten mit Node.js, React, Next.js, Vue und Nuxt — heute fokussiert auf KI-Automatisierung, LLM-Agenten, Claude-Code-Plugins und MCP-Server."
+    "description": "Senior Full-Stack-Engineer mit über 7 Jahren Erfahrung im Ausliefern von Web-Produkten mit Node.js, React, Next.js, Vue und Nuxt - heute fokussiert auf KI-Automatisierung, LLM-Agenten, Claude-Code-Plugins und MCP-Server."
   },
   "header": {
     "title": "Über mich",
-    "description": "Full-Stack-Entwickler mit über 7 Jahren Erfahrung im Ausliefern von Web-Produkten — JavaScript, Node.js, React/Next.js, Vue und der CI/CD-Klebstoff drumherum. In letzter Zeit beschäftige ich mich mit KI: lokal lauffähige Coding-Agenten, Claude-Code-Plugins und Skills sowie MCP-Server für echte Entwicklungs-Workflows. Sicherheit ist ein wiederkehrendes Nebeninteresse — ich habe über VPS-Kompromittierungen, adversariale ML und Passwort-Entropie geschrieben, ergänzend zu meinen Backend- und Frontend-Deep-Dives."
+    "description": "Full-Stack-Entwickler mit über 7 Jahren Erfahrung im Ausliefern von Web-Produkten - JavaScript, Node.js, React/Next.js, Vue und der CI/CD-Klebstoff drumherum. In letzter Zeit beschäftige ich mich mit KI: lokal lauffähige Coding-Agenten, Claude-Code-Plugins und Skills sowie MCP-Server für echte Entwicklungs-Workflows. Sicherheit ist ein wiederkehrendes Nebeninteresse - ich habe über VPS-Kompromittierungen, adversariale ML und Passwort-Entropie geschrieben, ergänzend zu meinen Backend- und Frontend-Deep-Dives."
   },
   "experience": {
     "sectionTitle": "Beruflicher Werdegang",
@@ -15,10 +15,10 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "Toronto, Kanada · Remote",
-        "period": "JAN 2025 — HEUTE",
+        "period": "JAN 2025 - HEUTE",
         "bullets": [
           "Verantwortung für freeconvert.com und die gesamte TransMedia-Plattform nach der Beförderung. Hauptstack: Node.js und Nuxt.js.",
-          "Aufsetzen der Jenkins- und Docker-CI/CD-Pipeline für ProPDF — ein neues SaaS-Tool im TransMedia-Portfolio — und Auslieferung des funktionsreichen In-Browser-PDF-Editors.",
+          "Aufsetzen der Jenkins- und Docker-CI/CD-Pipeline für ProPDF - ein neues SaaS-Tool im TransMedia-Portfolio - und Auslieferung des funktionsreichen In-Browser-PDF-Editors.",
           "Entwicklung von TrueRCE, einem hauseigenen Rich-Text-Editor als plattformweiter Drop-in-Ersatz für TinyMCE.",
           "Einführung agentischer KI-Workflows in den Team-Alltag und Aufbau von Automatisierungen, die lokalisierte Inhalte Ende-zu-Ende übersetzen und automatisch veröffentlichen.",
           "Beiträge zur .NET-Build-Pipeline und teamübergreifende Workflow-Verbesserungen."
@@ -29,9 +29,9 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "Toronto, Kanada · Remote",
-        "period": "JUL 2021 — JAN 2025",
+        "period": "JUL 2021 - JAN 2025",
         "bullets": [
-          "Entwicklung und Wartung von freeconvert.com — einer top-platzierten SaaS-Plattform für Online-Dateikonvertierung, -kompression und -transkodierung.",
+          "Entwicklung und Wartung von freeconvert.com - einer top-platzierten SaaS-Plattform für Online-Dateikonvertierung, -kompression und -transkodierung.",
           "Hauptstack: Nuxt.js und Node.js. Enge Zusammenarbeit mit dem DevOps-Team an Deployment-Pipelines und Server-Optimierungen.",
           "Produktions-Stack und Integrationen: WebSocket, Docker, Kubernetes, AWS, SSH, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp, Jira."
         ]
@@ -41,7 +41,7 @@
         "company": "Sheba.xyz",
         "website": "https://www.sheba.xyz/",
         "location": "Dhaka, Bangladesch",
-        "period": "FEB 2018 — JUN 2021",
+        "period": "FEB 2018 - JUN 2021",
         "bullets": [
           "Technischer Team-Lead für das sheba.xyz-Marketplace-Team (8 Engineers).",
           "Auslieferung einer eCommerce-PWA in Vue.js, eines B2B-Web-Tools in Angular sowie mehrerer SPAs in Nuxt und React.",

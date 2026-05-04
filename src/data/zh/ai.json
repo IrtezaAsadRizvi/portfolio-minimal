@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "AI 智能体、自动化与工作流",
-    "description": "AI 自动化与工作流专家 — 本地优先的 LLM 智能体、Claude Code 插件、MCP 服务器,以及应用型对抗式机器学习。生产级 AI,集成到真实的工程流水线中。"
+    "description": "AI 自动化与工作流专家 - 本地优先的 LLM 智能体、Claude Code 插件、MCP 服务器,以及应用型对抗式机器学习。生产级 AI,集成到真实的工程流水线中。"
   },
   "hero": {
     "title": "AI 与智能体",
-    "description": "我亲手与 LLM 打交道 — 本地优先的代码智能体、Claude Code 插件与 skills、MCP 服务器,以及偶尔尝试打破自己模型的实验。这个页面记录我正在交付、阅读和拆解的内容。"
+    "description": "我亲手与 LLM 打交道 - 本地优先的代码智能体、Claude Code 插件与 skills、MCP 服务器,以及偶尔尝试打破自己模型的实验。这个页面记录我正在交付、阅读和拆解的内容。"
   },
   "currentFocus": {
     "sectionTitle": "当前重点",
@@ -29,25 +29,25 @@
       {
         "name": "claude-human-review",
         "status": "Claude Code 插件",
-        "description": "一款 Claude Code 插件,用清晰的语言讲述智能体每一次的修改,让你能在完整上下文下批准或撤销。它源自对静默 diff 的不信任 — 让 human-in-the-loop 不再有摩擦。",
+        "description": "一款 Claude Code 插件,用清晰的语言讲述智能体每一次的修改,让你能在完整上下文下批准或撤销。它源自对静默 diff 的不信任 - 让 human-in-the-loop 不再有摩擦。",
         "github_url": "https://github.com/IrtezaAsadRizvi/claude-human-review"
       },
       {
         "name": "article-writing-skills",
         "status": "Claude Skills · 提示词库",
-        "description": "一组写作提示词与 Claude skills,以知名工程师与研究者的语调建模。可与 Claude Code、ChatGPT、Gemini 及任意 LLM 配合使用 — 是探索基于提示词的风格迁移能走多远的试验场。",
+        "description": "一组写作提示词与 Claude skills,以知名工程师与研究者的语调建模。可与 Claude Code、ChatGPT、Gemini 及任意 LLM 配合使用 - 是探索基于提示词的风格迁移能走多远的试验场。",
         "github_url": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
       },
       {
         "name": "MERN MCP",
         "status": "MCP 服务器",
-        "description": "一个开源 Model Context Protocol 服务器,自动化 MERN 应用的全栈 CRUD 脚手架 — 从 Mongoose 模型到 React 组件 — 配备先预览再应用的工作流,把智能体牢牢拴住。",
+        "description": "一个开源 Model Context Protocol 服务器,自动化 MERN 应用的全栈 CRUD 脚手架 - 从 Mongoose 模型到 React 组件 - 配备先预览再应用的工作流,把智能体牢牢拴住。",
         "github_url": "https://github.com/IrtezaAsadRizvi/mern-mcp"
       },
       {
         "name": "BG Remover AI",
         "status": "浏览器 · ONNX Runtime",
-        "description": "一款快速、隐私、无服务器的去背景工具,通过 ONNX 模型完全在浏览器中运行。无上传、无追踪 — 探索 2026 年到底能把多少真实的 ML 推到客户端。",
+        "description": "一款快速、隐私、无服务器的去背景工具,通过 ONNX 模型完全在浏览器中运行。无上传、无追踪 - 探索 2026 年到底能把多少真实的 ML 推到客户端。",
         "github_url": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
       }
     ]
