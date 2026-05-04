@@ -52,6 +52,9 @@
       }
     ]
   },
+  "training": {
+    "sectionTitle": "培训"
+  },
   "writings": {
     "sectionTitle": "AI 相关文章"
   },

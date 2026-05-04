@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import AboutHeader from "@/components/AboutHeader";
 import ExperienceList from "@/components/ExperienceList";
+import TrainingList from "@/components/TrainingList";
 import TechnicalMeta from "@/components/TechnicalMeta";
 import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -21,6 +22,7 @@ export default function AboutPage({ locale }: { locale: Locale }) {
       <main className="max-w-5xl mx-auto px-6 pt-16 pb-32">
         <AboutHeader locale={locale} />
         <ExperienceList locale={locale} />
+        <TrainingList locale={locale} />
         <TechnicalMeta locale={locale} />
       </main>
       <Footer locale={locale} />

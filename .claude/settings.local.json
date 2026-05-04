@@ -43,7 +43,9 @@
       "Bash(grep -oE 'AI-enabled web development[^<\"]{0,80}' /Users/irteza/Work/Products/portfolio_new/out/writing/ai-enabled-web-development.html)",
       "Bash(grep -oE '\"It.s the new layer[^\"]{0,200}' /Users/irteza/Work/Products/portfolio_new/out/index.html)",
       "Bash(awk '/<url>/,/<\\\\/url>/' /Users/irteza/Work/Products/portfolio_new/out/sitemap.xml)",
-      "Bash(xmllint --noout /Users/irteza/Work/Products/portfolio_new/out/sitemap.xml)"
+      "Bash(xmllint --noout /Users/irteza/Work/Products/portfolio_new/out/sitemap.xml)",
+      "Bash(git mv *)",
+      "Bash(node *)"
     ]
   }
 }

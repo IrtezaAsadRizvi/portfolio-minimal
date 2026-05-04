@@ -52,6 +52,9 @@
       }
     ]
   },
+  "training": {
+    "sectionTitle": "التدريب"
+  },
   "writings": {
     "sectionTitle": "مقالات في الذكاء الاصطناعي"
   },

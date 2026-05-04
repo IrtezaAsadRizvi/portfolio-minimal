@@ -52,6 +52,9 @@
       }
     ]
   },
+  "training": {
+    "sectionTitle": "Schulungen"
+  },
   "writings": {
     "sectionTitle": "Beiträge zu KI"
   },

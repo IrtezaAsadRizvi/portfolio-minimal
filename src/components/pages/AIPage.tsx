@@ -4,14 +4,16 @@ import CurrentFocus from "@/components/CurrentFocus";
 import ToolsAndExperiments from "@/components/ToolsAndExperiments";
 import CodeBlock from "@/components/CodeBlock";
 import AIWritings from "@/components/AIWritings";
+import TrainingList from "@/components/TrainingList";
 import Reveal from "@/components/Reveal";
 import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
 import { getContent, localePath, type Locale } from "@/lib/i18n";
 
 export default function AIPage({ locale }: { locale: Locale }) {
-  const home = getContent(locale).common.navigation.links[0]?.label ?? "Home";
-  const aiTitle = getContent(locale).ai.hero.title;
+  const content = getContent(locale);
+  const home = content.common.navigation.links[0]?.label ?? "Home";
+  const aiTitle = content.ai.hero.title;
   return (
     <>
       <Breadcrumb
@@ -32,6 +34,11 @@ export default function AIPage({ locale }: { locale: Locale }) {
         <Reveal>
           <div className="w-full h-px bg-outline-variant/20 mb-16 line-draw" />
         </Reveal>
+        <TrainingList
+          locale={locale}
+          includeOnly={["AI"]}
+          sectionTitle={content.ai.training.sectionTitle}
+        />
         <AIWritings locale={locale} />
       </main>
       <Footer locale={locale} />

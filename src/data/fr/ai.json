@@ -52,6 +52,9 @@
       }
     ]
   },
+  "training": {
+    "sectionTitle": "Formations"
+  },
   "writings": {
     "sectionTitle": "Articles sur l'IA"
   },

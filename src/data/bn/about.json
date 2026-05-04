@@ -51,6 +51,113 @@
       }
     ]
   },
+  "training": {
+    "sectionTitle": "প্রশিক্ষণ ও পুরস্কার",
+    "categories": [
+      {
+        "key": "All",
+        "label": "সব"
+      },
+      {
+        "key": "AI",
+        "label": "এআই"
+      },
+      {
+        "key": "Engineering",
+        "label": "ইঞ্জিনিয়ারিং"
+      },
+      {
+        "key": "Language",
+        "label": "ভাষা"
+      },
+      {
+        "key": "Awards",
+        "label": "পুরস্কার"
+      }
+    ],
+    "items": [
+      {
+        "slug": "ielts-academic-2025",
+        "title": "IELTS Academic",
+        "provider": "IELTS",
+        "providerIcon": "/training/icons/icon_ielts.png",
+        "category": "Language",
+        "tag": "ইংরেজি দক্ষতা",
+        "period": "আগস্ট ২০২৫",
+        "description": "সামগ্রিক ব্যান্ড স্কোর ৮.০ (CEFR C1) - লিসেনিং ৮.০, রিডিং ৯.০, রাইটিং ৬.৫, স্পিকিং ৮.০।",
+        "certificate": "/training/certificates/certificate_ielts.jpg",
+        "width": 2480,
+        "height": 3508,
+        "placeholder": "data:image/jpeg;base64,/9j/wAARCAAQAAsDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9sAQwATExMTExMgExMgLSAgIC09LS0tLT1NPT09PT1NXU1NTU1NTV1dXV1dXV1dcHBwcHBwg4ODg4OTk5OTk5OTk5OT/9sAQwEXGBglIyVAIyNAmWhVaJmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZ/90ABAAB/9oADAMBAAIRAxEAPwDrlDKSF6Z9akUsV+YYNIRjgZpQDjmgD//Z",
+        "viewLabel": "সার্টিফিকেট দেখুন →",
+        "downloadLabel": "ডাউনলোড"
+      },
+      {
+        "slug": "claude-code-in-action",
+        "title": "Claude Code in Action",
+        "provider": "Anthropic",
+        "providerIcon": "/training/icons/icon_anthropic.svg",
+        "category": "AI",
+        "tag": "এজেন্টিক কোডিং",
+        "period": "এপ্রিল ২০২৫",
+        "description": "এজেন্টিক কোডিং লুপ, MCP এবং Claude Code স্কিল-এর হাতে-কলমে কর্মশালা।",
+        "certificate": "/training/certificates/certificate_claude-code-in-action.jpg",
+        "width": 3300,
+        "height": 2550,
+        "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAwAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAwAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AL13c3C3EgWRgA5xgn1pLW5uGuIw0jkF1yCT61sTaZA8ruS2WJPUd/woi0y3SVHBbKkHqO34VjZ3JP/Z",
+        "viewLabel": "সার্টিফিকেট দেখুন →",
+        "downloadLabel": "ডাউনলোড"
+      },
+      {
+        "slug": "ccna-workshop",
+        "title": "Cisco Certified Network Associate কর্মশালা",
+        "provider": "Cisco",
+        "providerIcon": "/training/icons/icon_cisco.svg",
+        "category": "Engineering",
+        "tag": "নেটওয়ার্কিং",
+        "period": "নভেম্বর ২০১৭",
+        "description": "ADN Eduservices এবং University of Liberal Arts Bangladesh যৌথভাবে আয়োজিত ৮ ঘণ্টার CCNA মৌলিক কর্মশালা।",
+        "certificate": "/training/certificates/certificate_ccna.jpg",
+        "width": 3416,
+        "height": 2404,
+        "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAsAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAsAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AOu+yxbmPPWmG2iY4OatFRk9fzprjjPPHvWPJHsM/9k=",
+        "viewLabel": "সার্টিফিকেট দেখুন →",
+        "downloadLabel": "ডাউনলোড"
+      },
+      {
+        "slug": "ulab-ieee-tech-fest-2016",
+        "title": "ULAB IEEE Tech Fest 2016",
+        "provider": "IEEE",
+        "providerIcon": "/training/icons/icon_ieee.svg",
+        "category": "Engineering",
+        "tag": "প্রজেক্ট শোকেস অ্যাওয়ার্ড",
+        "period": "নভেম্বর ২০১৬",
+        "description": "ULAB IEEE স্টুডেন্ট ব্রাঞ্চ টেক ফেস্ট-এর প্রজেক্ট শোকেসে প্রথম রানার আপ।",
+        "certificate": "/training/certificates/certificate_ieee_contest_2026.jpg",
+        "width": 3504,
+        "height": 2552,
+        "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAsAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAsAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AO4ZQUBxQqLsOR19awbu+uopGSN8Aew/wql/ad9wPM/Qf4UwP//Z",
+        "viewLabel": "সার্টিফিকেট দেখুন →",
+        "downloadLabel": "ডাউনলোড"
+      },
+      {
+        "slug": "ssc-best-student-2011",
+        "title": "সেরা শিক্ষার্থী পারফরমেন্স অ্যাওয়ার্ড",
+        "provider": "Cambrian College",
+        "providerIcon": "/training/icons/icon_cambrian.png",
+        "category": "Awards",
+        "tag": "একাডেমিক অ্যাওয়ার্ড",
+        "period": "জুন ২০১১",
+        "description": "এসএসসি ২০১১-এ অসাধারণ ফলাফলের (জিপিএ-৫) জন্য বিএসবি ফাউন্ডেশন ও ক্যাম্ব্রিয়ান কলেজ কর্তৃক স্বীকৃতি।",
+        "certificate": "/training/certificates/certificate_ssc_testimonial_cambrian.jpg",
+        "width": 3508,
+        "height": 2479,
+        "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAsAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAsAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AOojjaUySGR+JHGAT2b2NLLG0KpIJHJ3oMbj3YD1qw1tFvYjIySThiOpyehpBbRF1J3HBB5Zj06d6mx082t76H//2Q==",
+        "viewLabel": "সার্টিফিকেট দেখুন →",
+        "downloadLabel": "ডাউনলোড"
+      }
+    ]
+  },
   "coreStack": {
     "sectionTitle": "মূল স্ট্যাক",
     "items": "TypeScript, Node.js, Next.js, React, Vue, Python, MongoDB, PostgreSQL, Docker, AWS, Linux, CI/CD, Claude SDK, Model Context Protocol, Ollama, ONNX Runtime."

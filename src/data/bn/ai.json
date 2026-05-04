@@ -52,6 +52,9 @@
       }
     ]
   },
+  "training": {
+    "sectionTitle": "প্রশিক্ষণ"
+  },
   "writings": {
     "sectionTitle": "AI বিষয়ক লেখা"
   },

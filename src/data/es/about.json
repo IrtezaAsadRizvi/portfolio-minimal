@@ -51,6 +51,113 @@
       }
     ]
   },
+  "training": {
+    "sectionTitle": "Formación y Premios",
+    "categories": [
+      {
+        "key": "All",
+        "label": "Todos"
+      },
+      {
+        "key": "AI",
+        "label": "IA"
+      },
+      {
+        "key": "Engineering",
+        "label": "Ingeniería"
+      },
+      {
+        "key": "Language",
+        "label": "Idioma"
+      },
+      {
+        "key": "Awards",
+        "label": "Premios"
+      }
+    ],
+    "items": [
+      {
+        "slug": "ielts-academic-2025",
+        "title": "IELTS Academic",
+        "provider": "IELTS",
+        "providerIcon": "/training/icons/icon_ielts.png",
+        "category": "Language",
+        "tag": "Inglés",
+        "period": "AGO 2025",
+        "description": "Banda general 8.0 (CEFR C1) - Listening 8.0, Reading 9.0, Writing 6.5, Speaking 8.0.",
+        "certificate": "/training/certificates/certificate_ielts.jpg",
+        "width": 2480,
+        "height": 3508,
+        "placeholder": "data:image/jpeg;base64,/9j/wAARCAAQAAsDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9sAQwATExMTExMgExMgLSAgIC09LS0tLT1NPT09PT1NXU1NTU1NTV1dXV1dXV1dcHBwcHBwg4ODg4OTk5OTk5OTk5OT/9sAQwEXGBglIyVAIyNAmWhVaJmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZ/90ABAAB/9oADAMBAAIRAxEAPwDrlDKSF6Z9akUsV+YYNIRjgZpQDjmgD//Z",
+        "viewLabel": "Ver certificado →",
+        "downloadLabel": "Descargar"
+      },
+      {
+        "slug": "claude-code-in-action",
+        "title": "Claude Code in Action",
+        "provider": "Anthropic",
+        "providerIcon": "/training/icons/icon_anthropic.svg",
+        "category": "AI",
+        "tag": "Coding Agéntico",
+        "period": "ABR 2025",
+        "description": "Taller práctico sobre bucles de coding agéntico, MCP y skills de Claude Code.",
+        "certificate": "/training/certificates/certificate_claude-code-in-action.jpg",
+        "width": 3300,
+        "height": 2550,
+        "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAwAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAwAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AL13c3C3EgWRgA5xgn1pLW5uGuIw0jkF1yCT61sTaZA8ruS2WJPUd/woi0y3SVHBbKkHqO34VjZ3JP/Z",
+        "viewLabel": "Ver certificado →",
+        "downloadLabel": "Descargar"
+      },
+      {
+        "slug": "ccna-workshop",
+        "title": "Cisco Certified Network Associate Workshop",
+        "provider": "Cisco",
+        "providerIcon": "/training/icons/icon_cisco.svg",
+        "category": "Engineering",
+        "tag": "Redes",
+        "period": "NOV 2017",
+        "description": "Taller de 8 horas sobre fundamentos de CCNA, impartido por ADN Eduservices y la University of Liberal Arts Bangladesh.",
+        "certificate": "/training/certificates/certificate_ccna.jpg",
+        "width": 3416,
+        "height": 2404,
+        "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAsAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAsAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AOu+yxbmPPWmG2iY4OatFRk9fzprjjPPHvWPJHsM/9k=",
+        "viewLabel": "Ver certificado →",
+        "downloadLabel": "Descargar"
+      },
+      {
+        "slug": "ulab-ieee-tech-fest-2016",
+        "title": "ULAB IEEE Tech Fest 2016",
+        "provider": "IEEE",
+        "providerIcon": "/training/icons/icon_ieee.svg",
+        "category": "Engineering",
+        "tag": "Premio de Project Showcase",
+        "period": "NOV 2016",
+        "description": "Segundo lugar en el Project Showcase del ULAB IEEE Student Branch Tech Fest.",
+        "certificate": "/training/certificates/certificate_ieee_contest_2026.jpg",
+        "width": 3504,
+        "height": 2552,
+        "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAsAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAsAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AO4ZQUBxQqLsOR19awbu+uopGSN8Aew/wql/ad9wPM/Qf4UwP//Z",
+        "viewLabel": "Ver certificado →",
+        "downloadLabel": "Descargar"
+      },
+      {
+        "slug": "ssc-best-student-2011",
+        "title": "Best Student's Performance Award",
+        "provider": "Cambrian College",
+        "providerIcon": "/training/icons/icon_cambrian.png",
+        "category": "Awards",
+        "tag": "Premio Académico",
+        "period": "JUN 2011",
+        "description": "Reconocimiento por rendimiento sobresaliente (GPA-5) en el examen SSC 2011 otorgado por BSB Foundation y Cambrian College.",
+        "certificate": "/training/certificates/certificate_ssc_testimonial_cambrian.jpg",
+        "width": 3508,
+        "height": 2479,
+        "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAsAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAsAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AOojjaUySGR+JHGAT2b2NLLG0KpIJHJ3oMbj3YD1qw1tFvYjIySThiOpyehpBbRF1J3HBB5Zj06d6mx082t76H//2Q==",
+        "viewLabel": "Ver certificado →",
+        "downloadLabel": "Descargar"
+      }
+    ]
+  },
   "coreStack": {
     "sectionTitle": "Stack Principal",
     "items": "TypeScript, Node.js, Next.js, React, Vue, Python, MongoDB, PostgreSQL, Docker, AWS, Linux, CI/CD, Claude SDK, Model Context Protocol, Ollama, ONNX Runtime."
