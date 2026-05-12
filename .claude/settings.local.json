@@ -45,7 +45,15 @@
       "Bash(awk '/<url>/,/<\\\\/url>/' /Users/irteza/Work/Products/portfolio_new/out/sitemap.xml)",
       "Bash(xmllint --noout /Users/irteza/Work/Products/portfolio_new/out/sitemap.xml)",
       "Bash(git mv *)",
-      "Bash(node *)"
+      "Bash(node *)",
+      "Bash(open -a \"Google Chrome\" /Users/irteza/Downloads/IrtezaAsadCV_2026_v2.html)",
+      "Bash(open /Users/irteza/Downloads/IrtezaAsadCV_2026_v2.html)",
+      "Bash(open -a \"Google Chrome\" /Users/irteza/Downloads/IrtezaAsadCV_PayPay.html)",
+      "Bash(open /Users/irteza/Downloads/IrtezaAsadCV_PayPay.html)",
+      "Bash(open -a \"Google Chrome\" /Users/irteza/Downloads/IrtezaAsadCoverLetter_PayPay.html)",
+      "Bash(open /Users/irteza/Downloads/IrtezaAsadCoverLetter_PayPay.html)",
+      "Bash(open -a \"Google Chrome\" /Users/irteza/Downloads/IrtezaAsadCV_AI.html)",
+      "Bash(open /Users/irteza/Downloads/IrtezaAsadCV_AI.html)"
     ]
   }
 }

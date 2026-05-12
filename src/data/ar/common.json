@@ -11,6 +11,7 @@
       { "label": "الرئيسية", "href": "/" },
       { "label": "المشاريع", "href": "/projects" },
       { "label": "الذكاء الاصطناعي", "href": "/ai" },
+      { "label": "WEBDEV", "href": "/webdev" },
       { "label": "نبذة", "href": "/about" },
       { "label": "المدوّنة", "href": "/writing" },
       { "label": "تواصل", "href": "/contact" }
@@ -18,7 +19,10 @@
   },
   "hero": {
     "heading": "مرحباً، أنا إرتيزا",
-    "description": "مهندس برمجيات أول مهتم بأنظمة الويب القابلة للتوسّع وتكامل الذكاء الاصطناعي. أعمل بـ MERN Stack و Next.js مع تركيز واضح على هندسة معمارية نظيفة.",
+    "description": [
+      "مهندس Full-Stack ذو خبرة تزيد على 7 سنوات في بناء تطبيقات ويب إنتاجية باستخدام Node.js و React و Nuxt.js، مع خبرة عملية في DevOps والبنية التحتية السحابية على AWS.",
+      "خلال العام الأخير ركّزت بشكل مكثّف على تدفقات التطوير المعزّزة بالذكاء الاصطناعي، فبنيت وكلاء AI وخوادم MCP وإضافات وتدفقات برمجة أكثر أماناً حول أدوات مثل Claude Code و Codex. هدفي أن أجعل التطوير المدعوم بالذكاء الاصطناعي أكثر موثوقية وانضباطاً وقابلية للتطبيق العملي لفرق الهندسة الفعلية."
+    ],
     "socials": [
       { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "code" },
       { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "groups" },
@@ -68,7 +72,7 @@
     "description": "متاح حالياً لفرص جديدة، أو استشارات متخصصة، أو التعاون على منتجات معتمدة على الذكاء الاصطناعي.",
     "cta": {
       "primary": { "label": "تواصل معي", "href": "mailto:irtezaasad@gmail.com" },
-      "secondary": { "label": "السيرة الذاتية", "href": "#" }
+      "secondary": { "label": "السيرة الذاتية", "href": "https://drive.google.com/file/d/1T5AWxCU8wwYKg5wO8S1DaDPKEg06axfv/view?usp=sharing" }
     },
     "socials": [
       { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "north_east" },

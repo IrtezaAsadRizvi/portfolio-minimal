@@ -15,13 +15,16 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "Toronto, Canada · Remote",
-        "period": "JAN 2025 - PRESENT",
+        "period": "AUG 2021 - PRESENT",
         "bullets": [
           "Continued ownership of freeconvert.com and the broader TransMedia platform following promotion. Primary stack: Node.js and Nuxt.js.",
-          "Set up the Jenkins + Docker CI/CD pipeline for ProPDF - a new SaaS tool in the TransMedia suite - and shipped its feature-rich in-browser PDF editor.",
+          "Set up the Jenkins + Docker CI/CD pipeline for propdf.com, a new SaaS tool in the TransMedia suite, and shipped its feature-rich in-browser PDF editor. Primary stack: ASP.NET and Next.js.",
           "Developed TrueRCE, an in-house rich-text editor built as a drop-in replacement for TinyMCE across the platform.",
           "Introduced agentic AI workflows into the team's day-to-day, and built automations that translate and auto-publish localized content end-to-end.",
-          "Contributed to the .NET build pipeline and cross-team workflow improvements."
+          "Implemented standards for AI workflows with in-house hooks, plugins, and MCPs (one I open-sourced).",
+          "Contributed to the .NET build pipeline and cross-team workflow improvements.",
+          "Worked with the DevOps team on Azure services like Storage Account, Container Apps, Resource Groups, and more.",
+          "Integrated auth services like WorkOS."
         ]
       },
       {
@@ -29,24 +32,27 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "Toronto, Canada · Remote",
-        "period": "JUL 2021 - JAN 2025",
+        "period": "JUL 2021 - DEC 2024",
         "bullets": [
-          "Developed and maintained freeconvert.com - a top-ranked SaaS platform for online file conversion, compression, and transcoding.",
-          "Primary stack: Nuxt.js and Node.js. Partnered with the DevOps team on deployment pipelines and server optimization.",
-          "Production stack and integrations: WebSocket, Docker, Kubernetes, AWS, SSH, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp, Jira."
+          "Contributed to the development and maintenance of FreeConvert.com, a widely used SaaS platform for online file conversion, compression, and transcoding services.",
+          "Primarily worked with Nuxt.js and Node.js to build scalable frontend and backend features, improve performance, and enhance user experience. Optimised the platform to achieve a 100 PageSpeed score (without ads).",
+          "Collaborated closely with the DevOps team on deployment pipelines, infrastructure improvements, and server optimization initiatives.",
+          "Worked with a modern production ecosystem including WebSocket, Docker, Kubernetes, SSH, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp, and Jira.",
+          "Gained hands-on experience with AWS services such as S3, EKS, EC2, EFS, and AMI, and shared knowledge through technical articles and documentation."
         ]
       },
       {
-        "role": "Fullstack Developer",
+        "role": "Full-Stack Developer / Technical Team Lead",
         "company": "Sheba.xyz",
         "website": "https://www.sheba.xyz/",
         "location": "Dhaka, Bangladesh",
-        "period": "FEB 2018 - JUN 2021",
+        "period": "FEB 2018 - JUL 2021",
         "bullets": [
-          "Technical team lead for the sheba.xyz marketplace team (8 engineers).",
-          "Shipped an eCommerce PWA in Vue.js, a B2B web tool in Angular, and several SPAs in Nuxt and React.",
-          "Built backend APIs in Laravel and Node, plus admin panels in Laravel / Blade / Vue.",
-          "Integrated and operated: WebSocket, PM2, Amazon S3, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp."
+          "Joined as a Junior Engineer on the Sheba.xyz e-commerce service platform (Vue 2 PWA) and gradually grew into the role of Technical Team Lead.",
+          "Led the Sheba.xyz marketplace team of 8 members, overseeing development and feature delivery.",
+          "Maintained and extended supporting services, including a CMS (Laravel, Blade) and API (Laravel).",
+          "Contributed to a B2B web tool using Angular and Angular Material.",
+          "Built and delivered several smaller SPA projects with Nuxt.js and React."
         ]
       }
     ]

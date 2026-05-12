@@ -11,6 +11,7 @@
       { "label": "首页", "href": "/" },
       { "label": "项目", "href": "/projects" },
       { "label": "AI", "href": "/ai" },
+      { "label": "WEBDEV", "href": "/webdev" },
       { "label": "关于", "href": "/about" },
       { "label": "博客", "href": "/writing" },
       { "label": "联系", "href": "/contact" }
@@ -18,7 +19,10 @@
   },
   "hero": {
     "heading": "你好,我是 Irteza",
-    "description": "资深软件工程师,专注于可扩展的 Web 系统和 AI 集成。使用 MERN 技术栈、Next.js 进行开发,注重清晰的架构设计。",
+    "description": [
+      "资深全栈工程师,拥有 7 年以上使用 Node.js、React 和 Nuxt.js 构建生产级 Web 应用的经验,并具备 DevOps 与 AWS 云基础设施的实操经验。",
+      "过去一年里,我深入投入 AI 辅助的开发工作流,围绕 Claude Code、Codex 等工具构建 AI 智能体、MCP 服务器、插件以及更安全的编码工作流。我的目标是让 AI 驱动的 Web 开发对真实的工程团队来说更可靠、可控、可落地。"
+    ],
     "socials": [
       { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "code" },
       { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "groups" },
@@ -68,7 +72,7 @@
     "description": "目前可接受新机会、专业咨询,或在 AI 驱动的产品上展开合作。",
     "cta": {
       "primary": { "label": "雇用我", "href": "mailto:irtezaasad@gmail.com" },
-      "secondary": { "label": "简历", "href": "#" }
+      "secondary": { "label": "简历", "href": "https://drive.google.com/file/d/1T5AWxCU8wwYKg5wO8S1DaDPKEg06axfv/view?usp=sharing" }
     },
     "socials": [
       { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "north_east" },

@@ -10,9 +10,14 @@ export default function Hero({ locale }: { locale: Locale }) {
         {heading}
       </h1>
       <div className="max-w-2xl">
-        <p className="text-lg text-on-surface-variant leading-relaxed mb-6 animate-in stagger-3">
-          {description}
-        </p>
+        {(Array.isArray(description) ? description : [description]).map((paragraph, index) => (
+          <p
+            key={index}
+            className="text-lg text-on-surface-variant leading-relaxed mb-6 animate-in stagger-3"
+          >
+            {paragraph}
+          </p>
+        ))}
         <div className="flex gap-5 items-center pt-2 animate-in stagger-4">
           {socials.map((social) => (
             <Link

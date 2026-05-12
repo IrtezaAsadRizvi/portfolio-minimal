@@ -11,6 +11,7 @@ interface TrainingListProps {
   locale: Locale;
   includeOnly?: string[];
   excludeCategories?: string[];
+  excludeSlugs?: string[];
   sectionTitle?: string;
 }
 
@@ -18,20 +19,24 @@ export default function TrainingList({
   locale,
   includeOnly,
   excludeCategories,
+  excludeSlugs,
   sectionTitle,
 }: TrainingListProps) {
   const training = getContent(locale).about.training;
 
   const allItems = training.items as TrainingItemData[];
   const visibleItems = useMemo(() => {
+    let items = allItems;
     if (includeOnly?.length) {
-      return allItems.filter((it) => includeOnly.includes(it.category));
+      items = items.filter((it) => includeOnly.includes(it.category));
+    } else if (excludeCategories?.length) {
+      items = items.filter((it) => !excludeCategories.includes(it.category));
     }
-    if (excludeCategories?.length) {
-      return allItems.filter((it) => !excludeCategories.includes(it.category));
+    if (excludeSlugs?.length) {
+      items = items.filter((it) => !excludeSlugs.includes(it.slug));
     }
-    return allItems;
-  }, [allItems, includeOnly, excludeCategories]);
+    return items;
+  }, [allItems, includeOnly, excludeCategories, excludeSlugs]);
 
   const visibleCategories = useMemo(() => {
     return training.categories.filter((c) => {

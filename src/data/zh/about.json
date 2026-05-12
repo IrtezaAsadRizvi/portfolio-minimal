@@ -15,13 +15,16 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "加拿大多伦多 · 远程",
-        "period": "2025年1月 - 至今",
+        "period": "2021年8月 - 至今",
         "bullets": [
           "晋升后继续负责 freeconvert.com 与整个 TransMedia 平台。主要技术栈:Node.js 和 Nuxt.js。",
-          "为 ProPDF - TransMedia 套件中的新 SaaS 工具 - 搭建了 Jenkins + Docker 的 CI/CD 流水线,并交付了功能完整的浏览器内 PDF 编辑器。",
+          "为 propdf.com 搭建了 Jenkins + Docker 的 CI/CD 流水线,这是 TransMedia 套件中的一款全新 SaaS 工具,并交付了功能完整的浏览器内 PDF 编辑器。主要技术栈:ASP.NET 和 Next.js。",
           "开发了 TrueRCE,一款自研富文本编辑器,作为 TinyMCE 在整个平台上的直接替代品。",
           "将 agentic AI 工作流引入团队的日常开发,并构建了端到端翻译并自动发布本地化内容的自动化流程。",
-          "参与 .NET 构建流水线及跨团队工作流改进。"
+          "通过自研的 hooks、plugins 与 MCP 为 AI 工作流确立了标准(其中一个已开源)。",
+          "参与 .NET 构建流水线及跨团队工作流改进。",
+          "与 DevOps 团队协作,使用 Azure 上的 Storage Account、Container Apps、Resource Groups 等服务。",
+          "集成了 WorkOS 等身份认证服务。"
         ]
       },
       {
@@ -29,24 +32,27 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "加拿大多伦多 · 远程",
-        "period": "2021年7月 - 2025年1月",
+        "period": "2021年7月 - 2024年12月",
         "bullets": [
-          "开发并维护 freeconvert.com - 在线文件转换、压缩与转码领域排名靠前的 SaaS 平台。",
-          "主要技术栈:Nuxt.js 和 Node.js。与 DevOps 团队合作完成部署流水线和服务器优化。",
-          "生产环境技术栈与集成:WebSocket、Docker、Kubernetes、AWS、SSH、GTM、Google Analytics、Amplitude、Sentry、Intercom、Crisp、Jira。"
+          "参与 FreeConvert.com 的开发与维护,这是一个广泛使用的在线文件转换、压缩与转码 SaaS 平台。",
+          "主要使用 Nuxt.js 和 Node.js 构建可扩展的前后端功能,提升性能与用户体验。将平台优化至 PageSpeed 满分 100(无广告状态)。",
+          "与 DevOps 团队紧密协作,推进部署流水线、基础设施升级与服务器优化等工作。",
+          "在现代化的生产环境中工作,涵盖 WebSocket、Docker、Kubernetes、SSH、GTM、Google Analytics、Amplitude、Sentry、Intercom、Crisp 和 Jira。",
+          "在 AWS 的 S3、EKS、EC2、EFS、AMI 等服务上积累了实操经验,并通过技术文章与文档分享知识。"
         ]
       },
       {
-        "role": "Fullstack Developer",
+        "role": "Full-Stack Developer / Technical Team Lead",
         "company": "Sheba.xyz",
         "website": "https://www.sheba.xyz/",
         "location": "孟加拉达卡",
-        "period": "2018年2月 - 2021年6月",
+        "period": "2018年2月 - 2021年7月",
         "bullets": [
-          "担任 sheba.xyz 市场团队(8 名工程师)的技术负责人。",
-          "交付了 Vue.js 写的电商 PWA、Angular 写的 B2B Web 工具,以及多个 Nuxt 与 React 的 SPA。",
-          "用 Laravel 和 Node 构建后端 API,并使用 Laravel / Blade / Vue 开发管理面板。",
-          "集成与运维:WebSocket、PM2、Amazon S3、GTM、Google Analytics、Amplitude、Sentry、Intercom、Crisp。"
+          "以初级工程师身份加入 Sheba.xyz 电商服务平台(Vue 2 PWA),并逐步成长为 Technical Team Lead。",
+          "带领 8 人组成的 Sheba.xyz 市场团队,负责整体开发与功能交付。",
+          "维护并扩展配套服务,包括 CMS(Laravel、Blade)和 API(Laravel)。",
+          "参与基于 Angular 与 Angular Material 的 B2B Web 工具开发。",
+          "使用 Nuxt.js 与 React 构建并交付多个较小型 SPA 项目。"
         ]
       }
     ]

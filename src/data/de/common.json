@@ -11,6 +11,7 @@
       { "label": "STARTSEITE", "href": "/" },
       { "label": "PROJEKTE", "href": "/projects" },
       { "label": "KI", "href": "/ai" },
+      { "label": "WEBDEV", "href": "/webdev" },
       { "label": "ÜBER MICH", "href": "/about" },
       { "label": "BLOG", "href": "/writing" },
       { "label": "KONTAKT", "href": "/contact" }
@@ -18,7 +19,10 @@
   },
   "hero": {
     "heading": "Hallo, ich bin Irteza",
-    "description": "Senior Software-Engineer mit Fokus auf skalierbare Web-Systeme und KI-Integration. Ich arbeite mit dem MERN-Stack, Next.js und einem klaren Anspruch an saubere Architektur.",
+    "description": [
+      "Erfahrener Full-Stack-Engineer mit über 7 Jahren Praxis im Bau produktionsreifer Webanwendungen mit Node.js, React und Nuxt.js, sowie fundierter Hands-on-Erfahrung in DevOps und AWS-Cloud-Infrastruktur.",
+      "Im letzten Jahr habe ich mich intensiv auf KI-gestützte Entwicklungs-Workflows konzentriert: KI-Agenten, MCP-Server, Plugins und sicherere Coding-Workflows rund um Werkzeuge wie Claude Code und Codex. Mein Ziel ist es, KI-gestützte Webentwicklung für echte Engineering-Teams zuverlässiger, kontrollierter und praxistauglicher zu machen."
+    ],
     "socials": [
       { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "code" },
       { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "groups" },
@@ -68,7 +72,7 @@
     "description": "Ich bin derzeit offen für neue Projekte, spezialisierte Beratung oder die Zusammenarbeit an KI-getriebenen Produkten.",
     "cta": {
       "primary": { "label": "Anfrage senden", "href": "mailto:irtezaasad@gmail.com" },
-      "secondary": { "label": "Lebenslauf", "href": "#" }
+      "secondary": { "label": "Lebenslauf", "href": "https://drive.google.com/file/d/1T5AWxCU8wwYKg5wO8S1DaDPKEg06axfv/view?usp=sharing" }
     },
     "socials": [
       { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "north_east" },

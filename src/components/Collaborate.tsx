@@ -23,6 +23,8 @@ export default function Collaborate({ locale }: { locale: Locale }) {
             </Link>
             <Link
               href={cta.secondary.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-outline-variant text-primary px-5 py-2.5 text-xs font-mono font-bold uppercase tracking-widest hover:border-accent hover:text-accent hover-lift transition-all duration-300"
             >
               {cta.secondary.label}

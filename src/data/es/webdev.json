@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Full-Stack Web Engineering, Nuxt, Next.js & Node",
+    "description": "Senior full-stack web engineer with 7+ years shipping production web products end-to-end - Nuxt 3, Next.js, React, Vue, Node / Express, and the AWS + Docker delivery pipeline behind them."
+  },
+  "hero": {
+    "title": "Full-Stack Web Engineering",
+    "description": "7+ years shipping production web products end-to-end in TypeScript - Nuxt 3 and Next.js on the front, Node / Express on the back, and the AWS + Docker delivery pipeline tying it together. This page tracks the web engineering work itself: typed boundaries from DB to UI, component patterns that hold up as features pile on, and the freelance and open-source builds along the way."
+  },
+  "currentFocus": {
+    "sectionTitle": "Current Focus",
+    "items": [
+      "Type-safe API boundaries from DB to UI in TypeScript",
+      "Nuxt 3 / Vue 3 and Next.js / React component patterns at scale",
+      "Node / Express services with WebSocket real-time delivery",
+      "AWS, Docker, Kubernetes, and Jenkins CI/CD pipelines",
+      "Production observability with Sentry, Google Analytics, and Amplitude"
+    ]
+  },
+  "toolsAndExperiments": {
+    "sectionTitle": "Selected Work",
+    "tools": [
+      {
+        "name": "FreeConvert",
+        "status": "Production · Nuxt 3 + Node",
+        "description": "One of the top-ranked SaaS platforms for online file conversion, compression, and transcoding. Frontend in Nuxt 3, backend services in Node / Express, real-time progress over WebSocket, deployed on AWS + Kubernetes + Cloudflare. Millions of conversions a month.",
+        "github_url": "https://www.freeconvert.com"
+      },
+      {
+        "name": "ProPDF",
+        "status": "Production · Nuxt + PDF Editor",
+        "description": "An in-browser PDF editor shipped as a new SaaS product in the TransMedia suite. Set up the Jenkins + Docker CI/CD pipeline from scratch and built the feature-rich editing surface end-to-end.",
+        "github_url": "https://www.propdf.com"
+      },
+      {
+        "name": "EnviroConfig",
+        "status": "Open Source · Node Package",
+        "description": "Env-config and schema validation for Node. Catches misconfigured deployments at boot so production never gets surprised by a missing key. Multi-environment defaults baked in.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/EnviroConfig"
+      },
+      {
+        "name": "node-express-rate-limiter",
+        "status": "Open Source · NPM Package",
+        "description": "An Express.js rate-limiting middleware with customizable rules, IP whitelisting, Redis-backed counters, and burst handling. Built for real production traffic, not just demos.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/node-express-rate-limiter"
+      },
+      {
+        "name": "vue3-counter",
+        "status": "Open Source · Vue Component",
+        "description": "A highly customizable numeric counter component for Vue 3 with flexible layouts, styling options, and full TypeScript support. Small surface area, real ergonomics.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/vue3-counter"
+      },
+      {
+        "name": "ProPassword",
+        "status": "Open Source · Next.js App",
+        "description": "A privacy-first, client-side password generator with phrase-based generation, entropy analysis, and multi-language support. Built with Next.js, TypeScript, Redux Toolkit, and Tailwind.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/pro-password"
+      }
+    ]
+  },
+  "training": {
+    "sectionTitle": "Training & Awards"
+  },
+  "writings": {
+    "sectionTitle": "Writing on Web Engineering",
+    "filterCategories": ["Engineering", "DevOps"]
+  },
+  "codeBlock": {
+    "filename": "deploy.sh",
+    "lines": [
+      "$ make deploy ENV=prod",
+      "> building images: api, worker, web ... [ok]",
+      "> pushing to registry ... [ok]",
+      "> rolling: prod-green.freeconvert.com (4/4 pods ready)",
+      "> health: /healthz 200, p95 latency 84ms",
+      "> traffic switch: blue -> green ... [ok]",
+      "> deploy status: live."
+    ]
+  }
+}

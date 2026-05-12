@@ -15,13 +15,16 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "Toronto, Canada · À distance",
-        "period": "JAN 2025 - AUJOURD'HUI",
+        "period": "AOÛT 2021 - AUJOURD'HUI",
         "bullets": [
           "Responsable de freeconvert.com et de l'ensemble de la plateforme TransMedia après promotion. Stack principale : Node.js et Nuxt.js.",
-          "Mise en place du pipeline CI/CD Jenkins + Docker pour ProPDF - un nouvel outil SaaS de la suite TransMedia - et livraison de son éditeur PDF complet dans le navigateur.",
+          "Mise en place du pipeline CI/CD Jenkins + Docker pour propdf.com, un nouvel outil SaaS de la suite TransMedia, et livraison de son éditeur PDF complet dans le navigateur. Stack principale : ASP.NET et Next.js.",
           "Développement de TrueRCE, un éditeur de texte enrichi maison conçu comme remplacement direct de TinyMCE sur toute la plateforme.",
           "Introduction de workflows IA agentiques dans le quotidien de l'équipe, et construction d'automatisations qui traduisent et publient automatiquement du contenu localisé de bout en bout.",
-          "Contributions au pipeline de build .NET et aux améliorations de workflow inter-équipes."
+          "Mise en place de standards internes pour les workflows IA avec hooks, plugins et serveurs MCP (l'un d'eux ouvert en open source).",
+          "Contributions au pipeline de build .NET et aux améliorations de workflow inter-équipes.",
+          "Collaboration avec l'équipe DevOps sur des services Azure comme Storage Account, Container Apps, Resource Groups et autres.",
+          "Intégration de services d'authentification comme WorkOS."
         ]
       },
       {
@@ -29,24 +32,27 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "Toronto, Canada · À distance",
-        "period": "JUIL 2021 - JAN 2025",
+        "period": "JUIL 2021 - DÉC 2024",
         "bullets": [
-          "Développement et maintenance de freeconvert.com - une plateforme SaaS de premier plan pour la conversion, la compression et le transcodage de fichiers en ligne.",
-          "Stack principale : Nuxt.js et Node.js. Collaboration étroite avec l'équipe DevOps sur les pipelines de déploiement et l'optimisation serveur.",
-          "Stack de production et intégrations : WebSocket, Docker, Kubernetes, AWS, SSH, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp, Jira."
+          "Contribution au développement et à la maintenance de FreeConvert.com, une plateforme SaaS largement utilisée pour la conversion, la compression et le transcodage de fichiers en ligne.",
+          "Travail principalement avec Nuxt.js et Node.js pour construire des fonctionnalités frontend et backend scalables, améliorer les performances et enrichir l'expérience utilisateur. Plateforme optimisée jusqu'à atteindre un score PageSpeed de 100 (sans publicités).",
+          "Collaboration étroite avec l'équipe DevOps sur les pipelines de déploiement, l'amélioration de l'infrastructure et les initiatives d'optimisation serveur.",
+          "Travail dans un écosystème de production moderne avec WebSocket, Docker, Kubernetes, SSH, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp et Jira.",
+          "Expérience pratique des services AWS tels que S3, EKS, EC2, EFS et AMI, partage de connaissances via des articles techniques et de la documentation."
         ]
       },
       {
-        "role": "Fullstack Developer",
+        "role": "Full-Stack Developer / Technical Team Lead",
         "company": "Sheba.xyz",
         "website": "https://www.sheba.xyz/",
         "location": "Dacca, Bangladesh",
-        "period": "FÉV 2018 - JUIN 2021",
+        "period": "FÉV 2018 - JUIL 2021",
         "bullets": [
-          "Lead technique de l'équipe marketplace de sheba.xyz (8 ingénieurs).",
-          "Livraison d'une PWA eCommerce en Vue.js, d'un outil web B2B en Angular, et de plusieurs SPAs en Nuxt et React.",
-          "Construction d'APIs backend en Laravel et Node, ainsi que de panneaux d'administration en Laravel / Blade / Vue.",
-          "Intégration et exploitation de : WebSocket, PM2, Amazon S3, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp."
+          "Arrivé comme Junior Engineer sur la plateforme de services e-commerce Sheba.xyz (Vue 2 PWA), puis évolution progressive jusqu'au rôle de Technical Team Lead.",
+          "Direction de l'équipe marketplace Sheba.xyz composée de 8 personnes, en supervisant le développement et la livraison des fonctionnalités.",
+          "Maintenance et extension des services associés, notamment un CMS (Laravel, Blade) et une API (Laravel).",
+          "Contribution à un outil web B2B avec Angular et Angular Material.",
+          "Construction et livraison de plusieurs projets SPA plus modestes avec Nuxt.js et React."
         ]
       }
     ]

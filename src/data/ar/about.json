@@ -15,13 +15,16 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "تورنتو، كندا · عن بُعد",
-        "period": "JAN 2025 - حتى الآن",
+        "period": "AUG 2021 - حتى الآن",
         "bullets": [
           "متابعة المسؤولية عن freeconvert.com ومنصة TransMedia ككل بعد الترقية. الـ Stack الأساسي: Node.js و Nuxt.js.",
-          "إعداد خط أنابيب CI/CD باستخدام Jenkins + Docker لـ ProPDF - أداة SaaS جديدة في باقة TransMedia - وتسليم محرّر PDF غني الميزات يعمل داخل المتصفح.",
+          "إعداد خط أنابيب CI/CD باستخدام Jenkins + Docker لـ propdf.com، أداة SaaS جديدة ضمن باقة TransMedia، وتسليم محرّر PDF غني الميزات يعمل داخل المتصفح. الـ Stack الأساسي: ASP.NET و Next.js.",
           "تطوير TrueRCE، محرّر نص غني داخلي يعمل كبديل مباشر لـ TinyMCE عبر المنصة بأكملها.",
           "إدخال تدفقات عمل ذكاء اصطناعي وكيلية إلى يوميات الفريق، وبناء أتمتة تترجم وتنشر محتوى مُحلَّناً تلقائياً من البداية إلى النهاية.",
-          "المساهمة في خط أنابيب بناء .NET وتحسينات تدفقات العمل بين الفرق."
+          "إرساء معايير داخلية لتدفقات عمل الذكاء الاصطناعي عبر hooks وplugins وخوادم MCP (أحدها مفتوح المصدر).",
+          "المساهمة في خط أنابيب بناء .NET وتحسينات تدفقات العمل بين الفرق.",
+          "العمل مع فريق DevOps على خدمات Azure مثل Storage Account و Container Apps و Resource Groups وغيرها.",
+          "دمج خدمات المصادقة مثل WorkOS."
         ]
       },
       {
@@ -29,24 +32,27 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "تورنتو، كندا · عن بُعد",
-        "period": "JUL 2021 - JAN 2025",
+        "period": "JUL 2021 - DEC 2024",
         "bullets": [
-          "تطوير وصيانة freeconvert.com - منصة SaaS رائدة لتحويل وضغط وإعادة تشفير الملفات عبر الإنترنت.",
-          "الـ Stack الأساسي: Nuxt.js و Node.js. تعاون مع فريق DevOps على خطوط أنابيب النشر وتحسين الخوادم.",
-          "Stack الإنتاج والتكاملات: WebSocket و Docker و Kubernetes و AWS و SSH و GTM و Google Analytics و Amplitude و Sentry و Intercom و Crisp و Jira."
+          "المساهمة في تطوير وصيانة FreeConvert.com، منصة SaaS واسعة الاستخدام لتحويل وضغط وإعادة تشفير الملفات عبر الإنترنت.",
+          "العمل بشكل أساسي على Nuxt.js و Node.js لبناء ميزات قابلة للتوسع في الواجهتين الأمامية والخلفية، وتحسين الأداء وتجربة المستخدم. تحسين المنصة للوصول إلى تقييم PageSpeed بقيمة 100 (بدون إعلانات).",
+          "التعاون الوثيق مع فريق DevOps في خطوط أنابيب النشر وتحسينات البنية التحتية ومبادرات تحسين الخوادم.",
+          "العمل ضمن منظومة إنتاجية حديثة تشمل WebSocket و Docker و Kubernetes و SSH و GTM و Google Analytics و Amplitude و Sentry و Intercom و Crisp و Jira.",
+          "اكتساب خبرة عملية في خدمات AWS مثل S3 و EKS و EC2 و EFS و AMI، ومشاركة المعرفة عبر مقالات تقنية وتوثيق."
         ]
       },
       {
-        "role": "Fullstack Developer",
+        "role": "Full-Stack Developer / Technical Team Lead",
         "company": "Sheba.xyz",
         "website": "https://www.sheba.xyz/",
         "location": "دكا، بنغلاديش",
-        "period": "FEB 2018 - JUN 2021",
+        "period": "FEB 2018 - JUL 2021",
         "bullets": [
-          "قائد تقني لفريق سوق sheba.xyz (8 مهندسين).",
-          "تسليم تطبيق PWA للتجارة الإلكترونية بـ Vue.js، وأداة ويب B2B بـ Angular، والعديد من تطبيقات SPA بـ Nuxt و React.",
-          "بناء واجهات برمجية خلفية بـ Laravel و Node، إضافة إلى لوحات إدارة بـ Laravel / Blade / Vue.",
-          "تكامل وتشغيل: WebSocket و PM2 و Amazon S3 و GTM و Google Analytics و Amplitude و Sentry و Intercom و Crisp."
+          "الانضمام كمهندس مبتدئ على منصة Sheba.xyz للتجارة الإلكترونية (Vue 2 PWA) والترقي تدريجياً إلى دور Technical Team Lead.",
+          "قيادة فريق سوق Sheba.xyz المكوّن من 8 أعضاء، والإشراف على التطوير وتسليم الميزات.",
+          "صيانة وتوسيع الخدمات الداعمة، بما فيها نظام CMS (Laravel، Blade) وواجهة API (Laravel).",
+          "المساهمة في أداة ويب B2B باستخدام Angular و Angular Material.",
+          "بناء وتسليم عدة مشاريع SPA أصغر باستخدام Nuxt.js و React."
         ]
       }
     ]

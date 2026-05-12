@@ -11,6 +11,7 @@
       { "label": "হোম", "href": "/" },
       { "label": "প্রজেক্ট", "href": "/projects" },
       { "label": "AI", "href": "/ai" },
+      { "label": "WEBDEV", "href": "/webdev" },
       { "label": "পরিচিতি", "href": "/about" },
       { "label": "ব্লগ", "href": "/writing" },
       { "label": "যোগাযোগ", "href": "/contact" }
@@ -18,7 +19,10 @@
   },
   "hero": {
     "heading": "হ্যালো, আমি ইরতেজা",
-    "description": "সিনিয়র সফটওয়্যার ইঞ্জিনিয়ার, স্কেলেবল ওয়েব সিস্টেম এবং AI ইন্টিগ্রেশনে ফোকাসড। আমি MERN স্ট্যাক, Next.js এবং পরিচ্ছন্ন আর্কিটেকচারের প্রতি দৃষ্টি রেখে কাজ করি।",
+    "description": [
+      "অভিজ্ঞ ফুল-স্ট্যাক ইঞ্জিনিয়ার, ৭+ বছর ধরে Node.js, React এবং Nuxt.js দিয়ে প্রোডাকশন ওয়েব অ্যাপ্লিকেশন তৈরি করছি, DevOps এবং AWS ক্লাউড ইনফ্রাস্ট্রাকচারে হ্যান্ডস-অন অভিজ্ঞতা রয়েছে।",
+      "গত এক বছর ধরে আমি AI-অ্যাসিস্টেড ডেভেলপমেন্ট ওয়ার্কফ্লোতে ব্যাপকভাবে মনোনিবেশ করেছি - AI এজেন্ট, MCP সার্ভার, প্লাগইন এবং Claude Code ও Codex-এর মতো টুলের চারপাশে নিরাপদ কোডিং ওয়ার্কফ্লো তৈরি করছি। আমার লক্ষ্য হলো বাস্তব ইঞ্জিনিয়ারিং টিমের জন্য AI-চালিত ওয়েব ডেভেলপমেন্টকে আরও নির্ভরযোগ্য, নিয়ন্ত্রিত এবং বাস্তব-প্রয়োগযোগ্য করে তোলা।"
+    ],
     "socials": [
       { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "code" },
       { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "groups" },
@@ -68,7 +72,7 @@
     "description": "বর্তমানে নতুন সুযোগ, বিশেষায়িত কনসালটিং, অথবা AI-নির্ভর প্রোডাক্টে সহযোগিতার জন্য উন্মুক্ত।",
     "cta": {
       "primary": { "label": "আমাকে নিয়োগ দিন", "href": "mailto:irtezaasad@gmail.com" },
-      "secondary": { "label": "জীবনবৃত্তান্ত", "href": "#" }
+      "secondary": { "label": "জীবনবৃত্তান্ত", "href": "https://drive.google.com/file/d/1T5AWxCU8wwYKg5wO8S1DaDPKEg06axfv/view?usp=sharing" }
     },
     "socials": [
       { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "north_east" },

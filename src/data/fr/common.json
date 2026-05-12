@@ -11,6 +11,7 @@
       { "label": "ACCUEIL", "href": "/" },
       { "label": "PROJETS", "href": "/projects" },
       { "label": "IA", "href": "/ai" },
+      { "label": "WEBDEV", "href": "/webdev" },
       { "label": "À PROPOS", "href": "/about" },
       { "label": "BLOG", "href": "/writing" },
       { "label": "CONTACT", "href": "/contact" }
@@ -18,7 +19,10 @@
   },
   "hero": {
     "heading": "Bonjour, je suis Irteza",
-    "description": "Ingénieur logiciel senior, je me concentre sur les systèmes web scalables et l'intégration de l'IA. Je travaille avec la stack MERN, Next.js, et un vrai souci d'architecture propre.",
+    "description": [
+      "Ingénieur full-stack expérimenté avec plus de 7 ans à construire des applications web en production avec Node.js, React et Nuxt.js, et une solide expérience pratique en DevOps et infrastructure cloud AWS.",
+      "Depuis un an, je me concentre fortement sur les workflows de développement assistés par IA : agents IA, serveurs MCP, plugins et workflows de codage plus sûrs autour d'outils comme Claude Code et Codex. Mon objectif est de rendre le développement web propulsé par l'IA plus fiable, maîtrisé et concrètement utilisable par de vraies équipes d'ingénierie."
+    ],
     "socials": [
       { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "code" },
       { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "groups" },
@@ -68,7 +72,7 @@
     "description": "Actuellement ouvert à de nouvelles opportunités, conseil spécialisé, ou collaboration sur des produits pilotés par l'IA.",
     "cta": {
       "primary": { "label": "Me contacter", "href": "mailto:irtezaasad@gmail.com" },
-      "secondary": { "label": "CV", "href": "#" }
+      "secondary": { "label": "CV", "href": "https://drive.google.com/file/d/1T5AWxCU8wwYKg5wO8S1DaDPKEg06axfv/view?usp=sharing" }
     },
     "socials": [
       { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "north_east" },
