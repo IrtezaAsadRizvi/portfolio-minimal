@@ -124,15 +124,14 @@ export default function TrainingModal({ item, onClose }: TrainingModalProps) {
       onMouseDown={(e) => {
         if (e.target === e.currentTarget) onClose();
       }}
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-surface/85 backdrop-blur-sm p-4 md:p-12 outline-none"
+      className="fixed inset-0 z-[100] flex flex-col items-center justify-center gap-6 bg-surface/85 backdrop-blur-sm p-4 md:p-12 outline-none"
       style={{ animation: "fadeIn 200ms ease-out forwards" }}
     >
       <Tilt
         className="relative overflow-hidden rounded-sm shadow-2xl"
         style={{
-          width: `min(56rem, calc(85vh * ${item.width} / ${item.height}))`,
-          height: `min(85vh, calc(56rem * ${item.height} / ${item.width}))`,
           aspectRatio: `${item.width} / ${item.height}`,
+          width: `min(56rem, calc(100svw - 2rem), calc((100svh - 11rem) * ${item.width} / ${item.height}))`,
         }}
       >
         <CertificatePreview key={item.slug} item={item} />
@@ -143,7 +142,7 @@ export default function TrainingModal({ item, onClose }: TrainingModalProps) {
         download
         aria-label={item.downloadLabel}
         title={item.downloadLabel}
-        className="fixed bottom-8 left-1/2 -translate-x-1/2 w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-accent transition-colors"
+        className="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-accent transition-colors"
       >
         <svg
           width="22"
