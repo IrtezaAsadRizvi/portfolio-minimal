@@ -15,6 +15,8 @@ const HTML_LANG: Record<string, string> = {
   zh: "zh",
   bn: "bn",
   ar: "ar",
+  fi: "fi",
+  da: "da",
 };
 
 function pathFor(locale: string, path: string): string {

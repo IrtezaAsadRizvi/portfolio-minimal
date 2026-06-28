@@ -54,7 +54,23 @@ import arContact from "@/data/ar/contact.json";
 import arProjects from "@/data/ar/projects.json";
 import arWriting from "@/data/ar/writing.json";
 
-export const LOCALES = ["en", "de", "es", "fr", "zh", "bn", "ar"] as const;
+import fiCommon from "@/data/fi/common.json";
+import fiAbout from "@/data/fi/about.json";
+import fiAi from "@/data/fi/ai.json";
+import fiWebdev from "@/data/fi/webdev.json";
+import fiContact from "@/data/fi/contact.json";
+import fiProjects from "@/data/fi/projects.json";
+import fiWriting from "@/data/fi/writing.json";
+
+import daCommon from "@/data/da/common.json";
+import daAbout from "@/data/da/about.json";
+import daAi from "@/data/da/ai.json";
+import daWebdev from "@/data/da/webdev.json";
+import daContact from "@/data/da/contact.json";
+import daProjects from "@/data/da/projects.json";
+import daWriting from "@/data/da/writing.json";
+
+export const LOCALES = ["en", "de", "es", "fr", "zh", "bn", "ar", "fi", "da"] as const;
 export type Locale = (typeof LOCALES)[number];
 export const DEFAULT_LOCALE: Locale = "en";
 
@@ -90,6 +106,8 @@ const dictionaries: Record<Locale, Dictionary> = {
   zh: { common: zhCommon as Common, about: zhAbout as About, ai: zhAi as Ai, webdev: zhWebdev as Webdev, contact: zhContact as Contact, projects: zhProjects as Projects, writing: zhWriting as Writing },
   bn: { common: bnCommon as Common, about: bnAbout as About, ai: bnAi as Ai, webdev: bnWebdev as Webdev, contact: bnContact as Contact, projects: bnProjects as Projects, writing: bnWriting as Writing },
   ar: { common: arCommon as Common, about: arAbout as About, ai: arAi as Ai, webdev: arWebdev as Webdev, contact: arContact as Contact, projects: arProjects as Projects, writing: arWriting as Writing },
+  fi: { common: fiCommon as Common, about: fiAbout as About, ai: fiAi as Ai, webdev: fiWebdev as Webdev, contact: fiContact as Contact, projects: fiProjects as Projects, writing: fiWriting as Writing },
+  da: { common: daCommon as Common, about: daAbout as About, ai: daAi as Ai, webdev: daWebdev as Webdev, contact: daContact as Contact, projects: daProjects as Projects, writing: daWriting as Writing },
 };
 
 export function getContent(locale: Locale): Dictionary {

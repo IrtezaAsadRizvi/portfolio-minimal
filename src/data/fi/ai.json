@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "AI-agentit, automaatio ja työnkulut",
+    "description": "AI-automaation ja työnkulkujen asiantuntija, joka rakentaa local-first LLM-agentteja, Claude Code -lisäosia, MCP-palvelimia ja soveltavaa adversariaalista ML:ää. Tuotantovalmista tekoälyä integroituna aitoihin engineering-pipelineihin."
+  },
+  "hero": {
+    "title": "AI-engineering ja agenttikehitys",
+    "description": "AI-engineeringiä webille, käytännönläheisesti - local-first LLM-koodausagentteja, Claude Code -lisäosia, MCP-palvelimia, selaimessa natiivisti toimivaa ML:ää ja silloin tällöin kokeiluja, joissa rikon omia mallejani. Tämä sivu seuraa sitä, mitä toimitan tekoälyavusteiseen web-kehitykseen."
+  },
+  "currentFocus": {
+    "sectionTitle": "Nykyinen fokus",
+    "items": [
+      "Local-first -koodausagentit (Ollama, Gemma, ReAct-silmukat)",
+      "Claude Code -lisäosat ja itse kirjoitetut skillit",
+      "Model Context Protocol (MCP) -palvelimet aitoihin kehitystyönkulkuihin",
+      "Adversariaaliset esimerkit ja mallin robustius NLP:ssä",
+      "Selaimessa natiivisti tapahtuva inferenssi ONNX Runtimella"
+    ]
+  },
+  "toolsAndExperiments": {
+    "sectionTitle": "Työkalut ja kokeilut",
+    "tools": [
+      {
+        "name": "nip",
+        "status": "Open Source · ReAct-agentti",
+        "description": "Local-first CLI-koodausagentti, joka toimii Gemmalla Ollaman päällä. Toteuttaa ReAct-silmukan tool-callingilla, joten se voi lukea, kirjoittaa ja refaktoroida koodia koneellasi ilman pilvikutsuja ja ilman toimittajalukkoa.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/nip"
+      },
+      {
+        "name": "claude-human-review",
+        "status": "Claude Code -lisäosa",
+        "description": "Claude Code -lisäosa, joka selostaa jokaisen agentin tekemän muutoksen selkokielellä, jotta voit hyväksyä tai peruuttaa sen täysin tietoisena kontekstista. Syntyi epäluottamuksesta hiljaisia diffejä kohtaan - human-in-the-loop ilman kitkaa.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/claude-human-review"
+      },
+      {
+        "name": "article-writing-skills",
+        "status": "Claude Skills · Prompt-kirjasto",
+        "description": "Kokoelma kirjoitusprompteja ja Claude-skillejä, jotka on mallinnettu kuuluisien insinöörien ja tutkijoiden äänten mukaan. Toimii Claude Coden, ChatGPT:n, Geminin ja minkä tahansa LLM:n kanssa - koeympäristö sille, kuinka pitkälle prompt-pohjainen tyylinsiirto voi yltää.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
+      },
+      {
+        "name": "MERN MCP",
+        "status": "MCP-palvelin",
+        "description": "Avoimen lähdekoodin Model Context Protocol -palvelin, joka automatisoi full-stack CRUD -scaffoldauksen MERN-sovelluksille - Mongoose-malleista React-komponentteihin - esikatselu-ennen-soveltamista-työnkululla, jotta agentti pysyy hihnassa.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/mern-mcp"
+      },
+      {
+        "name": "BG Remover AI",
+        "status": "Selain · ONNX Runtime",
+        "description": "Nopea, yksityinen ja palvelimeton taustanpoistotyökalu, joka toimii kokonaan selaimessa ONNX-malleilla. Ei latauksia, ei seurantaa - tutkii, kuinka paljon aitoa ML:ää voi toimittaa asiakaspäähän vuonna 2026.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
+      }
+    ]
+  },
+  "training": {
+    "sectionTitle": "Koulutus"
+  },
+  "writings": {
+    "sectionTitle": "Kirjoituksia tekoälystä"
+  },
+  "codeBlock": {
+    "filename": "nip-session.sh",
+    "lines": [
+      "$ nip \"refactor getUser to async/await and add a cache\"",
+      "> reading src/api/users.js ... [ok]",
+      "> plan: promisify callback, wrap with async, add LRU layer",
+      "> applying patch (3 hunks) ... [ok]",
+      "> running tests ... 12 passed, 0 failed.",
+      "> agent status: idle."
+    ]
+  }
+}

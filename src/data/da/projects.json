@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Projekter: Full-Stack- & AI-engineering-arbejde",
+    "description": "Udvalgte full-stack-, AI-automatiserings- og open source-projekter - produktionsklare websystemer, LLM-agenter, Claude Code-plugins, MCP-servere og eksperimentelt ML-værktøj."
+  },
+  "header": {
+    "title": "Projekter",
+    "description": "Open source-AI-agenter, Claude Code-plugins, MCP-servere og full-stack-webværktøjer - produktionsklart og eksperimentelt arbejde, alt bygget med fokus på arkitektonisk klarhed og human-in-the-loop-kontrol."
+  },
+  "categories": [
+    { "key": "All", "label": "Alle" },
+    { "key": "AI", "label": "AI" },
+    { "key": "WebDev", "label": "WebDev" },
+    { "key": "Tools", "label": "Værktøjer" }
+  ],
+  "projects": [
+    {
+      "title": "claude-human-review",
+      "slug": "claude-human-review",
+      "category": "Tools",
+      "tag": "Udviklerværktøjer",
+      "description": "Claude Code-plugin, der gennemgår hver ændring i almindeligt sprog, så du kan godkende eller fortryde med fuld kontekst.",
+      "stack": ["Python", "Shell", "Claude Code"],
+      "link": {
+        "label": "Læs mere",
+        "href": "/projects/claude-human-review"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "article-writing-skills",
+      "slug": "article-writing-skills",
+      "category": "AI",
+      "tag": "LLM / Prompts",
+      "description": "Skriveprompts og Claude-skills til artikler, blogindlæg og papers, modelleret efter kendte ingeniører og forskere. Fungerer med Claude Code, ChatGPT, Gemini og ethvert LLM.",
+      "stack": ["Markdown", "Claude Code", "LLM"],
+      "link": {
+        "label": "Læs mere",
+        "href": "/projects/article-writing-skills"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "nip",
+      "slug": "nip",
+      "category": "AI",
+      "tag": "AI-agent",
+      "description": "En local-first CLI-kodeagent drevet af Gemma. Læser, skriver og refaktorerer kode på din maskine via et ReAct-agentloop med tool-calling-funktioner.",
+      "stack": ["Python", "Ollama", "Gemma"],
+      "link": {
+        "label": "Læs mere",
+        "href": "/projects/nip"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "BG Remover AI",
+      "slug": "bg-remover-ai",
+      "category": "AI",
+      "tag": "AI / Computer Vision",
+      "description": "Et hurtigt, privat og serverløst AI-værktøj til fjernelse af baggrunde, der kører helt i browseren ved hjælp af ONNX-modeller. Ingen uploads, ingen sporing.",
+      "stack": ["React", "TypeScript", "ONNX Runtime", "Vite"],
+      "link": {
+        "label": "Læs mere",
+        "href": "/projects/bg-remover-ai"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "MERN MCP",
+      "slug": "mern-mcp",
+      "category": "Tools",
+      "tag": "Udviklerværktøjer",
+      "description": "En open source-MCP-server, der automatiserer full-stack-CRUD-scaffolding til MERN-apps, fra databasemodeller til React-komponenter, med en forhåndsvis-før-anvend-workflow.",
+      "stack": ["TypeScript", "Node.js", "Express", "React"],
+      "link": {
+        "label": "Læs mere",
+        "href": "/projects/mern-mcp"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "Mars Snap",
+      "slug": "mars-snap",
+      "category": "WebDev",
+      "tag": "WebGL / Kreativ",
+      "description": "En shader-drevet, proceduremæssig generator af Mars-landskaber med atmosfære, tåge, skygger og filmisk belysning. Eksporterer PNG-filer i wallpaper-kvalitet.",
+      "stack": ["JavaScript", "GLSL", "WebGL", "regl"],
+      "link": {
+        "label": "Læs mere",
+        "href": "/projects/mars-snap"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "Short Video Subtitle Automation",
+      "category": "AI",
+      "tag": "AI / Automatisering",
+      "description": "En automatiseret pipeline til at generere og indbrænde ord-præcise undertekster i kortvideoer ved hjælp af lokal speech-to-text med whisper.cpp.",
+      "stack": ["Python", "FFmpeg", "whisper.cpp"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/short-video-subtitle-automation"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "EnviroConfig",
+      "category": "Tools",
+      "tag": "NPM-pakke",
+      "description": "En fleksibel Node.js-pakke til håndtering af miljøkonfigurationer med skemavalidering, defaults og multi-miljø-understøttelse.",
+      "stack": ["TypeScript", "Node.js", "Joi"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/EnviroConfig"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "ProPassword",
+      "category": "WebDev",
+      "tag": "Web-app",
+      "description": "En privacy-first, klientside-adgangskodegenerator med frasebaseret generering, entropianalyse og flersprogsunderstøttelse.",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/pro-password"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "Ayah Daily",
+      "category": "WebDev",
+      "tag": "Web-app",
+      "description": "En lille, hurtig og forstyrrelsesfri web-app, der viser én tilfældigt udvalgt koran-aya hver dag. Understøtter 11 sprog uden reklamer eller sporing.",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Firebase"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/ayah-daily"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "node-express-rate-limiter",
+      "category": "Tools",
+      "tag": "NPM-pakke",
+      "description": "En Express.js-rate-limiting-middleware med tilpasselige regler, IP-whitelisting, Redis-understøttelse og burst-håndtering.",
+      "stack": ["TypeScript", "Express", "Redis"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/node-express-rate-limiter"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "vue3-counter",
+      "category": "Tools",
+      "tag": "Vue-komponent",
+      "description": "En meget tilpasselig numerisk tæller-komponent til Vue 3 med fleksible layouts, styling-muligheder og TypeScript-understøttelse.",
+      "stack": ["Vue 3", "TypeScript", "Vite"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/vue3-counter"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "macOS Portfolio",
+      "category": "WebDev",
+      "tag": "Web-app",
+      "description": "En portfolio-hjemmeside designet med en macOS-inspireret æstetik, bygget med moderne webteknologier.",
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/macos-portfolio"
+      },
+      "showOnHomePage": false
+    }
+  ]
+}

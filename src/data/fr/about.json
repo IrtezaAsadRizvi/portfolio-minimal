@@ -15,7 +15,7 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "Toronto, Canada · À distance",
-        "period": "AOÛT 2021 - AUJOURD'HUI",
+        "period": "JANV 2025 - AUJOURD'HUI",
         "bullets": [
           "Responsable de freeconvert.com et de l'ensemble de la plateforme TransMedia après promotion. Stack principale : Node.js et Nuxt.js.",
           "Mise en place du pipeline CI/CD Jenkins + Docker pour propdf.com, un nouvel outil SaaS de la suite TransMedia, et livraison de son éditeur PDF complet dans le navigateur. Stack principale : ASP.NET et Next.js.",
@@ -46,7 +46,7 @@
         "company": "Sheba.xyz",
         "website": "https://www.sheba.xyz/",
         "location": "Dacca, Bangladesh",
-        "period": "FÉV 2018 - JUIL 2021",
+        "period": "FÉV 2018 - JUIN 2021",
         "bullets": [
           "Arrivé comme Junior Engineer sur la plateforme de services e-commerce Sheba.xyz (Vue 2 PWA), puis évolution progressive jusqu'au rôle de Technical Team Lead.",
           "Direction de l'équipe marketplace Sheba.xyz composée de 8 personnes, en supervisant le développement et la livraison des fonctionnalités.",

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Irteza Asad Rizvi - Senior Full-Stack- & AI-automaatioinsinööri",
+    "description": "Senior full-stack -insinööri ja AI-automaation asiantuntija. Toimitan tuotantokäyttöön valmiita web-järjestelmiä Next.js:llä, Node.js:llä ja MERN-stackilla sekä rakennan LLM-pohjaisia agentteja, Claude Code -lisäosia ja MCP-palvelimia, jotka automatisoivat todellisia engineering-työnkulkuja."
+  },
+  "navigation": {
+    "logo": "Irteza",
+    "menuLabel": "Valikko",
+    "availableForWork": "Vapaana töihin",
+    "links": [
+      { "label": "ETUSIVU", "href": "/" },
+      { "label": "PROJEKTIT", "href": "/projects" },
+      { "label": "AI", "href": "/ai" },
+      { "label": "WEBDEV", "href": "/webdev" },
+      { "label": "TIETOA", "href": "/about" },
+      { "label": "BLOGI", "href": "/writing" },
+      { "label": "YHTEYSTIEDOT", "href": "/contact" }
+    ]
+  },
+  "hero": {
+    "heading": "Hei, olen Irteza",
+    "description": [
+      "Kokenut full-stack -insinööri, jolla on yli 7 vuoden kokemus tuotantokäyttöön tarkoitettujen web-sovellusten rakentamisesta Node.js:llä, Reactilla ja Nuxt.js:llä sekä käytännön kokemusta DevOpsista ja AWS-pilvi-infrastruktuurista.",
+      "Viimeisen vuoden ajan olen keskittynyt vahvasti tekoälyavusteisiin kehitystyönkulkuihin: olen rakentanut AI-agentteja, MCP-palvelimia, lisäosia ja turvallisempia koodaustyönkulkuja Claude Coden ja Codexin kaltaisten työkalujen ympärille. Tavoitteeni on tehdä tekoälypohjaisesta web-kehityksestä luotettavampaa, hallitumpaa ja käytännöllisempää aidoille engineering-tiimeille."
+    ],
+    "socials": [
+      { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "code" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "groups" },
+      { "label": "Twitter / X", "href": "https://x.com/IrtezaAsad", "icon": "terminal" }
+    ]
+  },
+  "recentWork": {
+    "sectionTitle": "Tuoreimmat työt"
+  },
+  "latestWriting": {
+    "sectionTitle": "Uusimmat kirjoitukset",
+    "posts": [
+      {
+        "title": "AI-enabled web development: notes from a year of shipping it",
+        "date": "TOUKO 2026",
+        "href": "/writing/ai-enabled-web-development"
+      },
+      {
+        "title": "From Bytes to BPE: A From-Scratch Tour of LLM Tokenization",
+        "date": "TOUKO 2026",
+        "href": "https://blog.gopenai.com/from-bytes-to-bpe-a-from-scratch-tour-of-llm-tokenization-a49c70c87c41"
+      },
+      {
+        "title": "Breaking my own spam classifier: a hands-on tour of adversarial examples",
+        "date": "HUHTI 2026",
+        "href": "https://irtezaasadrizvi.medium.com/breaking-my-own-spam-classifier-a-hands-on-tour-of-adversarial-examples-efe79ae21ece"
+      },
+      {
+        "title": "How Node.js Handles 10,000 Requests",
+        "date": "MAALIS 2026",
+        "href": "https://blog.devops.dev/how-node-js-handles-10000-requests-61911c846d45"
+      },
+      {
+        "title": "When Your VPS Gets Hacked: Finding a Miner on Our Server",
+        "date": "JOULU 2025",
+        "href": "https://blog.cubed.run/when-your-vps-gets-hacked-how-i-found-a-miner-running-on-our-server-65771b3f532c"
+      },
+      {
+        "title": "Dive into V8: How JavaScript Gets Supercharged",
+        "date": "ELO 2025",
+        "href": "https://blog.devops.dev/dive-into-v8-how-javascript-gets-supercharged-and-sometimes-slows-down-a21c3f847fa7"
+      }
+    ]
+  },
+  "collaborate": {
+    "sectionTitle": "Yhteistyö",
+    "description": "Olen tällä hetkellä avoin uusille mahdollisuuksille, erikoistuneelle konsultoinnille tai yhteistyölle tekoälyvetoisten tuotteiden parissa.",
+    "cta": {
+      "primary": { "label": "Palkkaa minut", "href": "mailto:irtezaasad@gmail.com" },
+      "secondary": { "label": "Ansioluettelo", "href": "https://drive.google.com/file/d/1T5AWxCU8wwYKg5wO8S1DaDPKEg06axfv/view?usp=sharing" }
+    },
+    "socials": [
+      { "label": "GitHub", "href": "https://github.com/IrtezaAsadRizvi", "icon": "north_east" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/irtezaasad", "icon": "north_east" },
+      { "label": "Medium", "href": "https://medium.com/@irtezaasadrizvi", "icon": "north_east" },
+      { "label": "CodePen", "href": "https://codepen.io/IrtezaAsad", "icon": "north_east" },
+      { "label": "Behance", "href": "https://www.behance.net/irtezaasad", "icon": "north_east" },
+      { "label": "Instagram", "href": "https://www.instagram.com/mr.irteza", "icon": "north_east" },
+      { "label": "Facebook", "href": "https://www.facebook.com/IrtezaAsad", "icon": "north_east" },
+      { "label": "Yhteystietosivu", "href": "/contact", "icon": "mail" }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2024 IRTEZA - KAIKKI OIKEUDET PIDÄTETÄÄN",
+    "tagline": "RAKENNETTU TÄSMÄLLISESTI"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Blog: Deep-dives i engineering, AI & sikkerhed",
+    "description": "Tekniske deep-dives om Node.js-internals, AI- og LLM-engineering, adversariel maskinlæring, DevOps og websikkerhed - publiceret på Medium og Dev.to."
+  },
+  "header": {
+    "title": "Indlæg om AI, engineering & sikkerhed",
+    "description": "Tekniske deep-dives om AI-drevet webudvikling, LLM-tokenisering, Claude Code-plugins, MCP-servere, Node.js-internals, V8, adversariel ML og websikkerhed - udvalgte indlæg findes her, det fulde arkiv ligger på Medium."
+  },
+  "categories": [
+    { "key": "All", "label": "Alle" },
+    { "key": "Engineering", "label": "Engineering" },
+    { "key": "Security", "label": "Sikkerhed" },
+    { "key": "AI", "label": "AI" },
+    { "key": "DevOps", "label": "DevOps" }
+  ],
+  "posts": [
+    {
+      "title": "AI-enabled web development: notes from a year of shipping it",
+      "excerpt": "Jeg har leveret det, folk nu kalder 'AI-drevet webudvikling', i omkring et år - local-first kodeagenter oven på Ollama, Claude Code-plugins, MCP-servere koblet ind i ægte kodebaser, ONNX-modeller, der kører i browseren. Her er, hvad der har virket, hvad der ikke har, og de loops, jeg bliver ved med at vende tilbage til.",
+      "category": "AI",
+      "date": "MAJ 2026",
+      "href": "/writing/ai-enabled-web-development"
+    },
+    {
+      "title": "From Bytes to BPE: A From-Scratch Tour of LLM Tokenization",
+      "excerpt": "At bygge en tokenizer fra bunden - UTF-8-byte-streams, tegnniveau-kodning og Byte-Pair Encoding forklaret gennem fungerende kode.",
+      "category": "AI",
+      "date": "MAJ 2026",
+      "href": "https://blog.gopenai.com/from-bytes-to-bpe-a-from-scratch-tour-of-llm-tokenization-a49c70c87c41"
+    },
+    {
+      "title": "Breaking my own spam classifier: a hands-on tour of adversarial examples",
+      "excerpt": "At træne en spam-klassifikator og derefter systematisk bryde den med forstyrrede inputs - en praktisk gennemgang af adversarielle eksempler i NLP.",
+      "category": "AI",
+      "date": "APR 2026",
+      "href": "https://irtezaasadrizvi.medium.com/breaking-my-own-spam-classifier-a-hands-on-tour-of-adversarial-examples-efe79ae21ece"
+    },
+    {
+      "title": "How Node.js Handles 10,000 Requests",
+      "excerpt": "En udforskning af event-drevet arkitektur, event-loopet og hvorfor ikke-blokerende I/O overgår thread-per-request-modeller.",
+      "category": "Engineering",
+      "date": "MAR 2026",
+      "href": "https://blog.devops.dev/how-node-js-handles-10000-requests-61911c846d45"
+    },
+    {
+      "title": "How to Deploy a Basic MERN App on a Linux Server/VPS",
+      "excerpt": "Trin-for-trin-deployment med Node 22, PM2, Nginx, HTTPS via Certbot og automatiserede deployment-aliasser.",
+      "category": "DevOps",
+      "date": "DEC 2025",
+      "href": "https://blog.devops.dev/how-to-deploy-a-basic-mern-app-on-a-linux-server-vps-the-easy-way-2a069c843a30"
+    },
+    {
+      "title": "When Your VPS Gets Hacked: How I Found a Miner Running On Our Server",
+      "excerpt": "En rapport om en sikkerhedshændelse - detektion, efterforskning og hærdning efter at have fundet xmrig på en kompromitteret VPS.",
+      "category": "Security",
+      "date": "DEC 2025",
+      "href": "https://blog.cubed.run/when-your-vps-gets-hacked-how-i-found-a-miner-running-on-our-server-65771b3f532c"
+    },
+    {
+      "title": "ipconfig in macOS, Linux | Get macOS IP Address",
+      "excerpt": "Hurtig reference til at finde din IP-adresse på macOS og Linux med ifconfig, ip og relaterede netværkskommandoer.",
+      "category": "DevOps",
+      "date": "NOV 2025",
+      "href": "https://blog.devops.dev/ipcofig-in-macos-linux-get-macos-ip-address-37a608c09b49"
+    },
+    {
+      "title": "Turn a Phrase into a Strong Password (and Why It Works)",
+      "excerpt": "Frasebaseret adgangskodegenerering, der kombinerer fortrolighed med entropi til legitimationsoplysninger, der både er nemme at huske og sikre.",
+      "category": "Security",
+      "date": "OKT 2025",
+      "href": "https://blog.cubed.run/turn-a-phrase-into-a-strong-password-and-why-it-works-b0eabdce6273"
+    },
+    {
+      "title": "Your Digital Keys: Why a Strong Password Is Your First Line of Defense",
+      "excerpt": "Grundlæggende om adgangskodesikkerhed - brute-force-angreb, ordbogsangreb og supplerende foranstaltninger som 2FA.",
+      "category": "Security",
+      "date": "OKT 2025",
+      "href": "https://blog.cubed.run/your-digital-keys-why-a-strong-password-is-your-first-line-of-defense-in-the-cyber-world-64c69d46a334"
+    },
+    {
+      "title": "Inspect an iPhone Safari Tab from Your Mac (The Clean Way)",
+      "excerpt": "Fjernfejlfinding af iOS Safari-sider med Macs Web Inspector - konsol, elementer, netværk og breakpoints.",
+      "category": "Engineering",
+      "date": "OKT 2025",
+      "href": "https://blog.cubed.run/inspect-an-iphone-safari-tab-from-your-mac-the-clean-way-26fdc28621e9"
+    },
+    {
+      "title": "Dive into V8: How JavaScript Gets Supercharged (and Sometimes Slows Down)",
+      "excerpt": "V8-motorens internals - parsing, Ignition-bytecode, TurboFan-kompilering og deoptimerings-triggere.",
+      "category": "Engineering",
+      "date": "AUG 2025",
+      "href": "https://blog.devops.dev/dive-into-v8-how-javascript-gets-supercharged-and-sometimes-slows-down-a21c3f847fa7"
+    },
+    {
+      "title": "How ChatGPT-4o Works: A Developer's Dive",
+      "excerpt": "GPT-4o's multimodale evner - native træning på tværs af tekst, tale og syn samt realtids-latensforbedringer.",
+      "category": "AI",
+      "date": "JUN 2025",
+      "href": "https://blog.cubed.run/how-chatgpt-4o-works-a-developers-dive-f-168b69c36090"
+    },
+    {
+      "title": "How Image Generation Works in ChatGPT (Without the Magic Wand)",
+      "excerpt": "Mekanikken bag tekst-til-billede - diffusionsmodeller, tekstkodning, iterativ støjfjernelse og nuværende begrænsninger.",
+      "category": "AI",
+      "date": "JUN 2025",
+      "href": "https://ai.plainenglish.io/how-image-generation-works-in-chatgpt-without-the-magic-wand-2c5c58f2780a"
+    },
+    {
+      "title": "The Ultimate Guide to Autocomplete: Make Your Forms Smarter",
+      "excerpt": "Sådan udnytter du HTML-attributten autocomplete til at bygge smartere, hurtigere formularer uden ekstra JavaScript.",
+      "category": "Engineering",
+      "date": "MAJ 2025",
+      "href": "https://blog.devops.dev/the-ultimate-guide-to-autocomplete-make-your-forms-smarter-with-zero-effort-30f9d94a895d"
+    },
+    {
+      "title": "How I Built a Funny Chatbot with ChatGPT and Node.js",
+      "excerpt": "Express.js møder OpenAI API - at bygge en personlighedsdrevet chatbot med system-prompt-engineering.",
+      "category": "AI",
+      "date": "MAJ 2025",
+      "href": "https://irtezaasadrizvi.medium.com/how-i-built-a-funny-chatbot-with-chatgpt-and-node-js-45afbc9442a3"
+    },
+    {
+      "title": "Play Arcade on a Docker Container",
+      "excerpt": "At køre klassiske arkadespil inde i en Docker-container - en sjov introduktion til containerisering og port-mapping.",
+      "category": "DevOps",
+      "date": "DEC 2023",
+      "href": "https://blog.devops.dev/play-arcade-on-docker-container-f9794a783d3c"
+    },
+    {
+      "title": "AWS EC2 101 | EC2 Concepts",
+      "excerpt": "Centrale EC2-begreber - instanstyper, AMI'er, security groups og hvordan du kommer i gang med AWS-compute.",
+      "category": "DevOps",
+      "date": "NOV 2023",
+      "href": "https://blog.devops.dev/all-about-ec2-5ae94e9e453c"
+    },
+    {
+      "title": "Get Started with Dockerfile",
+      "excerpt": "En praktisk guide til at skrive Dockerfiles - FROM, RUN, COPY, multi-stage-builds og best practices.",
+      "category": "DevOps",
+      "date": "AUG 2023",
+      "href": "https://blog.devops.dev/get-started-with-dockerfile-2ec50dd7e607"
+    },
+    {
+      "title": "Optimize Your JavaScript Code for SEO",
+      "excerpt": "Teknikker til at gøre JavaScript-tunge apps søgemaskinevenlige - SSR, lazy loading og strukturerede data.",
+      "category": "Engineering",
+      "date": "APR 2023",
+      "href": "https://blog.devops.dev/optimize-your-javascript-code-for-seo-b854b3ff0493"
+    },
+    {
+      "title": "Get 100 PageScore for Nuxt Application",
+      "excerpt": "Sådan opnår du en perfekt Lighthouse-score i Nuxt - billedoptimering, code splitting og performance-tuning.",
+      "category": "Engineering",
+      "date": "JAN 2023",
+      "href": "https://blog.devops.dev/get-100-pagescore-for-nuxt-application-e8b387b2ddf1"
+    }
+  ]
+}

@@ -153,7 +153,7 @@ const personSchema = {
     "Jenkins",
     "Web security",
   ],
-  knowsLanguage: ["English", "German", "Spanish", "French", "Chinese", "Bengali", "Arabic"],
+  knowsLanguage: ["English", "German", "Spanish", "French", "Chinese", "Bengali", "Arabic", "Finnish", "Danish"],
   sameAs: [
     "https://github.com/IrtezaAsadRizvi",
     "https://www.linkedin.com/in/irtezaasad",
@@ -284,7 +284,7 @@ export default function RootLayout({
         />
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var RTL={ar:1};var SUPP={en:1,de:1,es:1,fr:1,zh:1,bn:1,ar:1};function setLang(l){document.documentElement.lang=l;document.documentElement.dir=RTL[l]?'rtl':'ltr';}var p=location.pathname;var m=p.match(/^\\/(de|es|fr|zh|bn|ar)(?:\\/|$)/);var urlLocale=m?m[1]:null;if(urlLocale){setLang(urlLocale);try{localStorage.setItem('locale',urlLocale);}catch(e){}return;}var englishOnly=/^\\/(projects|writing)\\/[^\\/]+/.test(p);if(englishOnly){setLang('en');return;}var stored=null;try{stored=localStorage.getItem('locale');}catch(e){}var target=stored&&SUPP[stored]?stored:null;if(!target){var nav=(navigator.language||'en').toLowerCase();var two=nav.split('-')[0];if(SUPP[two])target=two;else target='en';}if(target&&target!=='en'){var rest=p==='/'?'':p;location.replace('/'+target+rest+location.search+location.hash);}else{setLang('en');}}catch(e){}})();`,
+            __html: `(function(){try{var RTL={ar:1};var SUPP={en:1,de:1,es:1,fr:1,zh:1,bn:1,ar:1,fi:1,da:1};function setLang(l){document.documentElement.lang=l;document.documentElement.dir=RTL[l]?'rtl':'ltr';}var p=location.pathname;var m=p.match(/^\\/(de|es|fr|zh|bn|ar|fi|da)(?:\\/|$)/);var urlLocale=m?m[1]:null;if(urlLocale){setLang(urlLocale);try{localStorage.setItem('locale',urlLocale);}catch(e){}return;}var englishOnly=/^\\/(projects|writing)\\/[^\\/]+/.test(p);if(englishOnly){setLang('en');return;}var stored=null;try{stored=localStorage.getItem('locale');}catch(e){}var target=stored&&SUPP[stored]?stored:null;if(!target){var nav=(navigator.language||'en').toLowerCase();var two=nav.split('-')[0];if(SUPP[two])target=two;else target='en';}if(target&&target!=='en'){var rest=p==='/'?'':p;location.replace('/'+target+rest+location.search+location.hash);}else{setLang('en');}}catch(e){}})();`,
           }}
         />
         <script

@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "Yhteystiedot: Palkkaa full-stack- & AI-automaatioinsinööri",
+    "description": "Avoin senior full-stack -rooleille, AI-automaation konsultoinnille ja yhteistyölle LLM-pohjaisten tuotteiden, Claude Code -lisäosien ja MCP-palvelimien parissa. Ota yhteyttä."
+  },
+  "header": {
+    "title": "Ota yhteyttä",
+    "description": "Tällä hetkellä avoin uusille mahdollisuuksille, erikoistuneelle konsultoinnille tai yhteistyölle tekoälyvetoisten tuotteiden parissa."
+  },
+  "form": {
+    "fields": [
+      { "id": "name", "label": "Nimi", "type": "text", "placeholder": "NIMESI", "prompt": "$" },
+      { "id": "email", "label": "Sähköposti", "type": "email", "placeholder": "EMAIL@DOMAIN.COM", "prompt": "$" },
+      { "id": "message", "label": "Viesti", "type": "textarea", "placeholder": "KUVAILE PROJEKTISI", "prompt": ">", "rows": 4 }
+    ],
+    "submitLabel": "Lähetä viesti",
+    "validation": {
+      "nameRequired": "Nimi on pakollinen.",
+      "nameTooShort": "Nimessä on oltava vähintään 2 merkkiä.",
+      "emailRequired": "Sähköposti on pakollinen.",
+      "emailInvalid": "Anna kelvollinen sähköpostiosoite (esim. sina@domain.com).",
+      "messageRequired": "Viesti on pakollinen.",
+      "messageTooShort": "Viestissä on oltava vähintään 10 merkkiä."
+    }
+  },
+  "systemStatus": {
+    "sectionTitle": "Järjestelmän tila",
+    "online": "SYSTEM_ONLINE // CORE_ACTIVE",
+    "details": [
+      "LOC: 40.7128° N, 74.0060° W",
+      "NODE_ID: PS-7742-ALPHA",
+      "LATENCY: 14MS"
+    ]
+  },
+  "environment": {
+    "sectionTitle": "Ympäristö",
+    "entries": [
+      { "key": "STACK", "value": "NEXT.JS / TAILWIND / TS" },
+      { "key": "RUNTIME", "value": "NODE_V20.10.0" },
+      { "key": "DEPLOY", "value": "EDGE_FUNCTION_NY1" },
+      { "key": "PROTO", "value": "HTTPS/3_QUIC" }
+    ]
+  },
+  "publicKey": {
+    "sectionTitle": "Julkinen avain (RSA/4096)",
+    "content": "FP: 4D7B A872 E331 928C 11D4  5E2A 0B82 119C FD13 01E2\n-----BEGIN PGP PUBLIC KEY BLOCK-----\nmQINBF2S...[TECHNICAL_ENCRYPTION_LAYER_ACTIVE]...\n...0X1A2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P...\n-----END PGP PUBLIC KEY BLOCK-----"
+  },
+  "connect": {
+    "sectionTitle": "Verkostoidu",
+    "links": [
+      { "label": "GITHUB", "href": "https://github.com/IrtezaAsadRizvi" },
+      { "label": "CODEPEN", "href": "https://codepen.io/IrtezaAsad" },
+      { "label": "LINKEDIN", "href": "https://www.linkedin.com/in/irtezaasad" },
+      { "label": "MEDIUM", "href": "https://medium.com/@irtezaasadrizvi" },
+      { "label": "BEHANCE", "href": "https://www.behance.net/irtezaasad" },
+      { "label": "INSTAGRAM", "href": "https://www.instagram.com/mr.irteza" },
+      { "label": "FACEBOOK", "href": "https://www.facebook.com/IrtezaAsad" },
+      { "label": "PORTFOLIO", "href": "https://irtezaasadrizvi.github.io" }
+    ]
+  },
+  "status": {
+    "sectionTitle": "Tila",
+    "available": true,
+    "label": "Vapaana",
+    "details": "LAST_UPDATE: 2024.11.21\nLOC: 40.7128° N, 74.0060° W"
+  }
+}

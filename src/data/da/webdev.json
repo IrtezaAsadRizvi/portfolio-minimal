@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Full-Stack-webengineering, Nuxt, Next.js & Node",
+    "description": "Senior full-stack-webingeniør med over 7 års erfaring i at levere produktionsklare webprodukter ende-til-ende - Nuxt 3, Next.js, React, Vue, Node / Express og AWS- + Docker-leveringspipelinen bag dem."
+  },
+  "hero": {
+    "title": "Full-Stack-webengineering",
+    "description": "Over 7 års erfaring i at levere produktionsklare webprodukter ende-til-ende i TypeScript - Nuxt 3 og Next.js i frontenden, Node / Express i backenden og AWS- + Docker-leveringspipelinen, der binder det hele sammen. Denne side følger selve webengineering-arbejdet: typede grænser fra database til UI, komponentmønstre, der holder, efterhånden som funktionerne hober sig op, og freelance- og open source-projekterne undervejs."
+  },
+  "currentFocus": {
+    "sectionTitle": "Aktuelt fokus",
+    "items": [
+      "Type-sikre API-grænser fra database til UI i TypeScript",
+      "Nuxt 3 / Vue 3- og Next.js / React-komponentmønstre i stor skala",
+      "Node / Express-tjenester med realtidslevering via WebSocket",
+      "AWS-, Docker-, Kubernetes- og Jenkins-CI/CD-pipelines",
+      "Produktionsovervågning med Sentry, Google Analytics og Amplitude"
+    ]
+  },
+  "toolsAndExperiments": {
+    "sectionTitle": "Udvalgt arbejde",
+    "tools": [
+      {
+        "name": "FreeConvert",
+        "status": "Produktion · Nuxt 3 + Node",
+        "description": "En af de højest rangerede SaaS-platforme til online filkonvertering, -komprimering og -transkodning. Frontend i Nuxt 3, backend-tjenester i Node / Express, realtidsfremdrift over WebSocket, deployet på AWS + Kubernetes + Cloudflare. Millioner af konverteringer om måneden.",
+        "github_url": "https://www.freeconvert.com"
+      },
+      {
+        "name": "ProPDF",
+        "status": "Produktion · Nuxt + PDF-editor",
+        "description": "En PDF-editor i browseren leveret som et nyt SaaS-produkt i TransMedia-porteføljen. Opsatte Jenkins- + Docker-CI/CD-pipelinen fra bunden og byggede den funktionsrige redigeringsflade ende-til-ende.",
+        "github_url": "https://www.propdf.com"
+      },
+      {
+        "name": "EnviroConfig",
+        "status": "Open Source · Node-pakke",
+        "description": "Env-konfiguration og skemavalidering til Node. Fanger fejlkonfigurerede deployments ved opstart, så produktion aldrig bliver overrasket af en manglende nøgle. Multi-miljø-defaults indbygget.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/EnviroConfig"
+      },
+      {
+        "name": "node-express-rate-limiter",
+        "status": "Open Source · NPM-pakke",
+        "description": "En Express.js-rate-limiting-middleware med tilpasselige regler, IP-whitelisting, Redis-baserede tællere og burst-håndtering. Bygget til ægte produktionstrafik, ikke kun demoer.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/node-express-rate-limiter"
+      },
+      {
+        "name": "vue3-counter",
+        "status": "Open Source · Vue-komponent",
+        "description": "En meget tilpasselig numerisk tæller-komponent til Vue 3 med fleksible layouts, styling-muligheder og fuld TypeScript-understøttelse. Lille overflade, ægte ergonomi.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/vue3-counter"
+      },
+      {
+        "name": "ProPassword",
+        "status": "Open Source · Next.js-app",
+        "description": "En privacy-first, klientside-adgangskodegenerator med frasebaseret generering, entropianalyse og flersprogsunderstøttelse. Bygget med Next.js, TypeScript, Redux Toolkit og Tailwind.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/pro-password"
+      }
+    ]
+  },
+  "training": {
+    "sectionTitle": "Uddannelse & priser"
+  },
+  "writings": {
+    "sectionTitle": "Indlæg om webengineering",
+    "filterCategories": ["Engineering", "DevOps"]
+  },
+  "codeBlock": {
+    "filename": "deploy.sh",
+    "lines": [
+      "$ make deploy ENV=prod",
+      "> building images: api, worker, web ... [ok]",
+      "> pushing to registry ... [ok]",
+      "> rolling: prod-green.freeconvert.com (4/4 pods ready)",
+      "> health: /healthz 200, p95 latency 84ms",
+      "> traffic switch: blue -> green ... [ok]",
+      "> deploy status: live."
+    ]
+  }
+}

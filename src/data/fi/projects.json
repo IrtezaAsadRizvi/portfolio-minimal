@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Projektit: Full-Stack- & AI-engineering-työt",
+    "description": "Valittuja full-stack-, AI-automaatio- ja avoimen lähdekoodin projekteja - tuotantovalmiita web-järjestelmiä, LLM-agentteja, Claude Code -lisäosia, MCP-palvelimia ja kokeellisia ML-työkaluja."
+  },
+  "header": {
+    "title": "Projektit",
+    "description": "Avoimen lähdekoodin AI-agentteja, Claude Code -lisäosia, MCP-palvelimia ja full-stack web-työkaluja - tuotantotason ja kokeellista työtä, kaikki rakennettu painottaen arkkitehtonista selkeyttä ja human-in-the-loop -hallintaa."
+  },
+  "categories": [
+    { "key": "All", "label": "Kaikki" },
+    { "key": "AI", "label": "AI" },
+    { "key": "WebDev", "label": "WebDev" },
+    { "key": "Tools", "label": "Työkalut" }
+  ],
+  "projects": [
+    {
+      "title": "claude-human-review",
+      "slug": "claude-human-review",
+      "category": "Tools",
+      "tag": "Kehittäjätyökalut",
+      "description": "Claude Code -lisäosa, joka käy läpi jokaisen muutoksen selkokielellä, jotta voit hyväksyä tai peruuttaa sen täysin tietoisena kontekstista.",
+      "stack": ["Python", "Shell", "Claude Code"],
+      "link": {
+        "label": "Lue lisää",
+        "href": "/projects/claude-human-review"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "article-writing-skills",
+      "slug": "article-writing-skills",
+      "category": "AI",
+      "tag": "LLM / Promptit",
+      "description": "Artikkelien, blogien ja paperien kirjoitusprompteja ja Claude-skillejä, jotka on mallinnettu kuuluisien insinöörien ja tutkijoiden mukaan. Toimii Claude Coden, ChatGPT:n, Geminin ja minkä tahansa LLM:n kanssa.",
+      "stack": ["Markdown", "Claude Code", "LLM"],
+      "link": {
+        "label": "Lue lisää",
+        "href": "/projects/article-writing-skills"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "nip",
+      "slug": "nip",
+      "category": "AI",
+      "tag": "AI-agentti",
+      "description": "Local-first CLI-koodausagentti, joka toimii Gemmalla. Lukee, kirjoittaa ja refaktoroi koodia koneellasi käyttäen ReAct-agenttisilmukkaa tool-calling-ominaisuuksilla.",
+      "stack": ["Python", "Ollama", "Gemma"],
+      "link": {
+        "label": "Lue lisää",
+        "href": "/projects/nip"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "BG Remover AI",
+      "slug": "bg-remover-ai",
+      "category": "AI",
+      "tag": "AI / Konenäkö",
+      "description": "Nopea, yksityinen ja palvelimeton AI-taustanpoistotyökalu, joka toimii kokonaan selaimessa ONNX-malleilla. Ei latauksia, ei seurantaa.",
+      "stack": ["React", "TypeScript", "ONNX Runtime", "Vite"],
+      "link": {
+        "label": "Lue lisää",
+        "href": "/projects/bg-remover-ai"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "MERN MCP",
+      "slug": "mern-mcp",
+      "category": "Tools",
+      "tag": "Kehittäjätyökalut",
+      "description": "Avoimen lähdekoodin MCP-palvelin, joka automatisoi full-stack CRUD -scaffoldauksen MERN-sovelluksille, tietokantamalleista React-komponentteihin esikatselu-ennen-soveltamista-työnkululla.",
+      "stack": ["TypeScript", "Node.js", "Express", "React"],
+      "link": {
+        "label": "Lue lisää",
+        "href": "/projects/mern-mcp"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "Mars Snap",
+      "slug": "mars-snap",
+      "category": "WebDev",
+      "tag": "WebGL / Luova",
+      "description": "Shader-vetoinen proseduraalinen Mars-maiseman generaattori, jossa on ilmakehä, sumu, varjot ja elokuvamainen valaistus. Vie taustakuvalaatuisia PNG-tiedostoja.",
+      "stack": ["JavaScript", "GLSL", "WebGL", "regl"],
+      "link": {
+        "label": "Lue lisää",
+        "href": "/projects/mars-snap"
+      },
+      "showOnHomePage": true
+    },
+    {
+      "title": "Short Video Subtitle Automation",
+      "category": "AI",
+      "tag": "AI / Automaatio",
+      "description": "Automatisoitu pipeline sana-tason tekstitysten generoimiseen ja polttamiseen lyhytvideoihin paikallisen puheentunnistuksen avulla whisper.cpp:llä.",
+      "stack": ["Python", "FFmpeg", "whisper.cpp"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/short-video-subtitle-automation"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "EnviroConfig",
+      "category": "Tools",
+      "tag": "NPM-paketti",
+      "description": "Joustava Node.js-paketti ympäristökonfiguraatioiden hallintaan skeeman validoinnilla, oletuksilla ja usean ympäristön tuella.",
+      "stack": ["TypeScript", "Node.js", "Joi"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/EnviroConfig"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "ProPassword",
+      "category": "WebDev",
+      "tag": "Web-sovellus",
+      "description": "Yksityisyys edellä rakennettu, asiakaspäässä toimiva salasanageneraattori lausepohjaisella generoinnilla, entropia-analyysilla ja monikielituella.",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/pro-password"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "Ayah Daily",
+      "category": "WebDev",
+      "tag": "Web-sovellus",
+      "description": "Pieni, nopea ja häiriötön web-sovellus, joka näyttää yhden satunnaisesti valitun Koraanin jakeen joka päivä. Tukee 11 kieltä, ilman mainoksia tai seurantaa.",
+      "stack": ["Next.js", "TypeScript", "Redux Toolkit", "Firebase"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/ayah-daily"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "node-express-rate-limiter",
+      "category": "Tools",
+      "tag": "NPM-paketti",
+      "description": "Express.js-rate-limiting-middleware muokattavilla säännöillä, IP-sallimislistauksella, Redis-tuella ja purskeenkäsittelyllä.",
+      "stack": ["TypeScript", "Express", "Redis"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/node-express-rate-limiter"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "vue3-counter",
+      "category": "Tools",
+      "tag": "Vue-komponentti",
+      "description": "Erittäin muokattava numeerinen laskurikomponentti Vue 3:lle joustavilla asetteluilla, tyylityksen vaihtoehdoilla ja TypeScript-tuella.",
+      "stack": ["Vue 3", "TypeScript", "Vite"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/vue3-counter"
+      },
+      "showOnHomePage": false
+    },
+    {
+      "title": "macOS Portfolio",
+      "category": "WebDev",
+      "tag": "Web-sovellus",
+      "description": "Portfolio-sivusto macOS-henkisellä ilmeellä, rakennettu nykyaikaisilla web-teknologioilla.",
+      "stack": ["Next.js", "TypeScript", "Tailwind CSS"],
+      "link": {
+        "label": "GitHub",
+        "href": "https://github.com/IrtezaAsadRizvi/macos-portfolio"
+      },
+      "showOnHomePage": false
+    }
+  ]
+}

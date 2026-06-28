@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "title": "AI-agenter, automatisering & workflows",
+    "description": "Ekspert i AI-automatisering og workflows, der bygger local-first LLM-agenter, Claude Code-plugins, MCP-servere og anvendt adversariel ML. Produktionsklar AI integreret i ægte engineering-pipelines."
+  },
+  "hero": {
+    "title": "AI-engineering & agentudvikling",
+    "description": "AI-engineering til nettet, helt hands-on - local-first LLM-kodeagenter, Claude Code-plugins, MCP-servere, browser-native ML og det lejlighedsvise eksperiment med at bryde mine egne modeller. Denne side følger med i, hvad jeg leverer inden for AI-drevet webudvikling."
+  },
+  "currentFocus": {
+    "sectionTitle": "Aktuelt fokus",
+    "items": [
+      "Local-first kodeagenter (Ollama, Gemma, ReAct-loops)",
+      "Claude Code-plugins & egne skills",
+      "Model Context Protocol (MCP)-servere til ægte udvikler-workflows",
+      "Adversarielle eksempler & modelrobusthed i NLP",
+      "Browser-native inferens med ONNX Runtime"
+    ]
+  },
+  "toolsAndExperiments": {
+    "sectionTitle": "Værktøjer & eksperimenter",
+    "tools": [
+      {
+        "name": "nip",
+        "status": "Open Source · ReAct-agent",
+        "description": "En local-first CLI-kodeagent drevet af Gemma på Ollama. Den implementerer et ReAct-loop med tool-calling, så den kan læse, skrive og refaktorere kode på din maskine uden cloud-kald og uden vendor lock-in.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/nip"
+      },
+      {
+        "name": "claude-human-review",
+        "status": "Claude Code-plugin",
+        "description": "Et Claude Code-plugin, der beskriver hver ændring, agenten foretager, i almindeligt sprog, så du kan godkende eller fortryde med fuld kontekst. Opstået ud af mistillid til stille diffs - human-in-the-loop uden besværet.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/claude-human-review"
+      },
+      {
+        "name": "article-writing-skills",
+        "status": "Claude Skills · Prompt-bibliotek",
+        "description": "En samling skriveprompts og Claude-skills modelleret efter stemmerne fra kendte ingeniører og forskere. Fungerer med Claude Code, ChatGPT, Gemini og ethvert LLM - et testmiljø for, hvor langt prompt-baseret stiloverførsel kan nå.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/article-writing-skills"
+      },
+      {
+        "name": "MERN MCP",
+        "status": "MCP-server",
+        "description": "En open source-Model Context Protocol-server, der automatiserer full-stack-CRUD-scaffolding til MERN-apps - fra Mongoose-modeller til React-komponenter - med en forhåndsvis-før-anvend-workflow, så agenten holdes i kort snor.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/mern-mcp"
+      },
+      {
+        "name": "BG Remover AI",
+        "status": "Browser · ONNX Runtime",
+        "description": "Et hurtigt, privat og serverløst værktøj til fjernelse af baggrunde, der kører helt i browseren via ONNX-modeller. Ingen uploads, ingen sporing - en udforskning af, hvor meget ægte ML man kan levere til klienten i 2026.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/bg-remover-ai"
+      }
+    ]
+  },
+  "training": {
+    "sectionTitle": "Uddannelse"
+  },
+  "writings": {
+    "sectionTitle": "Indlæg om AI"
+  },
+  "codeBlock": {
+    "filename": "nip-session.sh",
+    "lines": [
+      "$ nip \"refactor getUser to async/await and add a cache\"",
+      "> reading src/api/users.js ... [ok]",
+      "> plan: promisify callback, wrap with async, add LRU layer",
+      "> applying patch (3 hunks) ... [ok]",
+      "> running tests ... 12 passed, 0 failed.",
+      "> agent status: idle."
+    ]
+  }
+}

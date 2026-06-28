@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Full-Stack web-engineering, Nuxt, Next.js & Node",
+    "description": "Senior full-stack web-insinööri, jolla on yli 7 vuoden kokemus tuotantovalmiiden web-tuotteiden toimittamisesta päästä päähän - Nuxt 3, Next.js, React, Vue, Node / Express sekä niiden takana oleva AWS + Docker -toimitusputki."
+  },
+  "hero": {
+    "title": "Full-Stack web-engineering",
+    "description": "Yli 7 vuotta tuotantovalmiiden web-tuotteiden toimittamista päästä päähän TypeScriptilla - Nuxt 3 ja Next.js edessä, Node / Express takana ja AWS + Docker -toimitusputki, joka sitoo nämä yhteen. Tämä sivu seuraa itse web-engineering-työtä: tyypitettyjä rajapintoja tietokannasta käyttöliittymään, komponenttimalleja, jotka kestävät ominaisuuksien kertyessä, sekä matkan varrella syntyneet freelance- ja avoimen lähdekoodin toteutukset."
+  },
+  "currentFocus": {
+    "sectionTitle": "Nykyinen fokus",
+    "items": [
+      "Tyyppiturvalliset API-rajapinnat tietokannasta käyttöliittymään TypeScriptilla",
+      "Nuxt 3 / Vue 3- ja Next.js / React -komponenttimallit mittakaavassa",
+      "Node / Express -palvelut WebSocket-pohjaisella reaaliaikaisella toimituksella",
+      "AWS-, Docker-, Kubernetes- ja Jenkins-CI/CD-putket",
+      "Tuotannon havainnoitavuus Sentryn, Google Analyticsin ja Amplituden avulla"
+    ]
+  },
+  "toolsAndExperiments": {
+    "sectionTitle": "Valittuja töitä",
+    "tools": [
+      {
+        "name": "FreeConvert",
+        "status": "Tuotanto · Nuxt 3 + Node",
+        "description": "Yksi parhaiten sijoittuneista SaaS-alustoista verkossa tapahtuvaan tiedostojen muuntamiseen, pakkaukseen ja transkoodaukseen. Frontend Nuxt 3:lla, backend-palvelut Node / Express -ympäristössä, reaaliaikainen edistyminen WebSocketin kautta, käytössä AWS + Kubernetes + Cloudflare. Miljoonia muunnoksia kuukaudessa.",
+        "github_url": "https://www.freeconvert.com"
+      },
+      {
+        "name": "ProPDF",
+        "status": "Tuotanto · Nuxt + PDF-editori",
+        "description": "Selaimessa toimiva PDF-editori, joka julkaistiin uutena SaaS-tuotteena TransMedia-portfoliossa. Rakensin Jenkins + Docker -CI/CD-putken alusta alkaen ja toteutin monipuolisen muokkauspinnan päästä päähän.",
+        "github_url": "https://www.propdf.com"
+      },
+      {
+        "name": "EnviroConfig",
+        "status": "Open Source · Node-paketti",
+        "description": "Ympäristökonfiguraatio ja skeeman validointi Nodelle. Havaitsee virheellisesti konfiguroidut käyttöönotot käynnistyksessä, jotta tuotanto ei koskaan yllätä puuttuvaa avainta. Useiden ympäristöjen oletukset sisäänrakennettuina.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/EnviroConfig"
+      },
+      {
+        "name": "node-express-rate-limiter",
+        "status": "Open Source · NPM-paketti",
+        "description": "Express.js-rate-limiting-middleware, jossa on muokattavat säännöt, IP-sallimislistaus, Redis-pohjaiset laskurit ja purskeenkäsittely. Rakennettu aitoon tuotantoliikenteeseen, ei vain demoihin.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/node-express-rate-limiter"
+      },
+      {
+        "name": "vue3-counter",
+        "status": "Open Source · Vue-komponentti",
+        "description": "Erittäin muokattava numeerinen laskurikomponentti Vue 3:lle joustavilla asetteluilla, tyylityksen vaihtoehdoilla ja täydellä TypeScript-tuella. Pieni pinta-ala, aitoa ergonomiaa.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/vue3-counter"
+      },
+      {
+        "name": "ProPassword",
+        "status": "Open Source · Next.js-sovellus",
+        "description": "Yksityisyys edellä rakennettu, asiakaspäässä toimiva salasanageneraattori, jossa on lausepohjainen generointi, entropia-analyysi ja monikielituki. Rakennettu Next.js:llä, TypeScriptilla, Redux Toolkitilla ja Tailwindilla.",
+        "github_url": "https://github.com/IrtezaAsadRizvi/pro-password"
+      }
+    ]
+  },
+  "training": {
+    "sectionTitle": "Koulutus ja palkinnot"
+  },
+  "writings": {
+    "sectionTitle": "Kirjoituksia web-engineeringistä",
+    "filterCategories": ["Engineering", "DevOps"]
+  },
+  "codeBlock": {
+    "filename": "deploy.sh",
+    "lines": [
+      "$ make deploy ENV=prod",
+      "> building images: api, worker, web ... [ok]",
+      "> pushing to registry ... [ok]",
+      "> rolling: prod-green.freeconvert.com (4/4 pods ready)",
+      "> health: /healthz 200, p95 latency 84ms",
+      "> traffic switch: blue -> green ... [ok]",
+      "> deploy status: live."
+    ]
+  }
+}

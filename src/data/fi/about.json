@@ -1,84 +1,84 @@
 {
   "meta": {
-    "title": "نبذة: مهندس Full-Stack وخبير أتمتة الذكاء الاصطناعي",
-    "description": "مهندس Full-Stack أول مع أكثر من 7 سنوات في تسليم منتجات ويب باستخدام Node.js و React و Next.js و Vue و Nuxt - وأركّز الآن على أتمتة الذكاء الاصطناعي ووكلاء LLM وإضافات Claude Code وخوادم MCP."
+    "title": "Tietoa: Full-Stack-insinööri & AI-automaation asiantuntija",
+    "description": "Senior full-stack -insinööri, jolla on yli 7 vuoden kokemus web-tuotteiden toimittamisesta Node.js:llä, Reactilla, Next.js:llä, Vuella ja Nuxtilla - nykyään keskittyneenä AI-automaatioon, LLM-agentteihin, Claude Code -lisäosiin ja MCP-palvelimiin."
   },
   "header": {
-    "title": "نبذة",
-    "description": "مطوّر Full-Stack مع أكثر من 7 سنوات من تسليم منتجات الويب - JavaScript و Node.js و React/Next.js و Vue، وكل ما يلتصق بها من CI/CD. مؤخراً أتحوّل نحو الذكاء الاصطناعي: وكلاء برمجة محلية، وإضافات وسكلز Claude Code، وخوادم MCP لتدفقات عمل تطوير حقيقية. الأمن اهتمام جانبي متكرّر - كتبت عن اختراق الـ VPS، والتعلم الآلي العدائي، وإنتروبيا كلمات المرور، إلى جانب التحليلات العميقة في الواجهة الخلفية والأمامية."
+    "title": "Tietoa",
+    "description": "Full-stack-kehittäjä, jolla on yli 7 vuoden kokemus web-tuotteiden toimittamisesta - JavaScript, Node.js, React/Next.js, Vue ja niiden ympärillä oleva CI/CD-liima. Viime aikoina olen siirtynyt tekoälyyn: rakennan local-first -koodausagentteja, Claude Code -lisäosia ja -skillejä sekä MCP-palvelimia aitoihin kehitystyönkulkuihin. Tietoturva on toistuva sivukiinnostuksen kohde - olen kirjoittanut VPS-murroista, adversariaalisesta ML:stä ja salasanaentropiasta backend- ja frontend-syväluotausten ohella."
   },
   "experience": {
-    "sectionTitle": "المسيرة المهنية",
+    "sectionTitle": "Työhistoria",
     "positions": [
       {
         "role": "Senior Software Engineer",
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
-        "location": "تورنتو، كندا · عن بُعد",
-        "period": "JAN 2025 - حتى الآن",
+        "location": "Toronto, Kanada · Etätyö",
+        "period": "TAMMI 2025 - NYKYINEN",
         "bullets": [
-          "متابعة المسؤولية عن freeconvert.com ومنصة TransMedia ككل بعد الترقية. الـ Stack الأساسي: Node.js و Nuxt.js.",
-          "إعداد خط أنابيب CI/CD باستخدام Jenkins + Docker لـ propdf.com، أداة SaaS جديدة ضمن باقة TransMedia، وتسليم محرّر PDF غني الميزات يعمل داخل المتصفح. الـ Stack الأساسي: ASP.NET و Next.js.",
-          "تطوير TrueRCE، محرّر نص غني داخلي يعمل كبديل مباشر لـ TinyMCE عبر المنصة بأكملها.",
-          "إدخال تدفقات عمل ذكاء اصطناعي وكيلية إلى يوميات الفريق، وبناء أتمتة تترجم وتنشر محتوى مُحلَّناً تلقائياً من البداية إلى النهاية.",
-          "إرساء معايير داخلية لتدفقات عمل الذكاء الاصطناعي عبر hooks وplugins وخوادم MCP (أحدها مفتوح المصدر).",
-          "المساهمة في خط أنابيب بناء .NET وتحسينات تدفقات العمل بين الفرق.",
-          "العمل مع فريق DevOps على خدمات Azure مثل Storage Account و Container Apps و Resource Groups وغيرها.",
-          "دمج خدمات المصادقة مثل WorkOS."
+          "Jatkanut freeconvert.comin ja laajemman TransMedia-alustan vastuunkantoa ylennyksen jälkeen. Pääasiallinen stack: Node.js ja Nuxt.js.",
+          "Pystytin Jenkins + Docker -CI/CD-putken propdf.comille, joka on uusi SaaS-työkalu TransMedia-portfoliossa, ja toimitin sen monipuolisen selaimessa toimivan PDF-editorin. Pääasiallinen stack: ASP.NET ja Next.js.",
+          "Kehitin TrueRCE:n, talon sisäisen rich-text-editorin, joka rakennettiin suoraan korvaamaan TinyMCE koko alustalla.",
+          "Toin agenttipohjaiset AI-työnkulut tiimin arkeen ja rakensin automaatioita, jotka kääntävät ja julkaisevat lokalisoitua sisältöä automaattisesti päästä päähän.",
+          "Toteutin standardit AI-työnkuluille talon sisäisillä hookeilla, lisäosilla ja MCP:illä (yhden niistä julkaisin avoimena lähdekoodina).",
+          "Osallistuin .NET-build-putkeen ja tiimien välisten työnkulkujen parannuksiin.",
+          "Työskentelin DevOps-tiimin kanssa Azure-palveluiden parissa, kuten Storage Account, Container Apps, Resource Groups ja muut.",
+          "Integroin auth-palveluita kuten WorkOS."
         ]
       },
       {
         "role": "Software Engineer",
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
-        "location": "تورنتو، كندا · عن بُعد",
-        "period": "JUL 2021 - DEC 2024",
+        "location": "Toronto, Kanada · Etätyö",
+        "period": "HEINÄ 2021 - JOULU 2024",
         "bullets": [
-          "المساهمة في تطوير وصيانة FreeConvert.com، منصة SaaS واسعة الاستخدام لتحويل وضغط وإعادة تشفير الملفات عبر الإنترنت.",
-          "العمل بشكل أساسي على Nuxt.js و Node.js لبناء ميزات قابلة للتوسع في الواجهتين الأمامية والخلفية، وتحسين الأداء وتجربة المستخدم. تحسين المنصة للوصول إلى تقييم PageSpeed بقيمة 100 (بدون إعلانات).",
-          "التعاون الوثيق مع فريق DevOps في خطوط أنابيب النشر وتحسينات البنية التحتية ومبادرات تحسين الخوادم.",
-          "العمل ضمن منظومة إنتاجية حديثة تشمل WebSocket و Docker و Kubernetes و SSH و GTM و Google Analytics و Amplitude و Sentry و Intercom و Crisp و Jira.",
-          "اكتساب خبرة عملية في خدمات AWS مثل S3 و EKS و EC2 و EFS و AMI، ومشاركة المعرفة عبر مقالات تقنية وتوثيق."
+          "Osallistuin FreeConvert.comin kehitykseen ja ylläpitoon. Se on laajasti käytetty SaaS-alusta verkossa tapahtuvaan tiedostojen muuntamiseen, pakkaukseen ja transkoodaukseen.",
+          "Työskentelin pääasiassa Nuxt.js:llä ja Node.js:llä rakentaakseni skaalautuvia frontend- ja backend-ominaisuuksia, parantaakseni suorituskykyä ja kohentaakseni käyttäjäkokemusta. Optimoin alustan saavuttamaan 100 PageSpeed -pisteen (ilman mainoksia).",
+          "Tein tiivistä yhteistyötä DevOps-tiimin kanssa käyttöönottoputkien, infrastruktuurin parannusten ja palvelimen optimointialoitteiden parissa.",
+          "Työskentelin nykyaikaisessa tuotantoekosysteemissä, johon kuuluivat WebSocket, Docker, Kubernetes, SSH, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp ja Jira.",
+          "Hankin käytännön kokemusta AWS-palveluista kuten S3, EKS, EC2, EFS ja AMI sekä jaoin tietoa teknisten artikkelien ja dokumentaation kautta."
         ]
       },
       {
         "role": "Full-Stack Developer / Technical Team Lead",
         "company": "Sheba.xyz",
         "website": "https://www.sheba.xyz/",
-        "location": "دكا، بنغلاديش",
-        "period": "FEB 2018 - JUN 2021",
+        "location": "Dhaka, Bangladesh",
+        "period": "HELMI 2018 - KESÄ 2021",
         "bullets": [
-          "الانضمام كمهندس مبتدئ على منصة Sheba.xyz للتجارة الإلكترونية (Vue 2 PWA) والترقي تدريجياً إلى دور Technical Team Lead.",
-          "قيادة فريق سوق Sheba.xyz المكوّن من 8 أعضاء، والإشراف على التطوير وتسليم الميزات.",
-          "صيانة وتوسيع الخدمات الداعمة، بما فيها نظام CMS (Laravel، Blade) وواجهة API (Laravel).",
-          "المساهمة في أداة ويب B2B باستخدام Angular و Angular Material.",
-          "بناء وتسليم عدة مشاريع SPA أصغر باستخدام Nuxt.js و React."
+          "Aloitin Junior Engineerinä Sheba.xyz-verkkokaupan palvelualustalla (Vue 2 PWA) ja kasvoin vähitellen Technical Team Lead -rooliin.",
+          "Johdin 8-henkistä Sheba.xyz-marketplace-tiimiä vastaten kehityksestä ja ominaisuuksien toimituksesta.",
+          "Ylläpidin ja laajensin tukipalveluita, mukaan lukien CMS (Laravel, Blade) ja API (Laravel).",
+          "Osallistuin B2B-web-työkaluun käyttäen Angularia ja Angular Materialia.",
+          "Rakensin ja toimitin useita pienempiä SPA-projekteja Nuxt.js:llä ja Reactilla."
         ]
       }
     ]
   },
   "training": {
-    "sectionTitle": "التدريب والجوائز",
+    "sectionTitle": "Koulutus ja palkinnot",
     "categories": [
       {
         "key": "All",
-        "label": "الكل"
+        "label": "Kaikki"
       },
       {
         "key": "AI",
-        "label": "الذكاء الاصطناعي"
+        "label": "AI"
       },
       {
         "key": "Engineering",
-        "label": "الهندسة"
+        "label": "Engineering"
       },
       {
         "key": "Language",
-        "label": "اللغة"
+        "label": "Kieli"
       },
       {
         "key": "Awards",
-        "label": "الجوائز"
+        "label": "Palkinnot"
       }
     ],
     "items": [
@@ -88,15 +88,15 @@
         "provider": "IELTS",
         "providerIcon": "/training/icons/icon_ielts.png",
         "category": "Language",
-        "tag": "إجادة الإنجليزية",
-        "period": "أغسطس 2025",
-        "description": "النتيجة الإجمالية 8.0 (CEFR C1) - الاستماع 8.0، القراءة 9.0، الكتابة 6.5، التحدث 8.0.",
+        "tag": "Englannin kielitaito",
+        "period": "ELO 2025",
+        "description": "Kokonaisarvosana 8.0 (CEFR C1) - Kuullunymmärtäminen 8.0, Luetunymmärtäminen 9.0, Kirjoittaminen 6.5, Puhuminen 8.0.",
         "certificate": "/training/certificates/certificate_ielts.jpg",
         "width": 2480,
         "height": 3508,
         "placeholder": "data:image/jpeg;base64,/9j/wAARCAAQAAsDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9sAQwATExMTExMgExMgLSAgIC09LS0tLT1NPT09PT1NXU1NTU1NTV1dXV1dXV1dcHBwcHBwg4ODg4OTk5OTk5OTk5OT/9sAQwEXGBglIyVAIyNAmWhVaJmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZ/90ABAAB/9oADAMBAAIRAxEAPwDrlDKSF6Z9akUsV+YYNIRjgZpQDjmgD//Z",
-        "viewLabel": "عرض الشهادة ←",
-        "downloadLabel": "تحميل"
+        "viewLabel": "Näytä sertifikaatti →",
+        "downloadLabel": "Lataa"
       },
       {
         "slug": "claude-code-in-action",
@@ -104,31 +104,31 @@
         "provider": "Anthropic",
         "providerIcon": "/training/icons/icon_anthropic.svg",
         "category": "AI",
-        "tag": "البرمجة الوكيلة",
-        "period": "أبريل 2025",
-        "description": "ورشة عمل تطبيقية حول حلقات البرمجة الوكيلة، وMCP، ومهارات Claude Code.",
+        "tag": "Agenttipohjainen koodaus",
+        "period": "HUHTI 2025",
+        "description": "Käytännönläheinen työpaja agenttipohjaisista koodaussilmukoista, MCP:stä ja Claude Code -skilleistä.",
         "certificate": "/training/certificates/certificate_claude-code-in-action.jpg",
         "width": 3300,
         "height": 2550,
         "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAwAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAwAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AL13c3C3EgWRgA5xgn1pLW5uGuIw0jkF1yCT61sTaZA8ruS2WJPUd/woi0y3SVHBbKkHqO34VjZ3JP/Z",
-        "viewLabel": "عرض الشهادة ←",
-        "downloadLabel": "تحميل"
+        "viewLabel": "Näytä sertifikaatti →",
+        "downloadLabel": "Lataa"
       },
       {
         "slug": "ccna-workshop",
-        "title": "ورشة Cisco Certified Network Associate",
+        "title": "Cisco Certified Network Associate Workshop",
         "provider": "Cisco",
         "providerIcon": "/training/icons/icon_cisco.svg",
         "category": "Engineering",
-        "tag": "الشبكات",
-        "period": "نوفمبر 2017",
-        "description": "ورشة عمل لمدة 8 ساعات حول أساسيات CCNA، نظّمتها ADN Eduservices و University of Liberal Arts Bangladesh.",
+        "tag": "Tietoverkot",
+        "period": "MARRAS 2017",
+        "description": "8-tuntinen CCNA-perusteiden työpaja, jonka järjestivät ADN Eduservices ja University of Liberal Arts Bangladesh.",
         "certificate": "/training/certificates/certificate_ccna.jpg",
         "width": 3416,
         "height": 2404,
         "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAsAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAsAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AOu+yxbmPPWmG2iY4OatFRk9fzprjjPPHvWPJHsM/9k=",
-        "viewLabel": "عرض الشهادة ←",
-        "downloadLabel": "تحميل"
+        "viewLabel": "Näytä sertifikaatti →",
+        "downloadLabel": "Lataa"
       },
       {
         "slug": "ulab-ieee-tech-fest-2016",
@@ -136,43 +136,43 @@
         "provider": "IEEE",
         "providerIcon": "/training/icons/icon_ieee.svg",
         "category": "Engineering",
-        "tag": "جائزة عرض المشاريع",
-        "period": "نوفمبر 2016",
-        "description": "الوصيف في عرض المشاريع ضمن مهرجان ULAB IEEE Tech Fest.",
+        "tag": "Projektiesittelyn palkinto",
+        "period": "MARRAS 2016",
+        "description": "Toinen sija projektiesittelyssä ULAB IEEE Student Branch Tech Festillä.",
         "certificate": "/training/certificates/certificate_ieee_contest_2026.jpg",
         "width": 3504,
         "height": 2552,
         "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAsAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAsAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AO4ZQUBxQqLsOR19awbu+uopGSN8Aew/wql/ad9wPM/Qf4UwP//Z",
-        "viewLabel": "عرض الشهادة ←",
-        "downloadLabel": "تحميل"
+        "viewLabel": "Näytä sertifikaatti →",
+        "downloadLabel": "Lataa"
       },
       {
         "slug": "ssc-best-student-2011",
-        "title": "جائزة أفضل أداء طلابي",
+        "title": "Best Student's Performance Award",
         "provider": "Cambrian College",
         "providerIcon": "/training/icons/icon_cambrian.png",
         "category": "Awards",
-        "tag": "جائزة أكاديمية",
-        "period": "يونيو 2011",
-        "description": "تكريم لأداء متميّز (GPA-5) في امتحان SSC لعام 2011 من قِبل BSB Foundation و Cambrian College.",
+        "tag": "Akateeminen palkinto",
+        "period": "KESÄ 2011",
+        "description": "Tunnustus erinomaisesta suorituksesta (GPA-5) SSC-tutkinnossa 2011, myöntäjinä BSB Foundation ja Cambrian College.",
         "certificate": "/training/certificates/certificate_ssc_testimonial_cambrian.jpg",
         "width": 3508,
         "height": 2479,
         "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAsAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAsAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AOojjaUySGR+JHGAT2b2NLLG0KpIJHJ3oMbj3YD1qw1tFvYjIySThiOpyehpBbRF1J3HBB5Zj06d6mx082t76H//2Q==",
-        "viewLabel": "عرض الشهادة ←",
-        "downloadLabel": "تحميل"
+        "viewLabel": "Näytä sertifikaatti →",
+        "downloadLabel": "Lataa"
       }
     ]
   },
   "coreStack": {
-    "sectionTitle": "الـ Stack الأساسي",
+    "sectionTitle": "Ydinstack",
     "items": "TypeScript, Node.js, Next.js, React, Vue, Python, MongoDB, PostgreSQL, Docker, AWS, Linux, CI/CD, Claude SDK, Model Context Protocol, Ollama, ONNX Runtime."
   },
   "availability": {
-    "sectionTitle": "التوفّر",
-    "status": "متاح لأدوار تركّز على الذكاء الاصطناعي، وعقود Full-Stack، واستشارات.",
+    "sectionTitle": "Saatavuus",
+    "status": "Avoin AI-painotteisille rooleille, full-stack-sopimuksille ja konsultoinnille.",
     "cta": {
-      "label": "تواصل معي ←",
+      "label": "Ota yhteyttä →",
       "href": "mailto:irtezaasad@gmail.com"
     }
   }

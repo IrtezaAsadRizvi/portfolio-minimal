@@ -1,84 +1,84 @@
 {
   "meta": {
-    "title": "نبذة: مهندس Full-Stack وخبير أتمتة الذكاء الاصطناعي",
-    "description": "مهندس Full-Stack أول مع أكثر من 7 سنوات في تسليم منتجات ويب باستخدام Node.js و React و Next.js و Vue و Nuxt - وأركّز الآن على أتمتة الذكاء الاصطناعي ووكلاء LLM وإضافات Claude Code وخوادم MCP."
+    "title": "Om mig: Full-Stack-ingeniør & ekspert i AI-automatisering",
+    "description": "Senior full-stack-ingeniør med over 7 års erfaring i at levere webprodukter på tværs af Node.js, React, Next.js, Vue og Nuxt - nu fokuseret på AI-automatisering, LLM-agenter, Claude Code-plugins og MCP-servere."
   },
   "header": {
-    "title": "نبذة",
-    "description": "مطوّر Full-Stack مع أكثر من 7 سنوات من تسليم منتجات الويب - JavaScript و Node.js و React/Next.js و Vue، وكل ما يلتصق بها من CI/CD. مؤخراً أتحوّل نحو الذكاء الاصطناعي: وكلاء برمجة محلية، وإضافات وسكلز Claude Code، وخوادم MCP لتدفقات عمل تطوير حقيقية. الأمن اهتمام جانبي متكرّر - كتبت عن اختراق الـ VPS، والتعلم الآلي العدائي، وإنتروبيا كلمات المرور، إلى جانب التحليلات العميقة في الواجهة الخلفية والأمامية."
+    "title": "Om mig",
+    "description": "Full-stack-udvikler med over 7 års erfaring i at levere webprodukter - JavaScript, Node.js, React/Next.js, Vue og CI/CD-limet rundt om det. På det seneste har jeg drejet over mod AI: jeg bygger local-first kodeagenter, Claude Code-plugins og skills samt MCP-servere til ægte udviklingsworkflows. Sikkerhed er en tilbagevendende sideinteresse - jeg har skrevet om VPS-kompromitteringer, adversariel ML og adgangskode-entropi ved siden af mine deep-dives i backend og frontend."
   },
   "experience": {
-    "sectionTitle": "المسيرة المهنية",
+    "sectionTitle": "Professionel historik",
     "positions": [
       {
         "role": "Senior Software Engineer",
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
-        "location": "تورنتو، كندا · عن بُعد",
-        "period": "JAN 2025 - حتى الآن",
+        "location": "Toronto, Canada · Remote",
+        "period": "JAN 2025 - NU",
         "bullets": [
-          "متابعة المسؤولية عن freeconvert.com ومنصة TransMedia ككل بعد الترقية. الـ Stack الأساسي: Node.js و Nuxt.js.",
-          "إعداد خط أنابيب CI/CD باستخدام Jenkins + Docker لـ propdf.com، أداة SaaS جديدة ضمن باقة TransMedia، وتسليم محرّر PDF غني الميزات يعمل داخل المتصفح. الـ Stack الأساسي: ASP.NET و Next.js.",
-          "تطوير TrueRCE، محرّر نص غني داخلي يعمل كبديل مباشر لـ TinyMCE عبر المنصة بأكملها.",
-          "إدخال تدفقات عمل ذكاء اصطناعي وكيلية إلى يوميات الفريق، وبناء أتمتة تترجم وتنشر محتوى مُحلَّناً تلقائياً من البداية إلى النهاية.",
-          "إرساء معايير داخلية لتدفقات عمل الذكاء الاصطناعي عبر hooks وplugins وخوادم MCP (أحدها مفتوح المصدر).",
-          "المساهمة في خط أنابيب بناء .NET وتحسينات تدفقات العمل بين الفرق.",
-          "العمل مع فريق DevOps على خدمات Azure مثل Storage Account و Container Apps و Resource Groups وغيرها.",
-          "دمج خدمات المصادقة مثل WorkOS."
+          "Fortsat ansvar for freeconvert.com og den bredere TransMedia-platform efter forfremmelse. Hovedstak: Node.js og Nuxt.js.",
+          "Opsatte Jenkins- + Docker-CI/CD-pipelinen for propdf.com, et nyt SaaS-værktøj i TransMedia-porteføljen, og leverede dens funktionsrige PDF-editor i browseren. Hovedstak: ASP.NET og Next.js.",
+          "Udviklede TrueRCE, en intern rich-text-editor bygget som en drop-in-erstatning for TinyMCE på tværs af platformen.",
+          "Introducerede agentiske AI-workflows i teamets dagligdag og byggede automatiseringer, der oversætter og automatisk publicerer lokaliseret indhold ende-til-ende.",
+          "Etablerede standarder for AI-workflows med interne hooks, plugins og MCP'er (en af dem open source-udgav jeg).",
+          "Bidrog til .NET-build-pipelinen og forbedringer af workflows på tværs af teams.",
+          "Arbejdede med DevOps-teamet på Azure-tjenester som Storage Account, Container Apps, Resource Groups og mere.",
+          "Integrerede auth-tjenester som WorkOS."
         ]
       },
       {
         "role": "Software Engineer",
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
-        "location": "تورنتو، كندا · عن بُعد",
+        "location": "Toronto, Canada · Remote",
         "period": "JUL 2021 - DEC 2024",
         "bullets": [
-          "المساهمة في تطوير وصيانة FreeConvert.com، منصة SaaS واسعة الاستخدام لتحويل وضغط وإعادة تشفير الملفات عبر الإنترنت.",
-          "العمل بشكل أساسي على Nuxt.js و Node.js لبناء ميزات قابلة للتوسع في الواجهتين الأمامية والخلفية، وتحسين الأداء وتجربة المستخدم. تحسين المنصة للوصول إلى تقييم PageSpeed بقيمة 100 (بدون إعلانات).",
-          "التعاون الوثيق مع فريق DevOps في خطوط أنابيب النشر وتحسينات البنية التحتية ومبادرات تحسين الخوادم.",
-          "العمل ضمن منظومة إنتاجية حديثة تشمل WebSocket و Docker و Kubernetes و SSH و GTM و Google Analytics و Amplitude و Sentry و Intercom و Crisp و Jira.",
-          "اكتساب خبرة عملية في خدمات AWS مثل S3 و EKS و EC2 و EFS و AMI، ومشاركة المعرفة عبر مقالات تقنية وتوثيق."
+          "Bidrog til udvikling og vedligeholdelse af FreeConvert.com, en udbredt SaaS-platform til online filkonvertering, -komprimering og -transkodning.",
+          "Arbejdede primært med Nuxt.js og Node.js for at bygge skalerbare frontend- og backend-funktioner, forbedre ydeevnen og styrke brugeroplevelsen. Optimerede platformen til at opnå en PageSpeed-score på 100 (uden reklamer).",
+          "Samarbejdede tæt med DevOps-teamet om deployment-pipelines, infrastrukturforbedringer og serveroptimering.",
+          "Arbejdede med et moderne produktions-økosystem, herunder WebSocket, Docker, Kubernetes, SSH, GTM, Google Analytics, Amplitude, Sentry, Intercom, Crisp og Jira.",
+          "Fik praktisk erfaring med AWS-tjenester som S3, EKS, EC2, EFS og AMI og delte viden gennem tekniske artikler og dokumentation."
         ]
       },
       {
         "role": "Full-Stack Developer / Technical Team Lead",
         "company": "Sheba.xyz",
         "website": "https://www.sheba.xyz/",
-        "location": "دكا، بنغلاديش",
+        "location": "Dhaka, Bangladesh",
         "period": "FEB 2018 - JUN 2021",
         "bullets": [
-          "الانضمام كمهندس مبتدئ على منصة Sheba.xyz للتجارة الإلكترونية (Vue 2 PWA) والترقي تدريجياً إلى دور Technical Team Lead.",
-          "قيادة فريق سوق Sheba.xyz المكوّن من 8 أعضاء، والإشراف على التطوير وتسليم الميزات.",
-          "صيانة وتوسيع الخدمات الداعمة، بما فيها نظام CMS (Laravel، Blade) وواجهة API (Laravel).",
-          "المساهمة في أداة ويب B2B باستخدام Angular و Angular Material.",
-          "بناء وتسليم عدة مشاريع SPA أصغر باستخدام Nuxt.js و React."
+          "Startede som Junior Engineer på Sheba.xyz-e-commerce-serviceplatformen (Vue 2 PWA) og voksede gradvist ind i rollen som Technical Team Lead.",
+          "Ledede Sheba.xyz-marketplace-teamet på 8 medlemmer med ansvar for udvikling og levering af funktioner.",
+          "Vedligeholdt og udvidede understøttende tjenester, herunder et CMS (Laravel, Blade) og en API (Laravel).",
+          "Bidrog til et B2B-webværktøj med Angular og Angular Material.",
+          "Byggede og leverede flere mindre SPA-projekter med Nuxt.js og React."
         ]
       }
     ]
   },
   "training": {
-    "sectionTitle": "التدريب والجوائز",
+    "sectionTitle": "Uddannelse & priser",
     "categories": [
       {
         "key": "All",
-        "label": "الكل"
+        "label": "Alle"
       },
       {
         "key": "AI",
-        "label": "الذكاء الاصطناعي"
+        "label": "AI"
       },
       {
         "key": "Engineering",
-        "label": "الهندسة"
+        "label": "Engineering"
       },
       {
         "key": "Language",
-        "label": "اللغة"
+        "label": "Sprog"
       },
       {
         "key": "Awards",
-        "label": "الجوائز"
+        "label": "Priser"
       }
     ],
     "items": [
@@ -88,15 +88,15 @@
         "provider": "IELTS",
         "providerIcon": "/training/icons/icon_ielts.png",
         "category": "Language",
-        "tag": "إجادة الإنجليزية",
-        "period": "أغسطس 2025",
-        "description": "النتيجة الإجمالية 8.0 (CEFR C1) - الاستماع 8.0، القراءة 9.0، الكتابة 6.5، التحدث 8.0.",
+        "tag": "Engelskkundskaber",
+        "period": "AUG 2025",
+        "description": "Samlet bandscore 8.0 (CEFR C1) - lytning 8.0, læsning 9.0, skrivning 6.5, mundtlig 8.0.",
         "certificate": "/training/certificates/certificate_ielts.jpg",
         "width": 2480,
         "height": 3508,
         "placeholder": "data:image/jpeg;base64,/9j/wAARCAAQAAsDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9sAQwATExMTExMgExMgLSAgIC09LS0tLT1NPT09PT1NXU1NTU1NTV1dXV1dXV1dcHBwcHBwg4ODg4OTk5OTk5OTk5OT/9sAQwEXGBglIyVAIyNAmWhVaJmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZ/90ABAAB/9oADAMBAAIRAxEAPwDrlDKSF6Z9akUsV+YYNIRjgZpQDjmgD//Z",
-        "viewLabel": "عرض الشهادة ←",
-        "downloadLabel": "تحميل"
+        "viewLabel": "Se certifikat →",
+        "downloadLabel": "Download"
       },
       {
         "slug": "claude-code-in-action",
@@ -104,31 +104,31 @@
         "provider": "Anthropic",
         "providerIcon": "/training/icons/icon_anthropic.svg",
         "category": "AI",
-        "tag": "البرمجة الوكيلة",
-        "period": "أبريل 2025",
-        "description": "ورشة عمل تطبيقية حول حلقات البرمجة الوكيلة، وMCP، ومهارات Claude Code.",
+        "tag": "Agentisk kodning",
+        "period": "APR 2025",
+        "description": "Praktisk workshop om agentiske kodningsloops, MCP og Claude Code-skills.",
         "certificate": "/training/certificates/certificate_claude-code-in-action.jpg",
         "width": 3300,
         "height": 2550,
         "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAwAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAwAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AL13c3C3EgWRgA5xgn1pLW5uGuIw0jkF1yCT61sTaZA8ruS2WJPUd/woi0y3SVHBbKkHqO34VjZ3JP/Z",
-        "viewLabel": "عرض الشهادة ←",
-        "downloadLabel": "تحميل"
+        "viewLabel": "Se certifikat →",
+        "downloadLabel": "Download"
       },
       {
         "slug": "ccna-workshop",
-        "title": "ورشة Cisco Certified Network Associate",
+        "title": "Cisco Certified Network Associate Workshop",
         "provider": "Cisco",
         "providerIcon": "/training/icons/icon_cisco.svg",
         "category": "Engineering",
-        "tag": "الشبكات",
-        "period": "نوفمبر 2017",
-        "description": "ورشة عمل لمدة 8 ساعات حول أساسيات CCNA، نظّمتها ADN Eduservices و University of Liberal Arts Bangladesh.",
+        "tag": "Netværk",
+        "period": "NOV 2017",
+        "description": "8-timers CCNA-grundlagsworkshop afholdt af ADN Eduservices og University of Liberal Arts Bangladesh.",
         "certificate": "/training/certificates/certificate_ccna.jpg",
         "width": 3416,
         "height": 2404,
         "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAsAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAsAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AOu+yxbmPPWmG2iY4OatFRk9fzprjjPPHvWPJHsM/9k=",
-        "viewLabel": "عرض الشهادة ←",
-        "downloadLabel": "تحميل"
+        "viewLabel": "Se certifikat →",
+        "downloadLabel": "Download"
       },
       {
         "slug": "ulab-ieee-tech-fest-2016",
@@ -136,43 +136,43 @@
         "provider": "IEEE",
         "providerIcon": "/training/icons/icon_ieee.svg",
         "category": "Engineering",
-        "tag": "جائزة عرض المشاريع",
-        "period": "نوفمبر 2016",
-        "description": "الوصيف في عرض المشاريع ضمن مهرجان ULAB IEEE Tech Fest.",
+        "tag": "Project Showcase-pris",
+        "period": "NOV 2016",
+        "description": "Andenplads i Project Showcase ved ULAB IEEE Student Branch Tech Fest.",
         "certificate": "/training/certificates/certificate_ieee_contest_2026.jpg",
         "width": 3504,
         "height": 2552,
         "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAsAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAsAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AO4ZQUBxQqLsOR19awbu+uopGSN8Aew/wql/ad9wPM/Qf4UwP//Z",
-        "viewLabel": "عرض الشهادة ←",
-        "downloadLabel": "تحميل"
+        "viewLabel": "Se certifikat →",
+        "downloadLabel": "Download"
       },
       {
         "slug": "ssc-best-student-2011",
-        "title": "جائزة أفضل أداء طلابي",
+        "title": "Best Student's Performance Award",
         "provider": "Cambrian College",
         "providerIcon": "/training/icons/icon_cambrian.png",
         "category": "Awards",
-        "tag": "جائزة أكاديمية",
-        "period": "يونيو 2011",
-        "description": "تكريم لأداء متميّز (GPA-5) في امتحان SSC لعام 2011 من قِبل BSB Foundation و Cambrian College.",
+        "tag": "Akademisk pris",
+        "period": "JUN 2011",
+        "description": "Hædret for fremragende præstation (GPA-5) ved SSC-eksamen 2011 af BSB Foundation og Cambrian College.",
         "certificate": "/training/certificates/certificate_ssc_testimonial_cambrian.jpg",
         "width": 3508,
         "height": 2479,
         "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQABLAEsAAD/4QCARXhpZgAATU0AKgAAAAgABAEaAAUAAAABAAAAPgEbAAUAAAABAAAARgEoAAMAAAABAAIAAIdpAAQAAAABAAAATgAAAAAAAAEsAAAAAQAAASwAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAAABCgAwAEAAAAAQAAAAsAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIAAsAEAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2wBDAA8PDw8PDxoPDxokGhoaJDEkJCQkMT4xMTExMT5LPj4+Pj4+S0tLS0tLS0taWlpaWlppaWlpaXZ2dnZ2dnZ2dnb/2wBDARITEx4cHjQcHDR7VEVUe3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3v/3QAEAAH/2gAMAwEAAhEDEQA/AOojjaUySGR+JHGAT2b2NLLG0KpIJHJ3oMbj3YD1qw1tFvYjIySThiOpyehpBbRF1J3HBB5Zj06d6mx082t76H//2Q==",
-        "viewLabel": "عرض الشهادة ←",
-        "downloadLabel": "تحميل"
+        "viewLabel": "Se certifikat →",
+        "downloadLabel": "Download"
       }
     ]
   },
   "coreStack": {
-    "sectionTitle": "الـ Stack الأساسي",
+    "sectionTitle": "Kerne-stak",
     "items": "TypeScript, Node.js, Next.js, React, Vue, Python, MongoDB, PostgreSQL, Docker, AWS, Linux, CI/CD, Claude SDK, Model Context Protocol, Ollama, ONNX Runtime."
   },
   "availability": {
-    "sectionTitle": "التوفّر",
-    "status": "متاح لأدوار تركّز على الذكاء الاصطناعي، وعقود Full-Stack، واستشارات.",
+    "sectionTitle": "Tilgængelighed",
+    "status": "Åben for AI-fokuserede roller, full-stack-kontrakter og rådgivning.",
     "cta": {
-      "label": "تواصل معي ←",
+      "label": "Tag kontakt →",
       "href": "mailto:irtezaasad@gmail.com"
     }
   }

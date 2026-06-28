@@ -15,7 +15,7 @@
         "company": "TransMedia Inc.",
         "website": "https://www.trmedia.ca/",
         "location": "加拿大多伦多 · 远程",
-        "period": "2021年8月 - 至今",
+        "period": "2025年1月 - 至今",
         "bullets": [
           "晋升后继续负责 freeconvert.com 与整个 TransMedia 平台。主要技术栈:Node.js 和 Nuxt.js。",
           "为 propdf.com 搭建了 Jenkins + Docker 的 CI/CD 流水线,这是 TransMedia 套件中的一款全新 SaaS 工具,并交付了功能完整的浏览器内 PDF 编辑器。主要技术栈:ASP.NET 和 Next.js。",
@@ -46,7 +46,7 @@
         "company": "Sheba.xyz",
         "website": "https://www.sheba.xyz/",
         "location": "孟加拉达卡",
-        "period": "2018年2月 - 2021年7月",
+        "period": "2018年2月 - 2021年6月",
         "bullets": [
           "以初级工程师身份加入 Sheba.xyz 电商服务平台(Vue 2 PWA),并逐步成长为 Technical Team Lead。",
           "带领 8 人组成的 Sheba.xyz 市场团队,负责整体开发与功能交付。",

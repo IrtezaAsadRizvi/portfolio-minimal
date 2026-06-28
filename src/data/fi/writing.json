@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "title": "Blogi: Engineering-, AI- ja tietoturva-syväluotaukset",
+    "description": "Teknisiä syväluotauksia Node.js:n sisäisestä toiminnasta, AI- ja LLM-engineeringistä, adversariaalisesta koneoppimisesta, DevOpsista ja web-tietoturvasta - julkaistu Mediumissa ja Dev.to:ssa."
+  },
+  "header": {
+    "title": "Kirjoituksia tekoälystä, engineeringistä ja tietoturvasta",
+    "description": "Teknisiä syväluotauksia tekoälyavusteisesta web-kehityksestä, LLM-tokenisaatiosta, Claude Code -lisäosista, MCP-palvelimista, Node.js:n sisäisestä toiminnasta, V8:sta, adversariaalisesta ML:stä ja web-tietoturvasta - esitellyt julkaisut täällä, koko arkisto Mediumissa."
+  },
+  "categories": [
+    { "key": "All", "label": "Kaikki" },
+    { "key": "Engineering", "label": "Engineering" },
+    { "key": "Security", "label": "Tietoturva" },
+    { "key": "AI", "label": "AI" },
+    { "key": "DevOps", "label": "DevOps" }
+  ],
+  "posts": [
+    {
+      "title": "AI-enabled web development: notes from a year of shipping it",
+      "excerpt": "Olen toimittanut noin vuoden ajan sitä, mitä ihmiset kutsuvat nyt tekoälyavusteiseksi web-kehitykseksi - local-first -koodausagentteja Ollaman päällä, Claude Code -lisäosia, MCP-palvelimia kytkettynä aitoihin koodikantoihin, ONNX-malleja selaimessa. Tässä se, mikä on toiminut, mikä ei ja silmukat, joihin palaan jatkuvasti.",
+      "category": "AI",
+      "date": "TOUKO 2026",
+      "href": "/writing/ai-enabled-web-development"
+    },
+    {
+      "title": "From Bytes to BPE: A From-Scratch Tour of LLM Tokenization",
+      "excerpt": "Tokenisaattorin rakentaminen alusta alkaen - UTF-8-tavuvirrat, merkkitason koodaus ja Byte-Pair Encoding selitettynä toimivan koodin avulla.",
+      "category": "AI",
+      "date": "TOUKO 2026",
+      "href": "https://blog.gopenai.com/from-bytes-to-bpe-a-from-scratch-tour-of-llm-tokenization-a49c70c87c41"
+    },
+    {
+      "title": "Breaking my own spam classifier: a hands-on tour of adversarial examples",
+      "excerpt": "Roskapostiluokittimen kouluttaminen ja sen järjestelmällinen rikkominen häirityillä syötteillä - käytännönläheinen läpikäynti adversariaalisista esimerkeistä NLP:ssä.",
+      "category": "AI",
+      "date": "HUHTI 2026",
+      "href": "https://irtezaasadrizvi.medium.com/breaking-my-own-spam-classifier-a-hands-on-tour-of-adversarial-examples-efe79ae21ece"
+    },
+    {
+      "title": "How Node.js Handles 10,000 Requests",
+      "excerpt": "Tapahtumavetoisen arkkitehtuurin, tapahtumasilmukan ja sen tarkastelua, miksi ei-estävä I/O suoriutuu paremmin kuin säie-per-pyyntö-mallit.",
+      "category": "Engineering",
+      "date": "MAALIS 2026",
+      "href": "https://blog.devops.dev/how-node-js-handles-10000-requests-61911c846d45"
+    },
+    {
+      "title": "How to Deploy a Basic MERN App on a Linux Server/VPS",
+      "excerpt": "Vaiheittainen käyttöönotto Node 22:lla, PM2:lla, Nginxillä, HTTPS:llä Certbotin kautta ja automatisoiduilla käyttöönottoaliaksilla.",
+      "category": "DevOps",
+      "date": "JOULU 2025",
+      "href": "https://blog.devops.dev/how-to-deploy-a-basic-mern-app-on-a-linux-server-vps-the-easy-way-2a069c843a30"
+    },
+    {
+      "title": "When Your VPS Gets Hacked: How I Found a Miner Running On Our Server",
+      "excerpt": "Tietoturvaloukkauksen raportti - havaitseminen, forensiikka ja koventaminen sen jälkeen, kun löysin xmrigin murretulta VPS:ltä.",
+      "category": "Security",
+      "date": "JOULU 2025",
+      "href": "https://blog.cubed.run/when-your-vps-gets-hacked-how-i-found-a-miner-running-on-our-server-65771b3f532c"
+    },
+    {
+      "title": "ipconfig in macOS, Linux | Get macOS IP Address",
+      "excerpt": "Pikaopas IP-osoitteesi löytämiseen macOS:ssä ja Linuxissa ifconfigin, ip:n ja niihin liittyvien verkkokomentojen avulla.",
+      "category": "DevOps",
+      "date": "MARRAS 2025",
+      "href": "https://blog.devops.dev/ipcofig-in-macos-linux-get-macos-ip-address-37a608c09b49"
+    },
+    {
+      "title": "Turn a Phrase into a Strong Password (and Why It Works)",
+      "excerpt": "Lausepohjainen salasanan generointi, joka yhdistää tuttuuden ja entropian tunnuksiin, jotka ovat sekä helposti muistettavia että turvallisia.",
+      "category": "Security",
+      "date": "LOKA 2025",
+      "href": "https://blog.cubed.run/turn-a-phrase-into-a-strong-password-and-why-it-works-b0eabdce6273"
+    },
+    {
+      "title": "Your Digital Keys: Why a Strong Password Is Your First Line of Defense",
+      "excerpt": "Salasanaturvallisuuden perusteet - raa'an voiman hyökkäykset, sanakirjahyökkäykset ja täydentävät toimet kuten 2FA.",
+      "category": "Security",
+      "date": "LOKA 2025",
+      "href": "https://blog.cubed.run/your-digital-keys-why-a-strong-password-is-your-first-line-of-defense-in-the-cyber-world-64c69d46a334"
+    },
+    {
+      "title": "Inspect an iPhone Safari Tab from Your Mac (The Clean Way)",
+      "excerpt": "iOS Safari -sivujen etädebuggaus Macin Web Inspectorilla - konsoli, elementit, verkko ja keskeytyskohdat.",
+      "category": "Engineering",
+      "date": "LOKA 2025",
+      "href": "https://blog.cubed.run/inspect-an-iphone-safari-tab-from-your-mac-the-clean-way-26fdc28621e9"
+    },
+    {
+      "title": "Dive into V8: How JavaScript Gets Supercharged (and Sometimes Slows Down)",
+      "excerpt": "V8-moottorin sisäinen toiminta - jäsennys, Ignition-tavukoodi, TurboFan-kääntäminen ja deoptimoinnin laukaisijat.",
+      "category": "Engineering",
+      "date": "ELO 2025",
+      "href": "https://blog.devops.dev/dive-into-v8-how-javascript-gets-supercharged-and-sometimes-slows-down-a21c3f847fa7"
+    },
+    {
+      "title": "How ChatGPT-4o Works: A Developer's Dive",
+      "excerpt": "GPT-4o:n multimodaaliset ominaisuudet - natiivi koulutus tekstin, äänen ja näön yli sekä reaaliaikaiset latenssiparannukset.",
+      "category": "AI",
+      "date": "KESÄ 2025",
+      "href": "https://blog.cubed.run/how-chatgpt-4o-works-a-developers-dive-f-168b69c36090"
+    },
+    {
+      "title": "How Image Generation Works in ChatGPT (Without the Magic Wand)",
+      "excerpt": "Tekstistä kuvaksi -mekaniikka - diffuusiomallit, tekstin koodaus, iteratiivinen kohinanpoisto ja nykyiset rajoitukset.",
+      "category": "AI",
+      "date": "KESÄ 2025",
+      "href": "https://ai.plainenglish.io/how-image-generation-works-in-chatgpt-without-the-magic-wand-2c5c58f2780a"
+    },
+    {
+      "title": "The Ultimate Guide to Autocomplete: Make Your Forms Smarter",
+      "excerpt": "HTML:n autocomplete-attribuutin hyödyntäminen älykkäämpien ja nopeampien lomakkeiden rakentamiseen ilman ylimääräistä JavaScriptiä.",
+      "category": "Engineering",
+      "date": "TOUKO 2025",
+      "href": "https://blog.devops.dev/the-ultimate-guide-to-autocomplete-make-your-forms-smarter-with-zero-effort-30f9d94a895d"
+    },
+    {
+      "title": "How I Built a Funny Chatbot with ChatGPT and Node.js",
+      "excerpt": "Express.js kohtaa OpenAI API:n - persoonavetoisen chatbotin rakentaminen järjestelmäpromptin suunnittelulla.",
+      "category": "AI",
+      "date": "TOUKO 2025",
+      "href": "https://irtezaasadrizvi.medium.com/how-i-built-a-funny-chatbot-with-chatgpt-and-node-js-45afbc9442a3"
+    },
+    {
+      "title": "Play Arcade on a Docker Container",
+      "excerpt": "Klassisten arcade-pelien ajaminen Docker-kontissa - hauska johdatus kontitukseen ja porttien yhdistämiseen.",
+      "category": "DevOps",
+      "date": "JOULU 2023",
+      "href": "https://blog.devops.dev/play-arcade-on-docker-container-f9794a783d3c"
+    },
+    {
+      "title": "AWS EC2 101 | EC2 Concepts",
+      "excerpt": "EC2:n keskeiset käsitteet - instanssityypit, AMI:t, suojausryhmät ja AWS-laskennan aloittaminen.",
+      "category": "DevOps",
+      "date": "MARRAS 2023",
+      "href": "https://blog.devops.dev/all-about-ec2-5ae94e9e453c"
+    },
+    {
+      "title": "Get Started with Dockerfile",
+      "excerpt": "Käytännönläheinen opas Dockerfileiden kirjoittamiseen - FROM, RUN, COPY, monivaiheiset buildit ja parhaat käytännöt.",
+      "category": "DevOps",
+      "date": "ELO 2023",
+      "href": "https://blog.devops.dev/get-started-with-dockerfile-2ec50dd7e607"
+    },
+    {
+      "title": "Optimize Your JavaScript Code for SEO",
+      "excerpt": "Tekniikoita JavaScript-painotteisten sovellusten tekemiseksi hakukoneystävällisiksi - SSR, lazy loading ja jäsennelty data.",
+      "category": "Engineering",
+      "date": "HUHTI 2023",
+      "href": "https://blog.devops.dev/optimize-your-javascript-code-for-seo-b854b3ff0493"
+    },
+    {
+      "title": "Get 100 PageScore for Nuxt Application",
+      "excerpt": "Täydellisen Lighthouse-pisteytyksen saavuttaminen Nuxtissa - kuvien optimointi, koodin pilkkominen ja suorituskyvyn hienosäätö.",
+      "category": "Engineering",
+      "date": "TAMMI 2023",
+      "href": "https://blog.devops.dev/get-100-pagescore-for-nuxt-application-e8b387b2ddf1"
+    }
+  ]
+}
