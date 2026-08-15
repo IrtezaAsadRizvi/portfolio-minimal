@@ -83,6 +83,24 @@
     ],
     "items": [
       {
+        "slug": "azure-configure-virtual-networks",
+        "title": "Configure Virtual Networks",
+        "provider": "Microsoft Learn",
+        "providerIcon": "/training/icons/icon_azure.svg",
+        "category": "Engineering",
+        "tag": "ক্লাউড নেটওয়ার্কিং",
+        "period": "আগস্ট ২০২৬",
+        "description": "Azure ভার্চুয়াল নেটওয়ার্ক ডিজাইন, সাবনেটিং এবং পাবলিক ও প্রাইভেট আইপি অ্যাড্রেসিং নিয়ে ১১ ইউনিটের মডিউল, মডিউল অ্যাসেসমেন্ট উত্তীর্ণ।",
+        "certificate": "/training/certificates/certificate_azure_vnet.jpg",
+        "width": 1852,
+        "height": 1080,
+        "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwX/xAAhEAAABQIHAAAAAAAAAAAAAAAAAQIREgNxEyEiMTJBkf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFREBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhEDEQA/AJbIwHbXLeXVggEtqqSmtmIowy9YHgSEcU2FbCX/2Q==",
+        "viewLabel": "সার্টিফিকেট দেখুন →",
+        "downloadLabel": "ডাউনলোড",
+        "link": "https://learn.microsoft.com/en-gb/users/irtezaasad-9514/achievements/egw3n6vp",
+        "linkLabel": "ক্রেডেনশিয়াল যাচাই করুন"
+      },
+      {
         "slug": "ielts-academic-2025",
         "title": "IELTS Academic",
         "provider": "IELTS",

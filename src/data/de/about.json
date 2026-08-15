@@ -83,6 +83,24 @@
     ],
     "items": [
       {
+        "slug": "azure-configure-virtual-networks",
+        "title": "Configure Virtual Networks",
+        "provider": "Microsoft Learn",
+        "providerIcon": "/training/icons/icon_azure.svg",
+        "category": "Engineering",
+        "tag": "Cloud-Netzwerke",
+        "period": "AUG 2026",
+        "description": "Azure-Modul zu Design virtueller Netzwerke, Subnetting sowie öffentlicher und privater IP-Adressierung - 11 Einheiten mit bestandener Modulprüfung.",
+        "certificate": "/training/certificates/certificate_azure_vnet.jpg",
+        "width": 1852,
+        "height": 1080,
+        "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwX/xAAhEAAABQIHAAAAAAAAAAAAAAAAAQIREgNxEyEiMTJBkf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFREBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhEDEQA/AJbIwHbXLeXVggEtqqSmtmIowy9YHgSEcU2FbCX/2Q==",
+        "viewLabel": "Zertifikat ansehen →",
+        "downloadLabel": "Herunterladen",
+        "link": "https://learn.microsoft.com/en-gb/users/irtezaasad-9514/achievements/egw3n6vp",
+        "linkLabel": "Nachweis prüfen"
+      },
+      {
         "slug": "ielts-academic-2025",
         "title": "IELTS Academic",
         "provider": "IELTS",

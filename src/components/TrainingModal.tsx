@@ -19,6 +19,8 @@ export interface TrainingItemData {
   placeholder: string;
   viewLabel: string;
   downloadLabel: string;
+  link?: string;
+  linkLabel?: string;
 }
 
 interface TrainingModalProps {
@@ -137,29 +139,58 @@ export default function TrainingModal({ item, onClose }: TrainingModalProps) {
         <CertificatePreview key={item.slug} item={item} />
       </Tilt>
 
-      <a
-        href={item.certificate}
-        download
-        aria-label={item.downloadLabel}
-        title={item.downloadLabel}
-        className="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-accent transition-colors"
-      >
-        <svg
-          width="22"
-          height="22"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="1.25"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          aria-hidden="true"
+      <div className="flex items-center gap-2">
+        <a
+          href={item.certificate}
+          download
+          aria-label={item.downloadLabel}
+          title={item.downloadLabel}
+          className="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-accent transition-colors"
         >
-          <path d="M12 3v13" />
-          <path d="M6 11l6 6 6-6" />
-          <path d="M4 21h16" />
-        </svg>
-      </a>
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.25"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M12 3v13" />
+            <path d="M6 11l6 6 6-6" />
+            <path d="M4 21h16" />
+          </svg>
+        </a>
+
+        {item.link && item.linkLabel && (
+          <a
+            href={item.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={item.linkLabel}
+            title={item.linkLabel}
+            className="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-accent transition-colors"
+          >
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.25"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M14 4h6v6" />
+              <path d="M20 4l-9 9" />
+              <path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5" />
+            </svg>
+          </a>
+        )}
+      </div>
     </div>
   );
 

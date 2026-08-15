@@ -83,6 +83,24 @@
     ],
     "items": [
       {
+        "slug": "azure-configure-virtual-networks",
+        "title": "Configure Virtual Networks",
+        "provider": "Microsoft Learn",
+        "providerIcon": "/training/icons/icon_azure.svg",
+        "category": "Engineering",
+        "tag": "Cloud-netværk",
+        "period": "AUG 2026",
+        "description": "Azure-modul om design af virtuelle netværk, subnetting samt offentlig og privat IP-adressering - 11 enheder med bestået modultest.",
+        "certificate": "/training/certificates/certificate_azure_vnet.jpg",
+        "width": 1852,
+        "height": 1080,
+        "placeholder": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAJABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABwX/xAAhEAAABQIHAAAAAAAAAAAAAAAAAQIREgNxEyEiMTJBkf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/8QAFREBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhEDEQA/AJbIwHbXLeXVggEtqqSmtmIowy9YHgSEcU2FbCX/2Q==",
+        "viewLabel": "Se certifikat →",
+        "downloadLabel": "Download",
+        "link": "https://learn.microsoft.com/en-gb/users/irtezaasad-9514/achievements/egw3n6vp",
+        "linkLabel": "Bekræft bevis"
+      },
+      {
         "slug": "ielts-academic-2025",
         "title": "IELTS Academic",
         "provider": "IELTS",
