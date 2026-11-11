@@ -36,6 +36,11 @@
     "sectionTitle": "Latest Writing",
     "posts": [
       {
+        "title": "Your MCP Server Is Eating Your Context Window",
+        "date": "NOV 2026",
+        "href": "/writing/mcp-server-context-window"
+      },
+      {
         "title": "AI-enabled web development: notes from a year of shipping it",
         "date": "MAY 2026",
         "href": "/writing/ai-enabled-web-development"
@@ -59,11 +64,6 @@
         "title": "When Your VPS Gets Hacked: Finding a Miner on Our Server",
         "date": "DEC 2025",
         "href": "https://blog.cubed.run/when-your-vps-gets-hacked-how-i-found-a-miner-running-on-our-server-65771b3f532c"
-      },
-      {
-        "title": "Dive into V8: How JavaScript Gets Supercharged",
-        "date": "AUG 2025",
-        "href": "https://blog.devops.dev/dive-into-v8-how-javascript-gets-supercharged-and-sometimes-slows-down-a21c3f847fa7"
       }
     ]
   },

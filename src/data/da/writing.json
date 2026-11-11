@@ -16,6 +16,13 @@
   ],
   "posts": [
     {
+      "title": "Your MCP Server Is Eating Your Context Window",
+      "excerpt": "I connected a handful of MCP servers to my agent, typed \"hi\", and paid for tens of thousands of tokens before the model said a word. Nothing was broken. That is just what MCP does by default: every tool from every connected server gets described to the model, in full, on every single turn.",
+      "category": "AI",
+      "date": "NOV 2026",
+      "href": "/writing/mcp-server-context-window"
+    },
+    {
       "title": "AI-enabled web development: notes from a year of shipping it",
       "excerpt": "Jeg har leveret det, folk nu kalder 'AI-drevet webudvikling', i omkring et år - local-first kodeagenter oven på Ollama, Claude Code-plugins, MCP-servere koblet ind i ægte kodebaser, ONNX-modeller, der kører i browseren. Her er, hvad der har virket, hvad der ikke har, og de loops, jeg bliver ved med at vende tilbage til.",
       "category": "AI",

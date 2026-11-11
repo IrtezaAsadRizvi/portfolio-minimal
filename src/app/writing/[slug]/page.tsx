@@ -7,6 +7,10 @@ import Breadcrumb from "@/components/Breadcrumb";
 import Reveal from "@/components/Reveal";
 import { nativePosts, nativePostSlugs } from "@/data/en/posts";
 import { buildMetadata } from "@/lib/metadata";
+import { getHeadings, getPostMarkdown, getReadingMinutes } from "@/lib/article";
+import ArticleBody from "@/components/article/ArticleBody";
+import ReadingProgress from "@/components/article/ReadingProgress";
+import TableOfContents from "@/components/article/TableOfContents";
 
 const SITE_URL = "https://irtezaasadrizvi.github.io";
 
@@ -36,6 +40,10 @@ export default async function NativePostPage({
   const { slug } = await params;
   const post = nativePosts[slug];
   if (!post) notFound();
+
+  const markdown = getPostMarkdown(post);
+  const headings = getHeadings(markdown);
+  const minutes = getReadingMinutes(markdown);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -78,82 +86,58 @@ export default async function NativePostPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
       <Navigation locale="en" />
-      <main className="max-w-3xl mx-auto px-6 pt-16 pb-32">
-        <article>
-          <Reveal>
-            <div className="accent-rule mb-6" />
-            <p className="text-[10px] uppercase tracking-[0.3em] text-on-surface-variant/80 font-mono mb-4">
-              [{post.category}] · {post.dateLabel}
-            </p>
-            <h1 className="text-4xl text-primary tracking-tight mb-6 leading-[1.15]">
-              {post.title}
-            </h1>
-            <p className="text-lg text-on-surface-variant leading-relaxed max-w-2xl">
-              {post.excerpt}
-            </p>
-          </Reveal>
-
-          {post.tldr.length > 0 && (
-            <Reveal delay={0.1}>
-              <aside className="my-12 bg-surface-container-low border-l-2 border-accent p-6">
-                <p className="text-[10px] uppercase tracking-[0.3em] text-accent/80 font-mono mb-3">
-                  TL;DR
+      <ReadingProgress />
+      <main className="max-w-6xl mx-auto px-6 pt-16 pb-32">
+        <div className="xl:grid xl:grid-cols-[minmax(0,1fr)_15rem] xl:gap-16">
+          <article className="max-w-[42rem] mx-auto xl:mx-0 xl:ml-auto w-full">
+            <Reveal>
+              <header className="mb-14">
+                <div className="accent-rule mb-8" />
+                <p className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] uppercase tracking-[0.25em] text-on-surface-variant/80 font-mono mb-6">
+                  <span className="text-accent/90">{post.category}</span>
+                  <span aria-hidden className="text-outline">/</span>
+                  <time dateTime={post.date}>{post.dateLabel}</time>
+                  <span aria-hidden className="text-outline">/</span>
+                  <span>{minutes} min read</span>
                 </p>
-                <ul className="space-y-2 text-sm text-on-surface-variant leading-relaxed">
-                  {post.tldr.map((line, i) => (
-                    <li key={i} className="flex gap-3">
-                      <span className="text-accent/70">-</span>
-                      <span>{line}</span>
-                    </li>
-                  ))}
-                </ul>
-              </aside>
+                <h1 className="text-[2.5rem] sm:text-5xl md:text-[3.5rem] text-primary tracking-tight leading-[1.08] mb-8 text-balance">
+                  {post.title}
+                </h1>
+                {/* Markdown posts render exactly as written, so no extra summary here. */}
+                {!post.bodyFile && (
+                  <p className="text-lg sm:text-xl text-on-surface-variant leading-relaxed text-pretty">
+                    {post.excerpt}
+                  </p>
+                )}
+                <p className="mt-8 pt-6 border-t border-outline-variant/30 text-sm text-on-surface-variant/80">
+                  By <span className="text-on-surface">Irteza Asad Rizvi</span>
+                </p>
+              </header>
             </Reveal>
-          )}
 
-          <div className="space-y-12 mt-12">
-            {post.sections.map((section, i) => {
-              const HeadingTag = section.level === 3 ? "h3" : "h2";
-              const headingClass =
-                section.level === 3
-                  ? "text-xl text-primary font-medium tracking-tight mb-4"
-                  : "text-2xl text-primary tracking-tight mb-6";
-              return (
-                <Reveal key={`${section.heading}-${i}`} delay={0.04 * i}>
-                  <section>
-                    <HeadingTag className={headingClass}>
-                      {section.heading}
-                    </HeadingTag>
-                    {section.paragraphs && section.paragraphs.length > 0 && (
-                      <div className="space-y-4">
-                        {section.paragraphs.map((p, j) => (
-                          <p
-                            key={j}
-                            className="text-on-surface text-base leading-relaxed"
-                          >
-                            {p}
-                          </p>
-                        ))}
-                      </div>
-                    )}
-                    {section.list && section.list.length > 0 && (
-                      <ul className="space-y-2 text-on-surface text-base leading-relaxed">
-                        {section.list.map((item, j) => (
-                          <li key={j} className="flex gap-3">
-                            <span className="text-accent/70 shrink-0">-</span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </section>
-                </Reveal>
-              );
-            })}
-          </div>
+            {post.tldr.length > 0 && (
+              <Reveal delay={0.08}>
+                <aside className="mb-14 rounded-sm bg-surface-container-low/70 border border-outline-variant/30 p-6 sm:p-7">
+                  <p className="text-[10px] uppercase tracking-[0.3em] text-accent/90 font-mono mb-4">
+                    TL;DR
+                  </p>
+                  <ul className="space-y-3 text-[15px] text-on-surface/90 leading-relaxed">
+                    {post.tldr.map((line, i) => (
+                      <li key={i} className="flex gap-3">
+                        <span aria-hidden className="mt-[0.7em] h-1 w-1 shrink-0 rounded-full bg-accent/70" />
+                        <span>{line}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </aside>
+              </Reveal>
+            )}
 
-          <Reveal delay={0.3}>
-            <div className="mt-20 pt-12 border-t border-outline-variant/20 flex flex-wrap gap-6 text-sm">
+            <Reveal delay={0.12}>
+              <ArticleBody markdown={markdown} />
+            </Reveal>
+
+            <div className="mt-20 pt-10 border-t border-outline-variant/30 flex flex-wrap gap-x-8 gap-y-4 text-sm">
               <Link
                 href="/writing"
                 className="text-on-surface-variant hover:text-accent transition-colors"
@@ -173,8 +157,14 @@ export default async function NativePostPage({
                 Hire me →
               </Link>
             </div>
-          </Reveal>
-        </article>
+          </article>
+
+          <aside className="hidden xl:block">
+            <div className="sticky top-24 pt-2">
+              <TableOfContents headings={headings} />
+            </div>
+          </aside>
+        </div>
       </main>
       <Footer locale="en" />
     </>

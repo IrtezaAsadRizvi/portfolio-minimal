@@ -15,10 +15,27 @@ export interface NativePost {
   dateLabel: string;
   excerpt: string;
   tldr: string[];
-  sections: PostSection[];
+  /** Plain-text sections (older posts). */
+  sections?: PostSection[];
+  /** Markdown file in src/content/writing (newer posts). */
+  bodyFile?: string;
 }
 
 const POSTS: NativePost[] = [
+  {
+    slug: "mcp-server-context-window",
+    title: "Your MCP Server Is Eating Your Context Window",
+    metaTitle: "Your MCP Server Is Eating Your Context Window",
+    metaDescription:
+      "Every tool from every connected MCP server gets described to the model on every turn. Where those tokens go, a 60 line TypeScript script to measure your own tool tax, and the fixes ranked from five minutes of work to a rearchitecture.",
+    category: "AI",
+    date: "2026-11-11",
+    dateLabel: "NOV 2026",
+    excerpt:
+      "I connected a handful of MCP servers to my agent, typed \"hi\", and paid for tens of thousands of tokens before the model said a word. Nothing was broken. That is just what MCP does by default: every tool from every connected server gets described to the model, in full, on every single turn.",
+    tldr: [],
+    bodyFile: "mcp-server-context-window.md",
+  },
   {
     slug: "ai-enabled-web-development",
     title: "AI-enabled web development: notes from a year of shipping it",
@@ -122,7 +139,6 @@ const POSTS: NativePost[] = [
         paragraphs: [
           "The 12-month bet is that the line between \"web developer\" and \"AI engineer\" keeps blurring. Agents become a normal part of the engineering loop the way Git did fifteen years ago. MCP servers become as common as GraphQL endpoints. Browser-native ML eats a chunk of features that currently sit on hosted GPUs.",
           "The 36-month bet, more speculatively: \"AI-enabled web development\" stops being a phrase the way \"JavaScript-enabled web development\" did. It's just web development. The senior engineers who ride that transition well are most likely the ones who already treat agents and MCP servers as normal infrastructure, not a separate practice.",
-          "If you're hiring along these lines, or you have an AI-enabled web project that needs someone who's actually shipped Claude Code plugins, MCP servers, and production LLM features in real apps - I'm Irteza, I work remote out of Toronto, and irtezaasad@gmail.com is the fastest way to reach me. The repos in /projects are the receipts.",
         ],
       },
     ],
